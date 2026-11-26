@@ -48,7 +48,6 @@ def free_sites():
         ("https://ohiobingo.org", "Ohio Bingo", "Every bingo game in Ohio."),
         ("https://the-reefer.com", "The Reefer", "Cannabis law, state by state."),
         ("https://ohioweed.org", "OhioWeed.org", "Ohio's cannabis guide."),
-        ("https://vethomeguard.org", "Veteran Home Guardians", "A veterans nonprofit and its resident guide."),
         ("https://abuseofoffice.org", "Abuse of Office", "Public records on officials, lawmakers and lobbyists."),
     ]
     bl = "".join(f'<li>{ext(u, e(n))}: {e(d)}</li>' for u, n, d in built)
