@@ -1,7 +1,7 @@
 """Causes: the fights that get people off the couch."""
 from core import page, e, ic, ext, sources, data
 
-LINK_STRIPCLUB = False  # set True once stripclubguide.org is confirmed live
+LINK_STRIPCLUB = True  # confirmed live Nov 26, 2026
 
 META = {
     "cannabis": ("Cannabis", "torch", "The plant is legal in half the country and still a felony in the other half. That's not federalism, that's a lottery.",
@@ -50,7 +50,7 @@ def cause_page(c):
     own = ""
     links = list(OWN.get(c["id"], []))
     if c["id"] == "sex-work" and LINK_STRIPCLUB:
-        links.append(("https://stripclubguide.org", "Strip Club Guide"))
+        links.append(("https://stripclubguide.org", "Strip Club Etiquette"))
     if links:
         own = ('<h2>Built by the same people</h2><p>Our sister sites do the state-by-state work on this one: '
                + ", ".join(ext(u, t) for u, t in links) + ".</p>")
