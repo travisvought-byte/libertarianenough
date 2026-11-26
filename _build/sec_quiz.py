@@ -1,5 +1,6 @@
 """Home, quiz, results, types, spectrum and traps."""
 from core import page, e, ic, ext, chart_svg, ref_table
+from sec_plan import mini_road
 from quizdata import QUESTIONS, TYPES, REFS, VERDICTS, ANSWERS, HEDGE
 
 N = len(QUESTIONS)
@@ -44,6 +45,11 @@ def home():
 <h2>Being libertarian enough is the easy part</h2>
 <p class="lead">Getting anything done is where the movement keeps tripping over its own bylaws. We've spent fifty years arguing about whether roads should be private while the other two parties quietly filled every county committee seat in America. This site is the fix: a guide for normies, a playbook for organizers, and tools for every state.</p>
 <div class="grid">{cards}</div>
+
+<h2>The plan: from more state to less</h2>
+<p>"No government" is a destination, not a plan. Here's the road instead: six steps, in order, and every one of them has already been done somewhere in America.</p>
+{mini_road("plan/")}
+<p class="row"><a class="btn gold" href="plan/index.html">See the whole plan</a><a class="btn ghost" href="plan/gradual-or-abolish.html">The fight over how fast</a></p>
 
 <h2>What this is, and what it isn't</h2>
 <div class="grid">

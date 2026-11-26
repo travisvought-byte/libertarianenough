@@ -18,6 +18,7 @@ def build():
 
 def org_index():
     pages = [
+        ("../plan/index.html", "road", "Start with the plan", "Six steps from more government to less, and what your group can do on each one."),
         ("structure.html", "people", "Build from the precinct up", "How the big parties are built, and the seats nobody runs for."),
         ("meetings.html", "clock", "Run a meeting people come back to", "Sixty minutes, one decision, one ask. No bylaws."),
         ("field.html", "map", "Talk to voters", "Door knocking works. Phone banking doesn't. Your friends are your best list."),

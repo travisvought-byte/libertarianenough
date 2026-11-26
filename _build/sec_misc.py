@@ -34,6 +34,7 @@ def book():
 <li>Every <a href="causes/index.html">cause page</a> has a 10-second message in its four message types.</li>
 <li>Every <a href="types/index.html">quiz type</a> ends with an operational tip for that kind of libertarian.</li>
 <li>The <a href="learn/what-counts.html">what counts page</a> uses its stricter test.</li>
+<li><a href="plan/index.html">The plan</a> uses its method to put reforms in order. The book doesn't set an order itself, so the order is ours.</li>
 </ul>
 <h2>About the book</h2>
 <p>Written by Travis Jon Vought, published 2026. The author shares it under a non-commercial license: you're encouraged to share, quote and distribute it for non-commercial purposes, with attribution. Quotes on this site are used that way.</p>

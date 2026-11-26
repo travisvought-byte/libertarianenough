@@ -22,16 +22,18 @@ def index():
         ("history.html", "clock", "The history", "From Locke in 1689 to the 2025 party chair race, in 45 dated events."),
         ("voices.html", "megaphone", "The voices", "Thinkers, institutions, officeholders, podcasts and shows worth knowing."),
         ("demographics.html", "chart", "The numbers", "How many libertarians there are, who they are, and why every survey gets a different answer."),
+        ("../plan/index.html", "road", "The plan", "How we get from more government to less in six steps, and the fight over how fast to go."),
     ]
     cardh = "".join(f'<a class="card cardlink" href="{h}">{ic(i)}<h2 style="font-size:1.2rem">{t}</h2><p>{d}</p></a>' for h, i, t, d in cards)
     body = f"""
 <h2>The 60-second version</h2>
 <p>Libertarians agree on one big thing: you own yourself, and nobody, including the government, gets to use force on peaceful people. That gets you legal weed, legal guns, low taxes, no draft, fewer cops in your business and fewer permits for your business. So far so good.</p>
-<p>Then they fight about everything else, and the fights come down to three questions:</p>
+<p>Then they fight about everything else, and the fights come down to four questions:</p>
 <ul class="facts">
 <li><b>How far?</b> Keep a small government (minarchists) or none at all (anarcho-capitalists and agorists)?</li>
 <li><b>With whom?</b> Ally with the left on drugs, war and policing, or with the right on guns, taxes and lockdowns? Every faction answers this differently, and most of the yelling is really about this.</li>
 <li><b>How to win?</b> Run normal-sounding candidates (pragmatists), say the whole message no matter what (purists), or go loud and populist (the Mises Caucus)?</li>
+<li><b>How fast?</b> End the state tomorrow if you could, or shrink it one step at a time? Here's <a href="../plan/gradual-or-abolish.html">the fight over how fast</a>, and <a href="../plan/index.html">our six-step plan</a>.</li>
 </ul>
 <p>If you've ever watched libertarians and thought "why are they like this," the answer is usually one of those three. Everything below is sourced, so you can check us.</p>
 <div class="grid">{cardh}</div>
