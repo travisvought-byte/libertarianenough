@@ -201,7 +201,7 @@ def ref_table(refs, you_row=False):
 
 
 # Embeds run inside other people's sites, so they carry no header, menu or footer, and they ask search engines not to index them.
-EMBED_HEIGHT = ('<script>(function(){if(window.parent===window)return;function s(){window.parent.postMessage({le:"height",h:document.documentElement.scrollHeight},"*")}'
+EMBED_HEIGHT = ('<script>(function(){if(window.parent===window)return;function s(){window.parent.postMessage({le:"height",h:Math.ceil(document.body.getBoundingClientRect().height)},"*")}'
                 'window.addEventListener("load",s);window.addEventListener("resize",s);if(window.ResizeObserver)new ResizeObserver(s).observe(document.body);s();})();</script>')
 
 
