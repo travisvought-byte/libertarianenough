@@ -1,0 +1,238 @@
+{
+  "checked": "2026-11-26",
+  "findings": [
+    {
+      "stat": "Americans who say 'libertarian' describes them well and who also know what the word means",
+      "value": "11%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians' (Aug. 25, 2014)",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "Pew's main analysis group. Knowledge was tested with a multiple-choice definition question. Survey conducted April 29 to May 27, 2014 among 3,243 adults (American Trends Panel)."
+    },
+    {
+      "stat": "Americans who say 'libertarian' describes them well (self-description only)",
+      "value": "14%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "Before applying the knowledge check."
+    },
+    {
+      "stat": "Americans who correctly picked the definition of 'libertarian' from a list",
+      "value": "57%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "College graduates 76%; high school or less 42%."
+    },
+    {
+      "stat": "Men vs. women who say 'libertarian' describes them well and know its meaning",
+      "value": "Men 15%, women 7%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "Pew: men were about twice as likely as women."
+    },
+    {
+      "stat": "College graduates vs. high school or less who say 'libertarian' describes them well and know its meaning",
+      "value": "College graduates 15%, high school or less 7%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": ""
+    },
+    {
+      "stat": "Share who 'said they are libertarian,' by party",
+      "value": "Independents 14%, Republicans 12%, Democrats 6%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "Pew's wording; the article does not say whether the knowledge check was applied to these figures."
+    },
+    {
+      "stat": "Self-described libertarians who say government regulation of business does more harm than good (vs. all adults)",
+      "value": "56% vs. 47%",
+      "year": "2014",
+      "source_name": "Pew Research Center, 'In search of libertarians'",
+      "url": "https://www.pewresearch.org/short-reads/2014/08/25/in-search-of-libertarians",
+      "note": "Pew found few self-described libertarians hold consistently libertarian views. Other comparisons: legalizing marijuana 65% vs. 54%; government aid to the poor does more harm than good 57% vs. 48%."
+    },
+    {
+      "stat": "Consistent libertarians on PRRI's Libertarian Orientation Scale",
+      "value": "7% (plus 15% who lean libertarian)",
+      "year": "2013",
+      "source_name": "PRRI, 2013 American Values Survey (press release)",
+      "url": "https://prri.org/press-release/2013-avs-2/",
+      "note": "Full scale: consistent libertarian 7%, lean libertarian 15%, mixed 54%, lean communalist 17%, consistent communalist 7%. Sample: 2,317 adults, Sept. 21 to Oct. 3, 2013, margin of error plus or minus 2.5 points."
+    },
+    {
+      "stat": "Gender of consistent libertarians",
+      "value": "68% men, 32% women",
+      "year": "2013",
+      "source_name": "PRRI, 'Libertarians By the Numbers'",
+      "url": "https://prri.org/spotlight/libertariangotw/",
+      "note": "Percentages describe the 7% classified as consistent libertarians, a small subsample."
+    },
+    {
+      "stat": "Race of consistent libertarians",
+      "value": "94% non-Hispanic white",
+      "year": "2013",
+      "source_name": "PRRI, 'Libertarians By the Numbers'",
+      "url": "https://prri.org/spotlight/libertariangotw/",
+      "note": ""
+    },
+    {
+      "stat": "Age of consistent libertarians",
+      "value": "62% under 50, including 25% under 30",
+      "year": "2013",
+      "source_name": "PRRI, 'Libertarians By the Numbers'",
+      "url": "https://prri.org/spotlight/libertariangotw/",
+      "note": ""
+    },
+    {
+      "stat": "Religion of consistent libertarians",
+      "value": "27% white mainline Protestant, 27% religiously unaffiliated, 23% white evangelical Protestant, 11% Catholic, 0% black Protestant",
+      "year": "2013",
+      "source_name": "PRRI, 'Libertarians By the Numbers' and 2013 AVS press release",
+      "url": "https://prri.org/spotlight/libertariangotw/",
+      "note": "The 0% black Protestant figure is from the press release: https://prri.org/press-release/2013-avs-2/"
+    },
+    {
+      "stat": "Party identification of consistent libertarians",
+      "value": "45% Republican, 35% independent, 15% third party (including 8% Libertarian Party), 5% Democrat",
+      "year": "2013",
+      "source_name": "PRRI, 2013 American Values Survey (press release)",
+      "url": "https://prri.org/press-release/2013-avs-2/",
+      "note": ""
+    },
+    {
+      "stat": "Consistent libertarians who say they are part of the Tea Party movement",
+      "value": "39% (61% say they are not)",
+      "year": "2013",
+      "source_name": "PRRI, 2013 American Values Survey (press release)",
+      "url": "https://prri.org/press-release/2013-avs-2/",
+      "note": ""
+    },
+    {
+      "stat": "2012 presidential vote of consistent libertarians",
+      "value": "80% Romney, 5% Obama, 14% third-party candidate",
+      "year": "2013",
+      "source_name": "PRRI, 'Libertarians By the Numbers'",
+      "url": "https://prri.org/spotlight/libertariangotw/",
+      "note": "Self-reported 2012 vote, asked in 2013."
+    },
+    {
+      "stat": "Gender of self-identified libertarians (Emily Ekins' averaged polls)",
+      "value": "63% male, 37% female",
+      "year": "2012-2015",
+      "source_name": "Reason, 'Race and Sex Data for Libertarians' (Elizabeth Nolan Brown, June 13, 2016), reporting Emily Ekins' analysis",
+      "url": "https://reason.com/2016/06/13/race-and-sex-data-for-libertarians/",
+      "note": "Average of nine Reason-Rupe surveys (2012 to 2014) plus a November 2015 Cato/YouGov poll. Self-identification, not a policy scale."
+    },
+    {
+      "stat": "Race of self-identified libertarians (Emily Ekins' averaged polls)",
+      "value": "71% white, 14% Hispanic, 5% black, 8% other, 4% no answer",
+      "year": "2012-2015",
+      "source_name": "Reason, 'Race and Sex Data for Libertarians' (June 13, 2016)",
+      "url": "https://reason.com/2016/06/13/race-and-sex-data-for-libertarians/",
+      "note": "All respondents in the same polls: 67% white, 13% Latino, 12% African-American, 7% other."
+    },
+    {
+      "stat": "Gender of self-identified millennial libertarians (ages 18 to 29)",
+      "value": "68% male, 32% female",
+      "year": "2014",
+      "source_name": "Reason, 'Race and Sex Data for Libertarians' (June 13, 2016), reporting a 2014 Ekins study for the Reason Foundation",
+      "url": "https://reason.com/2016/06/13/race-and-sex-data-for-libertarians/",
+      "note": "Race of the same group: 56% white, 21% Hispanic, 14% black, 8% Asian. All millennial respondents: 57% white, 15% black, 15% Latino, 7% Asian."
+    },
+    {
+      "stat": "Men vs. women who identified as libertarian (YouGov)",
+      "value": "Men 21%, women 10%",
+      "year": "2015",
+      "source_name": "Reason, 'Race and Sex Data for Libertarians' (June 13, 2016), citing YouGov",
+      "url": "https://reason.com/2016/06/13/race-and-sex-data-for-libertarians/",
+      "note": "By race in the same poll: 17% of Hispanic, 16% of white and 11% of black respondents identified as libertarian."
+    },
+    {
+      "stat": "Gallup ideological groups: libertarian share",
+      "value": "27% libertarian (26% conservative, 23% liberal, 15% populist)",
+      "year": "2015",
+      "source_name": "Reason, 'The Libertarian Moment Is So Over...' (Nick Gillespie, March 8, 2016), reporting Gallup's Governance survey",
+      "url": "https://reason.com/2016/03/08/the-libertarian-moment-is-so-over-that-l/",
+      "note": "Gallup's two-question method: 'libertarians' say government does too many things that should be left to individuals and businesses, and that government should not favor any particular set of values. Reason reports this was the highest libertarian share Gallup had recorded, versus 18% in 2000."
+    },
+    {
+      "stat": "Estimated libertarian voters (Cato's Boaz, Kirby and Ekins)",
+      "value": "15-18% of the population",
+      "year": "2012",
+      "source_name": "Cato Institute / Libertarianism.org, 'How many American libertarian voters are there?' (Nov. 30, 2012), on the e-book The Libertarian Vote",
+      "url": "https://www.libertarianism.org/videos/how-many-american-libertarian-voters-are-there",
+      "note": "Based on voters who give fiscally conservative, socially liberal answers to survey questions, not on self-identification."
+    },
+    {
+      "stat": "Libertarian Party registered voters (states that register by party)",
+      "value": "About 411,000 at the start of 2016; passed 500,000 by November 2016",
+      "year": "2016",
+      "source_name": "Reason (Brian Doherty, Nov. 15, 2016), citing Richard Winger's Ballot Access News",
+      "url": "https://reason.com/2016/11/15/liberarian-party-breaks-half-a-million-r/",
+      "note": "First nationally organized party besides Democrats and Republicans to pass half a million registrants. Had never passed 400,000 before 2016."
+    },
+    {
+      "stat": "Libertarian Party registered voters",
+      "value": "652,261",
+      "year": "2020",
+      "source_name": "Ballot Access News, 'Nationwide Voter Registration Data by Party' (Oct. 24, 2020)",
+      "url": "https://ballot-access.org/2020/10/24/nationwide-voter-registration-data-by-party/",
+      "note": "Data as of September or October 2020; New York as of February 2020 and Massachusetts as of August 2020."
+    },
+    {
+      "stat": "Libertarian Party registered voters",
+      "value": "737,972 (0.60% of registered voters); May 2024: 735,936 (0.61%)",
+      "year": "2024",
+      "source_name": "Ballot Access News, November 2024 print edition",
+      "url": "https://ballot-access.org/2024/11/29/november-2024-ballot-access-news-print-edition/",
+      "note": "Data as of October 2024, except Connecticut, Maine, Massachusetts and New York (spring 2024)."
+    },
+    {
+      "stat": "Libertarian Party dues-paying members",
+      "value": "18,908 in January 2017 (the decade's high); 14,321 by end of August 2017",
+      "year": "2017",
+      "source_name": "Reason (Brian Doherty, Sept. 15, 2017)",
+      "url": "https://reason.com/2017/09/15/the-libertarian-partys-paid-membership-n/",
+      "note": "A 24% drop in about seven months. Membership had risen 66% during 2016."
+    },
+    {
+      "stat": "Libertarian Party dues-paying members",
+      "value": "11,461 (Sept. 2024); 10,177 (end of Feb. 2025); 9,954 (end of March 2025)",
+      "year": "2024-2025",
+      "source_name": "Third Party Watch, 'LP National Membership Now Below 10,000' (George Phillies, April 30, 2025)",
+      "url": "https://thirdpartywatch.com/?p=3569",
+      "note": "Attributed to a Libertarian Party report. Third Party Watch is an independent commentary site, not an official party source."
+    },
+    {
+      "stat": "Libertarian Party dues-paying members who are not life members",
+      "value": "Below 5,800; 206 lost in December 2025",
+      "year": "2025-2026",
+      "source_name": "Third Party Watch editorial (George Phillies, Feb. 7, 2026)",
+      "url": "https://thirdpartywatch.com/?p=4791",
+      "note": "Opinion piece on an independent commentary site. This count excludes life members, so it is not comparable to the 'dues-paying' totals above."
+    },
+    {
+      "stat": "New national chair's membership goal",
+      "value": "66,000 sustaining members (donors of at least $25 a year) by 2028",
+      "year": "2026",
+      "source_name": "Reason (Eric Boehm, May 29, 2026)",
+      "url": "https://reason.com/2026/05/29/the-libertarian-partys-new-leader-has-no-interest-in-playing-kingmaker/",
+      "note": "Reason reports membership and donations have declined and cites more than 700,000 registered Libertarian voters."
+    }
+  ],
+  "caveats": [
+    "Each survey defines 'libertarian' differently, so the numbers range from 7% to 27% and cannot be combined. Pew (2014) counts people who call themselves libertarian and can define the word. PRRI (2013) uses a multi-question Libertarian Orientation Scale. Gallup sorts people with just two questions (role of government and promoting values), which produces the largest numbers. Cato's Boaz, Kirby and Ekins count voters who give fiscally conservative, socially liberal answers. Ekins' Reason-Rupe figures are self-identification.",
+    "Pew found that many self-described libertarians do not hold consistently libertarian views, and many people with libertarian views don't use the label.",
+    "PRRI's demographic percentages describe only the 7% of respondents classified as consistent libertarians, a small subsample of 2,317 adults.",
+    "The newest high-quality national survey data on libertarian identity found here is from 2013 to 2016. Gallup's 2015 figures are reported through Reason because Gallup and Cato pages could not be loaded directly.",
+    "Party registration counts cover only states that register voters by party. Many states have no party registration, so the national figure undercounts supporters. Ballot Access News tables mix dates across states.",
+    "'Dues-paying,' 'sustaining' and 'life' member counts are not always the same measure. The 2024 to 2026 figures come from Third Party Watch, an independent commentary site citing party reports, and should be treated as directional.",
+    "The 2013 PRRI and 2014 Pew studies both found a large gender gap, roughly two men for every woman among libertarians."
+  ]
+}

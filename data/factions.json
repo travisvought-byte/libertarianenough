@@ -1,0 +1,249 @@
+{
+  "checked": "2026-11-26",
+  "factions": [
+    {
+      "id": "minarchists",
+      "name": "Minarchists",
+      "belief": "Keep a small 'night-watchman' state that does only one job: protect people's rights, through police, courts and defense.",
+      "agenda": "Cut government down to protecting life, liberty and property. Everything else goes to markets, charity and private choice.",
+      "institutions_or_figures": [
+        "Robert Nozick, Anarchy, State, and Utopia (1974), which argued for a minimal state",
+        "The larger side of the Libertarian Party's 1974 'Dallas Accord' compromise with anarcho-capitalists"
+      ],
+      "clashes_with": "Anarcho-capitalists, who say any state is funded by taxes and so breaks the non-aggression principle. The 1974 Dallas Accord let the party platform dodge the question of whether a state should exist at all. At the 2006 Portland convention, delegates cut much of the platform and added a line saying government exists to protect individual rights. Some members read that as the end of the truce.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarianism",
+        "https://en.wikipedia.org/wiki/Anarcho-capitalism",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "id": "anarcho-capitalists",
+      "name": "Anarcho-capitalists",
+      "belief": "No state at all. Private, competing firms supply security, courts and even law, all through voluntary exchange.",
+      "agenda": "Abolish government functions rather than trim them. Inside the Libertarian Party, push for an uncompromising platform and nominees who do not water down the message.",
+      "institutions_or_figures": [
+        "Murray Rothbard, For a New Liberty (1973)",
+        "David D. Friedman, The Machinery of Freedom (1973)",
+        "Hans-Hermann Hoppe",
+        "Libertarian Party Radical Caucus (created 2006), described as mainly anarcho-capitalist"
+      ],
+      "clashes_with": "Minarchists. Robert Nozick argued that one dominant private protection agency would end up acting like a minimal state anyway. Most traditional anarchists say anarcho-capitalism is not anarchism at all, because it keeps private property, wage labor and hierarchy. Objectivists side with a limited state. Inside the party, the Radical Caucus opposed Gary Johnson in the 2016 primaries.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anarcho-capitalism",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "id": "classical-liberals",
+      "name": "Classical liberals",
+      "belief": "Rights exist before government, and government exists to protect them. Modern libertarianism grew out of this older liberal tradition.",
+      "agenda": "Limited constitutional government, free markets, free trade and civil liberties, pitched in a professional, policy-first way to centrist voters who are tired of both major parties.",
+      "institutions_or_figures": [
+        "John Locke, Two Treatises of Government (1689)",
+        "Friedrich Hayek, Ludwig von Mises and Frederic Bastiat (named as influences)",
+        "Libertarian Party Classical Liberal Caucus (founded 2022 by Jonathan Casey; associated with Chase Oliver's 2024 campaign)",
+        "Liberal Party USA (formed December 3, 2022 as the Association of Liberty State Parties; took the name Liberal Party in 2024; lists classical liberalism as its ideology)"
+      ],
+      "clashes_with": "Radicals, who see them as too willing to compromise. After the Mises Caucus took over the national party in 2022, some classical-liberal members left and built what became Liberal Party USA. Others stayed and formed the Classical Liberal Caucus.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarianism",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Liberal_Party_USA"
+      ]
+    },
+    {
+      "id": "left-libertarians",
+      "name": "Left-libertarians (including mutualists and geolibertarians)",
+      "belief": "You own yourself, but land and natural resources belong to everyone in some equal way.",
+      "agenda": "Share the value of land and natural resources, for example by redistributing land rent so each person gets an equal share. The left market-anarchist wing also opposes capitalism, corporate privilege, sexism and racism.",
+      "institutions_or_figures": [
+        "Hillel Steiner, Peter Vallentyne and Michael Otsuka (academic left-libertarians)",
+        "Henry George (source of the 'geoist' view of land that geolibertarians draw on)",
+        "Pierre-Joseph Proudhon (mutualism) and Benjamin Tucker (American individualist anarchist)",
+        "Kevin Carson and Roderick T. Long (named as contemporary mutualists)",
+        "Alliance of the Libertarian Left and the Center for a Stateless Society",
+        "Libertarian Party Libertarian Socialist Caucus (small)"
+      ],
+      "clashes_with": "Right-libertarians, who say mixing your labor with unowned land makes it fully yours and who reject redistribution. Paleolibertarians attack 'left' and 'lifestyle' libertarians by name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Left-libertarianism",
+        "https://en.wikipedia.org/wiki/Libertarianism",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Paleolibertarianism"
+      ]
+    },
+    {
+      "id": "paleolibertarians",
+      "name": "Paleolibertarians",
+      "belief": "Libertarian economics joined to cultural conservatism, tradition and religion, sold to ordinary voters with right-wing populism.",
+      "agenda": "Build a coalition of working- and middle-class voters against the state. End the Federal Reserve and foreign wars. Pull the movement away from Washington think tanks.",
+      "institutions_or_figures": [
+        "Murray Rothbard and Lew Rockwell",
+        "Rockwell, 'The Case for Paleo-libertarianism' (Liberty, January 1990), the founding statement",
+        "Rothbard, 'Right-Wing Populism: A Strategy for the Paleo Movement' (January 1992)",
+        "Ludwig von Mises Institute (founded by Rockwell)",
+        "John Randolph Club (founded 1989, disbanded 1995)",
+        "Hans-Hermann Hoppe's Property and Freedom Society"
+      ],
+      "clashes_with": "'Beltway' libertarians at Cato and Reason, plus 'left' and 'lifestyle' libertarians. The strategy also criticized the Libertarian Party. In 1992 Rothbard and Rockwell backed Pat Buchanan, then withdrew support. Rockwell said in 1999 that paleo organizing had ended and in 2007 that he no longer used the term.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paleolibertarianism",
+        "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/",
+        "https://thenation.com/?p=74345"
+      ]
+    },
+    {
+      "id": "mises-caucus",
+      "name": "Libertarian Party Mises Caucus",
+      "belief": "A caucus inside the Libertarian Party that promotes paleolibertarianism and Ron Paul-style libertarianism, with bold, confrontational messaging.",
+      "agenda": "'Make the Libertarian Party libertarian again.' Austrian economics, decentralization including secession, ending central banking, non-intervention abroad, hard opposition to COVID lockdowns and mandates, and running candidates for local office. In 2022 it led the deletion of the platform's anti-bigotry line and abortion plank.",
+      "institutions_or_figures": [
+        "Michael Heise (founder, 2017)",
+        "Angela McArdle (national chair, May 2022 to January 2025; caucus chair from June 2025)",
+        "Supporters named in coverage: Dave Smith, Tom Woods, Scott Horton",
+        "Intellectual influences: Murray Rothbard, Hans-Hermann Hoppe"
+      ],
+      "clashes_with": "Pragmatists and classical liberals. The caucus was founded largely in opposition to chair Nicholas Sarwark. Critics, including the Southern Poverty Law Center, accused it of tolerating bigots; its leaders deny racism. Several state parties left after the 2022 takeover. In February 2025, founder Michael Heise lost the national chair special election to Steven Nekhaila, with six caucus-backed committee members voting against Heise.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://reason.com/?p=8183848",
+        "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "id": "bleeding-heart-libertarians",
+      "name": "Bleeding-heart libertarians",
+      "belief": "Free markets and civil liberties are the best way to help the poor and disadvantaged, and libertarians should care about social justice.",
+      "agenda": "Make the case for liberty in terms of how it helps the worst-off. The school is linked to Milton Friedman-style ideas such as school vouchers and a negative income tax.",
+      "institutions_or_figures": [
+        "Bleeding Heart Libertarians blog (March 2011 to June 2020; relaunched by Matt Zwolinski as a Substack in 2023)",
+        "Matt Zwolinski (co-founder), Jason Brennan, Roderick T. Long, Gary Chartier, Steven Horwitz, Fernando Teson",
+        "The 'Arizona School': David Schmidtz, Jerry Gaus, John Tomasi, Kevin Vallier"
+      ],
+      "clashes_with": "Economist David D. Friedman argued they insist social justice belongs in libertarianism without saying what it means. During COVID, Zwolinski described a split in which academic libertarians generally backed public-health measures while 'popular movement-based libertarians' opposed them.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bleeding-heart_libertarianism",
+        "https://www.voanews.com/a/covid-19-pandemic_why-some-libertarians-support-vaccine-mandates/6209163.html"
+      ]
+    },
+    {
+      "id": "agorists-voluntaryists",
+      "name": "Agorists and voluntaryists",
+      "belief": "You can't vote your way to freedom. Withdraw from the state instead: agorists through untaxed, unregulated trade, voluntaryists by refusing consent and cooperation.",
+      "agenda": "Agorists build black and grey markets, which founder Samuel Edward Konkin III called 'counter-economics.' Voluntaryists try to delegitimize the state through education and by withdrawing cooperation. Both reject electoral politics.",
+      "institutions_or_figures": [
+        "Samuel Edward Konkin III (1947 to 2004), author of New Libertarian Manifesto, and the Agorist Institute",
+        "Auberon Herbert (coined 'voluntaryism' in the 19th century)",
+        "The Voluntaryist, published from 1982 by George H. Smith, Wendy McElroy and Carl Watner"
+      ],
+      "clashes_with": "The Libertarian Party itself. Konkin saw the party as a statist co-option of libertarianism. Voluntaryists say voting and parties give the state legitimacy.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agorism",
+        "https://en.wikipedia.org/wiki/Voluntaryism"
+      ]
+    },
+    {
+      "id": "objectivists",
+      "name": "Objectivists",
+      "belief": "Ayn Rand's complete philosophy: reason, rational self-interest and laissez-faire capitalism under a limited government. Politics is only one part of it.",
+      "agenda": "Spread Objectivism as a whole system, not just a policy list. Defend capitalism, a limited state and strong patents and copyrights. The Ayn Rand Institute has supported forceful military action abroad.",
+      "institutions_or_figures": [
+        "Ayn Rand",
+        "Ayn Rand Institute (Leonard Peikoff, Yaron Brook)",
+        "The Atlas Society (David Kelley)",
+        "Peter Schwartz, 'Libertarianism: The Perversion of Liberty' (1988)"
+      ],
+      "clashes_with": "Libertarians in general. Rand rejected the label. In 1981 she called libertarians 'a monstrous, disgusting bunch of people' who 'plagiarize my ideas when that fits their purpose.' She also opposed anarchism. David Kelley split from the Ayn Rand Institute over relations with libertarians, and his Atlas Society seeks closer ties. On foreign policy, the Ayn Rand Institute backed forceful intervention while Cato opposed military action against Iran.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism",
+        "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_intellectual_property"
+      ]
+    },
+    {
+      "id": "free-staters",
+      "name": "Free Staters",
+      "belief": "Concentrate libertarians in one small state so they can actually win there.",
+      "agenda": "Get 20,000 libertarians to move to New Hampshire and push for liberty in local government and in the 400-seat state House.",
+      "institutions_or_figures": [
+        "Free State Project, founded 2001 by Jason Sorens",
+        "New Hampshire chosen by vote in September 2003",
+        "Move 'triggered' February 3, 2016, when 20,000 people had signed the pledge",
+        "About 6,232 participants had moved by May 2022",
+        "Porcupine Freedom Festival (PorcFest) and the New Hampshire Liberty Forum"
+      ],
+      "clashes_with": "Local residents in some towns. In Grafton, a 2004 splinter 'Free Town Project' cut town services. In Croydon in 2022, voters reversed a Free Stater-backed cut to the school budget, 377 to 2. The project has drawn endorsements across factions, including Ron Paul, Gary Johnson and Lew Rockwell.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Free_State_Project"
+      ]
+    },
+    {
+      "id": "cosmopolitan-wing",
+      "name": "The 'cosmopolitan' wing (Cato and Reason)",
+      "belief": "Libertarianism as a socially tolerant, pro-immigration, pro-trade movement that wins through policy research and journalism.",
+      "agenda": "Expand and deregulate legal immigration, free trade, end the drug war, support same-sex marriage and oppose foreign wars.",
+      "institutions_or_figures": [
+        "Cato Institute, founded January 1977 by Ed Crane, Murray Rothbard and Charles Koch; moved to Washington in 1981",
+        "Reason magazine"
+      ],
+      "clashes_with": "Paleolibertarians, who call them 'Beltway libertarians' that trade principle for elite approval. Writing in The Nation in 2007, Chris Hayes described a 'culture clash' between the Mises Institute's paleolibertarians and 'cosmopolitan libertarians, centered around Cato.' The split goes back to 1981, when Cato's board removed Rothbard, who then helped found the Mises Institute.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cato_Institute",
+        "https://thenation.com/?p=74345",
+        "https://en.wikipedia.org/wiki/Paleolibertarianism"
+      ]
+    },
+    {
+      "id": "lp-pragmatists",
+      "name": "Libertarian Party pragmatists",
+      "belief": "Grow the party and win votes by running credible, mainstream-sounding candidates and meeting voters where they are.",
+      "agenda": "Electable nominees, professional messaging and outreach to voters leaving the two major parties.",
+      "institutions_or_figures": [
+        "Pragmatist Caucus (associated with Gary Johnson's 2012 and 2016 campaigns; dissolved in 2022)",
+        "Gary Johnson, 2016 nominee: 4,489,341 votes (3.28%), the party's best presidential result",
+        "Nicholas Sarwark, former national chair"
+      ],
+      "clashes_with": "Purists. At the 2016 convention debate, delegates booed Johnson for backing driver competency rules and the Civil Rights Act. The Mises Caucus was founded in 2017 largely in opposition to Sarwark's leadership and the pragmatist faction.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+        "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage",
+        "https://en.wikipedia.org/wiki/Mises_Caucus"
+      ]
+    },
+    {
+      "id": "lp-purists",
+      "name": "Libertarian Party purists and radicals",
+      "belief": "The party should state the full libertarian message out loud, even if it costs votes.",
+      "agenda": "An uncompromising platform, abolition rather than reform, and nominees who pass principle tests.",
+      "institutions_or_figures": [
+        "Libertarian Party Radical Caucus (created 2006, after delegates cut much of the platform at the 2006 Portland convention)",
+        "Boston Tea Party party, founded in 2006 by anarcho-capitalists who left the LP; disbanded 2012"
+      ],
+      "clashes_with": "Pragmatists. The Radical Caucus opposed Gary Johnson in the 2016 primaries. Note that 'purist' is contested: the Mises Caucus also presents itself as the principled faction, while its critics say it made room for the populist right.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://reason.com/?p=8183848"
+      ]
+    },
+    {
+      "id": "fusionists-liberty-republicans",
+      "name": "Fusionists and 'liberty Republicans'",
+      "belief": "Work alongside conservatives, mostly inside the Republican Party, pairing free markets and limited government with conservative allies.",
+      "agenda": "Elect liberty-minded Republicans. The Republican Liberty Caucus backs lower taxes, less regulation, eliminating federal agencies, a strong defense with fewer overseas bases, and no foreign aid.",
+      "institutions_or_figures": [
+        "Frank Meyer, In Defense of Freedom (1962), and National Review, where fusionism was developed in the 1950s",
+        "Sharon Statement (1960, Young Americans for Freedom)",
+        "Republican Liberty Caucus (founded 1991; Ron Paul was its chairman 1995 to 2000; it endorsed Ron Paul for president in 2011, Rand Paul in 2016, and House candidates Thomas Massie and Justin Amash)"
+      ],
+      "clashes_with": "Libertarian Party loyalists, who see them as Republicans first. Traditionalist conservatives such as Russell Kirk attacked libertarians from the other side. LP bylaws bar state affiliates from endorsing non-Libertarian candidates, which became a fight when the New Hampshire affiliate endorsed Donald Trump in 2024.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fusionism",
+        "https://en.wikipedia.org/wiki/Republican_Liberty_Caucus",
+        "https://www.nhpr.org/nh-news/2026-05-28/nh-libertarians-newhampshire-ejected-party-jeremy-kauffman"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "checked": "2026-11-26",
+  "controversies": [
+    {
+      "id": "immigration-open-borders",
+      "title": "Immigration and open borders",
+      "what": "Should a libertarian government let any peaceful person cross the border, or may it restrict immigration? Both sides start from property rights and reach opposite answers.",
+      "sides": [
+        {
+          "position": "Free movement. Peaceful migration is a right, and borders enforced by the state are coercion.",
+          "who": "Cato Institute (has argued for liberalized immigration for over forty years), Walter Block, Jacob Hornberger of the Future of Freedom Foundation, agorist Samuel Edward Konkin III, and the Libertarian Party platform's 'Free Trade and Migration' plank."
+        },
+        {
+          "position": "Restriction. Under a welfare state and public property, open borders mean 'forced integration.' In a fully private world, owners would decide who comes in.",
+          "who": "Hans-Hermann Hoppe, Murray Rothbard's later view, and paleolibertarians influenced by them, including members of the Mises Caucus."
+        }
+      ],
+      "why_it_persists": "It runs right along the movement's main culture line, cosmopolitans versus paleos. Restriction appeals to the right-populist voters some factions court. Free movement is core to the think tanks and is still written into the party platform.",
+      "events": [
+        {
+          "date": "1981",
+          "text": "Cato publishes Jennifer Roback's 'Immigration Policy: A New Approach,' an early case for liberalized immigration.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration"
+        },
+        {
+          "date": "1994",
+          "text": "Rothbard's 'Nations by Consent' argues a fully privatized country 'would be as closed as the particular inhabitants and property owners desire.'",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration"
+        },
+        {
+          "date": "1998",
+          "text": "Hoppe publishes 'The Case for Free Trade and Restricted Immigration' in the Journal of Libertarian Studies.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration"
+        },
+        {
+          "date": "2022-06-15",
+          "text": "Reason reports that Hoppe influences Mises Caucus members, including on immigration.",
+          "source": "https://reason.com/?p=8183848"
+        },
+        {
+          "date": "2026",
+          "text": "The current LP platform still says 'Economic freedom demands the unrestricted movement of human as well as financial capital across national borders.'",
+          "source": "https://lp.org/platform/"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration",
+        "https://en.wikipedia.org/wiki/Cato_Institute",
+        "https://reason.com/?p=8183848",
+        "https://lp.org/platform/"
+      ]
+    },
+    {
+      "id": "abortion",
+      "title": "Abortion",
+      "what": "Is abortion a woman's right over her own body, or aggression against a human being with rights? Both sides claim the non-aggression principle.",
+      "sides": [
+        {
+          "position": "Pro-choice. Self-ownership and bodily autonomy mean government stays out.",
+          "who": "Ayn Rand; Murray Rothbard (who still opposed Roe v. Wade and taxpayer funding); Harry Browne and Michael Badnarik (argued government control could increase abortions); the LP platform from 2012 until May 2022."
+        },
+        {
+          "position": "Pro-life. The duty not to aggress starts at conception.",
+          "who": "Libertarians for Life, Ron Paul, Rand Paul ('totally pro-life'), Justin Amash ('100 percent pro-life'), Austin Petersen. Walter Block's 'evictionism' is a middle position."
+        },
+        {
+          "position": "Party neutrality. The platform should say nothing.",
+          "who": "The Libertarian Party since May 2022, when delegates deleted the abortion plank."
+        }
+      ],
+      "why_it_persists": "Libertarians agree on non-aggression but not on when a person with rights exists. A silent platform lets pro-life candidates run as Libertarians, which pro-choice members see as a betrayal. A Mises Caucus planning document said deleting the plank would 'display that there are serious cultural changes in the party.'",
+      "events": [
+        {
+          "date": "2013",
+          "text": "A survey found 57% of libertarians opposed making abortion harder to obtain.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_abortion"
+        },
+        {
+          "date": "2016-05-28",
+          "text": "Delegates boo Austin Petersen at the convention debate for saying life begins at conception.",
+          "source": "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage"
+        },
+        {
+          "date": "2022-05",
+          "text": "At the Reno convention, delegates delete the pro-choice plank, which had said government should be kept out of the matter.",
+          "source": "https://reason.com/?p=8183848"
+        },
+        {
+          "date": "2022-11-08",
+          "text": "The Nation reports Libertarian candidates split on the deletion, with one saying the platform is now 'silent' and another that it 'used to be pro-choice on everything.'",
+          "source": "https://www.thenation.com/article/politics/new-hampshire-governor-abortion"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_abortion",
+        "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party",
+        "https://reason.com/?p=8183848",
+        "https://www.thenation.com/article/politics/new-hampshire-governor-abortion",
+        "https://lp.org/platform/"
+      ]
+    },
+    {
+      "id": "private-discrimination-civil-rights-act",
+      "title": "Private discrimination and the Civil Rights Act",
+      "what": "Should private businesses be legally free to refuse customers, including on race? Strict property-rights logic says yes. Critics say that logic ignores history and protected segregation.",
+      "sides": [
+        {
+          "position": "Anti-discrimination law should bind government and public institutions, not private owners. Fight bigotry with boycotts and speech.",
+          "who": "Rand Paul in 2010 interviews (he later said he would not support repeal); delegates who jeered Gary Johnson in 2016."
+        },
+        {
+          "position": "The 1964 Act was right, and libertarians must clearly condemn bigotry.",
+          "who": "Gary Johnson (said in 2016 he would have voted for it); former chair Nicholas Sarwark ('put up clear signs that say no bigots allowed'); the LP platform line, first adopted in 1974, that condemned bigotry as 'irrational and repugnant.'"
+        },
+        {
+          "position": "The platform should not police 'wrongthink.' Affirm everyone's rights instead of condemning bigotry.",
+          "who": "Mises Caucus founder Michael Heise; the 2022 convention, which deleted the bigotry line. Plank 3.5 now reads 'We uphold and defend the rights of every person, regardless of their race, ethnicity, or any other aspect of their identity.'"
+        }
+      ],
+      "why_it_persists": "It is a live test of whether property rights are absolute. Opponents use it to paint libertarians as indifferent to racism, and some activists use it as a purity test. Almost every Libertarian or liberty-Republican candidate gets asked.",
+      "events": [
+        {
+          "date": "2010-05-19",
+          "text": "On MSNBC's Rachel Maddow Show, after earlier remarks to the Louisville Courier-Journal, Rand Paul says he supports the Act's ban on discrimination in public institutions but questions applying it to private businesses.",
+          "source": "https://www.cbsnews.com/news/rand-paul-ive-never-wavered-in-supporting-civil-rights-act/"
+        },
+        {
+          "date": "2010",
+          "text": "Paul's statement: 'I unequivocally state that I will not support any efforts to repeal the Civil Rights Act of 1964.'",
+          "source": "https://www.cbsnews.com/news/rand-paul-ive-never-wavered-in-supporting-civil-rights-act/"
+        },
+        {
+          "date": "2013-04-10",
+          "text": "At Howard University, Paul says, 'I've never wavered in my support for civil rights or the Civil Rights Act.'",
+          "source": "https://www.cbsnews.com/news/rand-paul-ive-never-wavered-in-supporting-civil-rights-act/"
+        },
+        {
+          "date": "2016-05-28",
+          "text": "Gary Johnson says he would have voted for the Civil Rights Act; the convention debate crowd jeers.",
+          "source": "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage"
+        },
+        {
+          "date": "2022-05",
+          "text": "Reno convention deletes the 'condemn bigotry' line. Heise: libertarianism 'isn't about wrongthink.'",
+          "source": "https://reason.com/?p=8183848"
+        }
+      ],
+      "sources": [
+        "https://www.cbsnews.com/news/rand-paul-ive-never-wavered-in-supporting-civil-rights-act/",
+        "https://www.nbcnews.com/news/amp/wbna37252841",
+        "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage",
+        "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party",
+        "https://reason.com/?p=8183848",
+        "https://lp.org/platform/"
+      ]
+    },
+    {
+      "id": "paleo-strategy-ron-paul-newsletters",
+      "title": "The 1990s 'paleo strategy' and the Ron Paul newsletters",
+      "what": "In the early 1990s, Murray Rothbard and Lew Rockwell tried to grow libertarianism by courting right-wing populist voters, including through racial resentment. Newsletters published under Ron Paul's name in that era ran racist and conspiratorial material.",
+      "sides": [
+        {
+          "position": "The strategy traded principle for bigotry, and its legacy still hurts the movement.",
+          "who": "Reason (Julian Sanchez and David Weigel, 2008), The New Republic (James Kirchick, 2008), and critics of the Mises Caucus in 2022."
+        },
+        {
+          "position": "Denial and disavowal. Paul said he did not write the passages; Rockwell has denied writing them and called the coverage smears.",
+          "who": "Ron Paul (disavowed the passages by 2001); Lew Rockwell."
+        },
+        {
+          "position": "Populist outreach to working- and middle-class voters is how libertarians reach ordinary people.",
+          "who": "Paleolibertarians, following Rothbard's 1992 strategy essay."
+        }
+      ],
+      "why_it_persists": "Ron Paul's 2008 and 2012 campaigns created a generation of activists, and that generation later formed the core of the Mises Caucus. Each time that wing gains power, critics bring the paleo strategy back up. At Reno in 2022, an Ohio delegate who quit told Reason, 'This is the paleo strategy happening yet again.'",
+      "events": [
+        {
+          "date": "1990-01",
+          "text": "Rockwell publishes 'The Case for Paleo-libertarianism' in Liberty.",
+          "source": "https://en.wikipedia.org/wiki/Paleolibertarianism"
+        },
+        {
+          "date": "1992-01",
+          "text": "Rothbard's 'Right-Wing Populism: A Strategy for the Paleo Movement' cites David Duke and Joseph McCarthy as models for an 'Outreach to the Rednecks.'",
+          "source": "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/"
+        },
+        {
+          "date": "1993-06",
+          "text": "A tax filing reports $940,000 in annual income for Ron Paul & Associates, which published the newsletters.",
+          "source": "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/"
+        },
+        {
+          "date": "1996",
+          "text": "Paul defends the statements as 'philosophical differences' that were 'taken out of context.'",
+          "source": "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/"
+        },
+        {
+          "date": "2001",
+          "text": "In Texas Monthly, Paul disavows the passages and says he did not write them.",
+          "source": "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/"
+        },
+        {
+          "date": "2008-01-16",
+          "text": "Reason reports that several longtime libertarian activists named Lew Rockwell as the newsletters' chief ghostwriter. Rockwell denied it.",
+          "source": "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/"
+        },
+        {
+          "date": "2008-01-16",
+          "text": "The New Republic's James Kirchick calls the newsletters 'racist, homophobic, paranoid bile.'",
+          "source": "https://newrepublic.com/article/39242/ron-paul-round"
+        }
+      ],
+      "sources": [
+        "https://reason.com/2008/01/16/who-wrote-ron-pauls-newsletter/printer/",
+        "https://newrepublic.com/article/39242/ron-paul-round",
+        "https://en.wikipedia.org/wiki/Paleolibertarianism",
+        "https://reason.com/?p=8183848"
+      ]
+    },
+    {
+      "id": "mises-caucus-takeover-2022",
+      "title": "The Mises Caucus takeover (Reno, May 2022)",
+      "what": "At the 2022 national convention in Reno, Nevada, the Mises Caucus won every national party office and rewrote parts of the platform.",
+      "sides": [
+        {
+          "position": "The party had gone soft, especially by failing to fight COVID lockdowns and mandates. It needed bold messaging and to stop worrying about offending progressives.",
+          "who": "Mises Caucus; chair Angela McArdle; supporters such as Dave Smith and Scott Horton."
+        },
+        {
+          "position": "The deletions signaled tolerance for bigots, and 'edgelording' would drive voters away.",
+          "who": "Former chair Nicholas Sarwark; former congressman Justin Amash ('we don't need edgelording,' though he said he did not think the caucus as a whole was bigoted); members who quit."
+        }
+      ],
+      "why_it_persists": "Whoever runs the national committee controls the brand, ballot-access help, money and which state group counts as 'official.' The fight became a struggle over the party's identity, and every convention since has reopened it.",
+      "events": [
+        {
+          "date": "2017",
+          "text": "Michael Heise founds the Mises Caucus, largely in opposition to chair Nicholas Sarwark.",
+          "source": "https://en.wikipedia.org/wiki/Mises_Caucus"
+        },
+        {
+          "date": "2021-06",
+          "text": "The national committee votes 12 to 2, with three abstentions, against disaffiliating the New Hampshire party over its tweets. Chair Joe Bishop-Henchman and two committee members resign.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_of_New_Hampshire"
+        },
+        {
+          "date": "2022-05",
+          "text": "Angela McArdle wins the chair on the first ballot with 692 votes, more than 69% of voting delegates. The caucus sweeps all national leadership posts.",
+          "source": "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party"
+        },
+        {
+          "date": "2022-05",
+          "text": "Delegates delete the 'condemn bigotry' line and the pro-choice abortion plank.",
+          "source": "https://reason.com/?p=8183848"
+        },
+        {
+          "date": "2022-06-15",
+          "text": "McArdle tells Reason about 40 members quit after the takeover.",
+          "source": "https://reason.com/?p=8183848"
+        },
+        {
+          "date": "2025-01-25",
+          "text": "McArdle resigns as national chair.",
+          "source": "https://en.wikipedia.org/wiki/Mises_Caucus"
+        },
+        {
+          "date": "2025-02-02",
+          "text": "Caucus founder Michael Heise loses the chair special election to Steven Nekhaila; six caucus-backed committee members vote against Heise.",
+          "source": "https://en.wikipedia.org/wiki/Mises_Caucus"
+        },
+        {
+          "date": "2026-05-24",
+          "text": "Evan McMahon, chair of the Indiana party, is elected national chair at the Grand Rapids, Michigan convention, 320 votes (53.5%) to Jim Ostrowski's 265 (44.3%) on the third round. Nekhaila did not run.",
+          "source": "https://en.wikipedia.org/wiki/2026_Libertarian_National_Convention"
+        }
+      ],
+      "sources": [
+        "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party",
+        "https://reason.com/?p=8183848",
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_New_Hampshire",
+        "https://en.wikipedia.org/wiki/2026_Libertarian_National_Convention"
+      ]
+    },
+    {
+      "id": "state-affiliate-splits",
+      "title": "State party splits and disaffiliations since 2022",
+      "what": "After the 2022 takeover, several state parties left, dissolved or split in two. Later, some state parties broke with the national ticket from the other direction.",
+      "sides": [
+        {
+          "position": "Leave or split from a national party they saw as captured by the Mises Caucus.",
+          "who": "New Mexico, Virginia, the older Massachusetts leadership and Pennsylvania dissidents. Several later joined the Association of Liberty State Parties, now Liberal Party USA."
+        },
+        {
+          "position": "Enforce national recognition rules and protect the party name and trademark.",
+          "who": "The Libertarian National Committee, under each chair."
+        },
+        {
+          "position": "Refuse or denounce the 2024 national ticket.",
+          "who": "Colorado (nominated RFK Jr. instead of Chase Oliver), plus Montana, New Hampshire and Idaho, which denounced Oliver's nomination. New Hampshire endorsed Donald Trump."
+        }
+      ],
+      "why_it_persists": "State parties hold ballot lines, the party name, donor lists and local candidates. Whichever faction holds the national committee decides which state group is 'official,' and the losing side often fights over the name, sometimes in court.",
+      "events": [
+        {
+          "date": "2022-04",
+          "text": "Massachusetts holds competing conventions. The national committee recognizes the newer, Mises-oriented body; the older group runs the year's Libertarian candidates as the Libertarian Association of Massachusetts.",
+          "source": "https://reason.com/2022/09/15/libertarian-party-faces-state-rebellions/"
+        },
+        {
+          "date": "2022-04",
+          "text": "Dissidents in Pennsylvania split off to form the Keystone Party of Pennsylvania.",
+          "source": "https://en.wikipedia.org/wiki/Mises_Caucus"
+        },
+        {
+          "date": "2022-08-25",
+          "text": "The Libertarian Party of New Mexico announces it is disaffiliating, after the national committee voided its July 12 convention.",
+          "source": "https://reason.com/2022/09/15/libertarian-party-faces-state-rebellions/"
+        },
+        {
+          "date": "2022-09-11",
+          "text": "The national committee votes 14 to 1, with two abstentions, to disaffiliate from the New Mexico party. The same day, Virginia's state central committee narrowly votes to dissolve, calling the national party's image 'functionally indistinct from other alt-right parties and movements.'",
+          "source": "https://reason.com/2022/09/15/libertarian-party-faces-state-rebellions/"
+        },
+        {
+          "date": "2022-12-03",
+          "text": "The Association of Liberty State Parties forms, linking Massachusetts and New Mexico groups with Virginia splinter members. It took the name Liberal Party in January 2024 and announced it February 12, 2024.",
+          "source": "https://en.wikipedia.org/wiki/Liberal_Party_USA"
+        },
+        {
+          "date": "2023",
+          "text": "After a 2022 leadership fight left two groups claiming to be the Michigan party, the national committee files a trademark lawsuit against the group it did not recognize.",
+          "source": "https://en.wikipedia.org/wiki/Mises_Caucus"
+        },
+        {
+          "date": "2024-08-28",
+          "text": "The Sixth Circuit largely upholds an injunction barring the unrecognized Michigan group from using the party's trademark, but lifts it for online fundraising with clear disclaimers.",
+          "source": "https://law.justia.com/cases/federal/appellate-courts/ca6/23-1856/23-1856-2024-08-28.html"
+        },
+        {
+          "date": "2024-07-02",
+          "text": "The Colorado party nominates Robert F. Kennedy Jr. and Nicole Shanahan instead of Oliver and Mike ter Maat. Colorado still listed Oliver because the national party filed first.",
+          "source": "https://ballotpedia.org/Chase_Oliver_presidential_campaign,_2024"
+        },
+        {
+          "date": "2025-09",
+          "text": "The national committee censures the New Hampshire party for 'despicable conduct' and invites it to disaffiliate.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2026-05-25",
+          "text": "The newly elected national committee votes 15 to 2 to disaffiliate the New Hampshire party, citing actions that 'crudely and repeatedly undermined our own candidates' and its 2024 Trump endorsement. The New Hampshire party is raising money to fight it.",
+          "source": "https://www.nhpr.org/nh-news/2026-05-28/nh-libertarians-newhampshire-ejected-party-jeremy-kauffman"
+        }
+      ],
+      "sources": [
+        "https://reason.com/2022/09/15/libertarian-party-faces-state-rebellions/",
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://en.wikipedia.org/wiki/Liberal_Party_USA",
+        "https://law.justia.com/cases/federal/appellate-courts/ca6/23-1856/23-1856-2024-08-28.html",
+        "https://ballotpedia.org/Chase_Oliver_presidential_campaign,_2024",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_New_Hampshire",
+        "https://www.nhpr.org/nh-news/2026-05-28/nh-libertarians-newhampshire-ejected-party-jeremy-kauffman"
+      ]
+    },
+    {
+      "id": "2024-national-convention",
+      "title": "The 2024 national convention: Trump, RFK Jr. and the nomination",
+      "what": "The party invited major candidates to speak in Washington, D.C. Donald Trump was booed. Delegates then nominated Chase Oliver over the Mises Caucus-backed candidate.",
+      "sides": [
+        {
+          "position": "Invite the major-party candidates to the stage.",
+          "who": "Chair Angela McArdle, who invited Trump and said she also invited Joe Biden; only Trump accepted."
+        },
+        {
+          "position": "Don't give a non-Libertarian the party's stage.",
+          "who": "National committee members who moved to rescind the invitation, and delegates who jeered Trump."
+        },
+        {
+          "position": "Nominate Michael Rectenwald (Mises Caucus-backed) or vote 'none of the above.'",
+          "who": "Mises Caucus delegates; 300 delegates chose 'none of the above' on the final ballot."
+        },
+        {
+          "position": "Nominate Chase Oliver.",
+          "who": "A majority of delegates on the seventh ballot; the Classical Liberal Caucus was associated with his campaign."
+        }
+      ],
+      "why_it_persists": "It crystallized the fight over whether the party is a home for the anti-establishment right or its own independent brand. Several state parties refused or denounced the ticket, and New Hampshire's 2024 Trump endorsement was one reason given for its 2026 disaffiliation.",
+      "events": [
+        {
+          "date": "2024-05-24",
+          "text": "Robert F. Kennedy Jr. addresses the convention.",
+          "source": "https://sg.news.yahoo.com/libertarian-party-names-presidential-nominee-122252905.html"
+        },
+        {
+          "date": "2024-05-25",
+          "text": "Trump speaks and is booed. He asks for the nomination and vows to appoint a Libertarian to his cabinet. He was not eligible because he filed no nomination paperwork.",
+          "source": "https://en.wikipedia.org/wiki/2024_Libertarian_National_Convention"
+        },
+        {
+          "date": "2024-05-26",
+          "text": "First ballot: Rectenwald 259 (28.2%), Oliver 181 (19.7%), ter Maat 141 (15.3%). Kennedy is eliminated with 19 votes (2.1%).",
+          "source": "https://en.wikipedia.org/wiki/2024_Libertarian_National_Convention"
+        },
+        {
+          "date": "2024-05-26",
+          "text": "Seventh ballot: Oliver 497 (60.6%), 'none of the above' 300 (36.6%), write-ins 23 (2.8%). It was the first convention since 2004 not to nominate the first-round leader.",
+          "source": "https://en.wikipedia.org/wiki/2024_Libertarian_National_Convention"
+        },
+        {
+          "date": "2024-05-26",
+          "text": "Mike ter Maat wins the vice-presidential nomination, 371 (51.3%) to Mises Caucus-backed Clint Russell's 340 (47.0%).",
+          "source": "https://en.wikipedia.org/wiki/2024_Libertarian_National_Convention"
+        },
+        {
+          "date": "2024-11-05",
+          "text": "Oliver receives 0.42% of the popular vote.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Libertarian_National_Convention",
+        "https://sg.news.yahoo.com/libertarian-party-names-presidential-nominee-122252905.html",
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+        "https://ballotpedia.org/Chase_Oliver_presidential_campaign,_2024",
+        "https://www.nhpr.org/nh-news/2026-05-28/nh-libertarians-newhampshire-ejected-party-jeremy-kauffman"
+      ]
+    },
+    {
+      "id": "covid-mandates",
+      "title": "COVID lockdowns and mandates",
+      "what": "Were lockdowns, mask rules and vaccine mandates an obvious violation of liberty, or could some be justified because spreading disease puts others at risk?",
+      "sides": [
+        {
+          "position": "Government mandates violate self-ownership. The party should have fought them hard.",
+          "who": "The Mises Caucus; Angela McArdle, who argued the party failed during the pandemic; Dave Smith ('On a purely principled level, I believe you own yourself')."
+        },
+        {
+          "position": "Some measures can be justified, because people may not impose excessive risk on others.",
+          "who": "Libertarian philosophers Jason Brennan and Jessica Flanigan."
+        },
+        {
+          "position": "Separate government mandates from private ones. Businesses may set vaccine rules on their own property.",
+          "who": "A Cato Institute blog post on government versus private vaccine mandates."
+        }
+      ],
+      "why_it_persists": "COVID became the Mises Caucus's main recruiting issue and helped drive its 2022 win. Matt Zwolinski described the split as academic libertarians generally backing measures while 'popular movement-based libertarians' opposed them.",
+      "events": [
+        {
+          "date": "2021-08-04",
+          "text": "Voice of America reports 'a real split among libertarians' over pandemic measures.",
+          "source": "https://www.voanews.com/a/covid-19-pandemic_why-some-libertarians-support-vaccine-mandates/6209163.html"
+        },
+        {
+          "date": "2022-06-15",
+          "text": "Reason reports McArdle's view that the party failed in the pandemic by not opposing lockdowns and vaccine mandates.",
+          "source": "https://reason.com/?p=8183848"
+        }
+      ],
+      "sources": [
+        "https://www.voanews.com/a/covid-19-pandemic_why-some-libertarians-support-vaccine-mandates/6209163.html",
+        "https://reason.com/?p=8183848",
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://www.cato.org/blog/government-versus-private-vaccine-mandates"
+      ]
+    },
+    {
+      "id": "foreign-policy-war",
+      "title": "Foreign policy and war",
+      "what": "When, if ever, should the U.S. go to war or intervene abroad? Most libertarians are anti-war, but not all.",
+      "sides": [
+        {
+          "position": "Non-intervention. War grows the state.",
+          "who": "Cato Institute (opposed the 1991 Gulf War, the 2003 Iraq invasion and the 2011 Libya intervention); Ron Paul and the paleolibertarians; the Mises Caucus."
+        },
+        {
+          "position": "Forceful action abroad can be justified.",
+          "who": "The Ayn Rand Institute; some conservative libertarians who backed the Afghanistan and Iraq wars after September 11."
+        },
+        {
+          "position": "Strong defense with fewer overseas bases and no foreign aid.",
+          "who": "The Republican Liberty Caucus."
+        }
+      ],
+      "why_it_persists": "Anti-war is one of the few positions that unites anarcho-capitalists, paleos and the Cato wing. It also marks a hard line between libertarians and both Objectivists and hawkish conservatives.",
+      "events": [
+        {
+          "date": "1991",
+          "text": "Cato opposes the Gulf War.",
+          "source": "https://en.wikipedia.org/wiki/Cato_Institute"
+        },
+        {
+          "date": "2001-2003",
+          "text": "After September 11, some conservative libertarians back the wars in Afghanistan and Iraq.",
+          "source": "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2003",
+          "text": "Cato opposes the invasion of Iraq.",
+          "source": "https://en.wikipedia.org/wiki/Cato_Institute"
+        },
+        {
+          "date": "2007-12-06",
+          "text": "Lew Rockwell tells The Nation that 'Ron Paul has shown that the core of the state is the Pentagon and the Federal Reserve.'",
+          "source": "https://thenation.com/?p=74345"
+        },
+        {
+          "date": "2011",
+          "text": "Cato opposes the Libya intervention.",
+          "source": "https://en.wikipedia.org/wiki/Cato_Institute"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cato_Institute",
+        "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Mises_Caucus",
+        "https://en.wikipedia.org/wiki/Republican_Liberty_Caucus",
+        "https://thenation.com/?p=74345"
+      ]
+    },
+    {
+      "id": "purity-tests-2016",
+      "title": "Purity tests: the 2016 driver's license debate",
+      "what": "At the 2016 national convention debate in Orlando, candidates were asked whether government should stop issuing driver's licenses. The crowd turned on the eventual nominee for giving the 'reasonable' answer.",
+      "sides": [
+        {
+          "position": "Some government rules, like proving you can drive, are fine. Win over normal voters.",
+          "who": "Gary Johnson, who said ending licenses would be 'a little chaotic.'"
+        },
+        {
+          "position": "Every state license is illegitimate. No compromise.",
+          "who": "Austin Petersen said yes to ending them; candidate Marc Allan Feldman got a standing ovation for saying the Constitution is the only license anyone needs."
+        }
+      ],
+      "why_it_persists": "Convention delegates are the most committed activists, and they reward the purest answer. Candidates who want general-election voters must give answers those delegates boo.",
+      "events": [
+        {
+          "date": "2016-05-28",
+          "text": "Johnson is the only candidate to propose that drivers show some competency, and some in the crowd yell obscenities. He is also jeered for saying he would have voted for the Civil Rights Act.",
+          "source": "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage"
+        },
+        {
+          "date": "2016-05-28",
+          "text": "NPR reports Petersen said yes to ending government driver's licenses and Johnson said that would be 'a little chaotic.'",
+          "source": "https://www.npr.org/transcripts/479913396"
+        },
+        {
+          "date": "2016-05-29",
+          "text": "Johnson wins the nomination anyway.",
+          "source": "https://reason.com/2016/05/29/gary-johnson-wins-libertarian-nomination/"
+        },
+        {
+          "date": "2016-11-08",
+          "text": "Johnson gets 4,489,341 votes (3.28%), the party's best presidential result.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        }
+      ],
+      "sources": [
+        "https://ballotpedia.org/Day_two_of_the_Libertarian_National_Convention:_Presidential_candidates_take_the_stage",
+        "https://www.npr.org/transcripts/479913396",
+        "https://reason.com/2016/05/29/gary-johnson-wins-libertarian-nomination/",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "id": "objectivists-vs-libertarians",
+      "title": "Objectivists vs. libertarians",
+      "what": "Ayn Rand inspired many libertarians, but she and her strictest followers rejected the libertarian movement and the label.",
+      "sides": [
+        {
+          "position": "Libertarianism is a policy list with no philosophical foundation, and it tolerates anarchism.",
+          "who": "Ayn Rand; the Ayn Rand Institute; Peter Schwartz."
+        },
+        {
+          "position": "Objectivists and libertarians should work together.",
+          "who": "David Kelley's Atlas Society; Cato president John Allison ('all objectivists are libertarians, but not all libertarians are objectivists')."
+        },
+        {
+          "position": "The non-aggression principle is a self-evident axiom, and even a minimal state is coercive.",
+          "who": "Murray Rothbard, Walter Block and anarcho-capitalists."
+        }
+      ],
+      "why_it_persists": "The two camps share heroes and many policy goals but split on foundations, anarchism and foreign policy. Rand's novels still recruit people into libertarianism, so the argument over her legacy never ends.",
+      "events": [
+        {
+          "date": "1972",
+          "text": "Rothbard writes 'The Sociology of the Ayn Rand Cult.'",
+          "source": "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+        },
+        {
+          "date": "1976",
+          "text": "Rand says the Libertarian Party 'plagiarizes some of my ideas' and mixes them with 'the exact opposite.'",
+          "source": "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+        },
+        {
+          "date": "1981",
+          "text": "Rand calls libertarians 'a monstrous, disgusting bunch of people' who 'plagiarize my ideas when that fits their purpose.'",
+          "source": "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+        },
+        {
+          "date": "1988",
+          "text": "Peter Schwartz publishes 'Libertarianism: The Perversion of Liberty.'",
+          "source": "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+        },
+        {
+          "date": "2012",
+          "text": "Yaron Brook says the Ayn Rand Institute now does more work with libertarians, though ideologically 'nothing of substance has changed.'",
+          "source": "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Objectivism_and_libertarianism"
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "title": "Intellectual property",
+      "what": "Are patents and copyrights real property rights, or government-granted monopolies?",
+      "sides": [
+        {
+          "position": "IP is property in the products of your mind.",
+          "who": "Ayn Rand (Capitalism: The Unknown Ideal, 1966, though she wanted patents to have limited terms), 19th-century anarchist Lysander Spooner, J. Neil Schulman."
+        },
+        {
+          "position": "IP is a state-granted monopoly. Ideas aren't scarce, so they can't be owned, and enforcing IP limits other people's physical property.",
+          "who": "Benjamin Tucker (1893), Stephan Kinsella (Against Intellectual Property, Mises Institute, 2008), Roderick T. Long, Murray Rothbard (copyright only by contract), and most left-libertarians."
+        },
+        {
+          "position": "Undecided.",
+          "who": "David D. Friedman ('there are good arguments on both sides')."
+        }
+      ],
+      "why_it_persists": "Property theory built for land and objects gives different answers for ideas. It matters a lot to tech, media and drug-industry supporters. The current national LP platform has no IP plank.",
+      "events": [
+        {
+          "date": "1893",
+          "text": "Tucker attacks the patent monopoly in Instead of a Book.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_intellectual_property"
+        },
+        {
+          "date": "1966",
+          "text": "Rand defends patents and copyrights as the legal expression of property rights in the products of the mind, in Capitalism: The Unknown Ideal.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_intellectual_property"
+        },
+        {
+          "date": "2008",
+          "text": "The Mises Institute publishes Kinsella's Against Intellectual Property.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_intellectual_property"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_intellectual_property",
+        "https://mises.org/library/book/against-intellectual-property",
+        "https://lp.org/platform/"
+      ]
+    },
+    {
+      "id": "big-tent-vs-purity",
+      "title": "Big tent vs. purity: how do libertarians win?",
+      "what": "Should the Libertarian Party grow by being broadly appealing and running electable people, or by being uncompromising? Each faction says the other is the one that sold out.",
+      "sides": [
+        {
+          "position": "Big tent. Run credible candidates, use a professional message and reach centrists.",
+          "who": "Pragmatists, the Classical Liberal Caucus, the Gary Johnson campaigns."
+        },
+        {
+          "position": "Purity. Say the whole message; compromise is why the party stays small.",
+          "who": "The Radical Caucus and many convention delegates."
+        },
+        {
+          "position": "Bold populism. Be principled on core issues but aim the message at the anti-establishment right.",
+          "who": "The Mises Caucus ('make the Libertarian Party libertarian again'). Critics call this its own kind of big tent, open to the populist right."
+        }
+      ],
+      "why_it_persists": "No strategy has produced a breakthrough. The best presidential result was 3.28% in 2016 under the most 'pragmatic' ticket. Membership fell after its 2017 high and kept falling into 2025 and 2026. Each side can point to the other's results.",
+      "events": [
+        {
+          "date": "1974",
+          "text": "The 'Dallas Accord' leaves the platform silent on whether a state should exist, holding minarchists and anarcho-capitalists together.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "1988",
+          "text": "Ron Paul's nomination splits the party; many delegates saw him as too radical and backed Russell Means, but Paul wins.",
+          "source": "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "1988-11-08",
+          "text": "Paul gets 431,750 votes (0.47%).",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2006",
+          "text": "The Portland convention cuts much of the platform. Radicals form the Radical Caucus, and some anarcho-capitalists leave to found the Boston Tea Party party.",
+          "source": "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2016-11-08",
+          "text": "Johnson-Weld wins 4,489,341 votes (3.28%), the party's best.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2017",
+          "text": "Dues-paying membership hits its highest level of the decade, 18,908, in January, then falls 24% to 14,321 by the end of August.",
+          "source": "https://reason.com/2017/09/15/the-libertarian-partys-paid-membership-n/"
+        },
+        {
+          "date": "2022",
+          "text": "The Pragmatist Caucus dissolves; the Mises Caucus takes control; the Classical Liberal Caucus forms.",
+          "source": "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2024-11-05",
+          "text": "Chase Oliver gets 0.42% of the popular vote.",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)"
+        },
+        {
+          "date": "2025-03",
+          "text": "Dues-paying membership is reported at 9,954, down from 11,461 in September 2024 (figures from an LP report, published by an LP-critical commentator).",
+          "source": "https://thirdpartywatch.com/?p=3569"
+        },
+        {
+          "date": "2026-05-29",
+          "text": "New chair Evan McMahon sets a goal of 66,000 sustaining members (donors of at least $25 a year) by 2028, after declines in membership and donations.",
+          "source": "https://reason.com/2026/05/29/the-libertarian-partys-new-leader-has-no-interest-in-playing-kingmaker/"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Factions_in_the_Libertarian_Party_(United_States)",
+        "https://reason.com/2017/09/15/the-libertarian-partys-paid-membership-n/",
+        "https://reason.com/?p=8183848",
+        "https://reason.com/2026/05/29/the-libertarian-partys-new-leader-has-no-interest-in-playing-kingmaker/",
+        "https://thirdpartywatch.com/?p=3569"
+      ]
+    }
+  ]
+}

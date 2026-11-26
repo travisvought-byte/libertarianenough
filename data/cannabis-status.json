@@ -1,0 +1,1172 @@
+{
+ "as_of": "2026-11-23",
+ "from": "https://the-reefer.com",
+ "note": "Adult-use and medical cannabis status per state, from The Reefer's state permissions data.",
+ "statuses": {
+  "allowed": "Allowed",
+  "medical-only": "Medical patients only",
+  "limited": "Limited",
+  "not-permitted": "Not permitted",
+  "varies-locally": "Varies locally",
+  "not-reviewed": "Not yet reviewed"
+ },
+ "states": {
+  "AK": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "State law (AS 17.38) makes marijuana use legal only for people 21 and older. An adult may possess up to 1 ounce for personal use.",
+    "citation": "Alaska Alcohol & Marijuana Control Office, Marijuana FAQs (AS 17.38)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, registry cards",
+    "detail": "Medical cards are issued under AS 17.37. The adult-use law did not change their privileges or prohibitions.",
+    "citation": "Alaska Alcohol & Marijuana Control Office, Marijuana FAQs (AS 17.37)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs"
+    ]
+   }
+  },
+  "AL": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Alabama has no adult-use law. A first offense of possessing marijuana for personal use is a Class A misdemeanor. That is existing law as summarized in a February 2026 Senate bill; national compilations list no adult use as of November 2026.",
+    "citation": "Code of Ala. 13A-12-214, per the 2026 Senate Bill 285 synopsis; Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB285-int.pdf",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Alabama Medical Cannabis Commission runs the state\u2019s medical cannabis program for patients and caregivers. Whether licensed dispensaries are open is not yet reviewed.",
+    "citation": "Alabama Medical Cannabis Commission",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://amcc.alabama.gov/"
+    ]
+   }
+  },
+  "AR": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Arkansas has no adult-use law. Possessing less than 4 ounces of marijuana is a Class A misdemeanor. That is the law as the Arkansas Sentencing Commission quoted it in 2019; national compilations list no adult use as of November 2026.",
+    "citation": "Ark. Code 5-64-419(b)(5)(A), per the Arkansas Sentencing Commission (2019); Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://arkleg.state.ar.us/Home/FTPDocument?path=/Assembly/2019/2019R/Fiscal+Impacts/HB1754-Other1.pdf",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Arkansas Department of Health issues medical marijuana registry cards. A separate state agency licenses dispensaries.",
+    "citation": "Arkansas Department of Health, Medical marijuana",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana"
+    ]
+   }
+  },
+  "AZ": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "An adult 21 or older may possess and use 1 ounce or less of marijuana, of which no more than 5 grams may be concentrate.",
+    "citation": "A.R.S. \u00a7 36-2852",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.azleg.gov/ars/36/02852.htm"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Arizona Department of Health Services licenses the medical marijuana program for qualifying patients, caregivers and dispensaries.",
+    "citation": "Arizona Department of Health Services, Marijuana licensing",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.azdhs.gov/licensing/marijuana/index.php"
+    ]
+   }
+  },
+  "CA": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may buy cannabis for adult use.",
+    "citation": "California Department of Cannabis Control, What\u2019s legal",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.cannabis.ca.gov/consumers/whats-legal/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, 18+ with a recommendation",
+    "detail": "People 18 and older with a physician\u2019s recommendation may buy for medicinal use, and medicinal users have higher possession limits.",
+    "citation": "California Department of Cannabis Control, What\u2019s legal",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.cannabis.ca.gov/consumers/whats-legal/"
+    ]
+   }
+  },
+  "CO": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "It is illegal for anyone under 21 to buy, have or use retail cannabis. Adults 21 and older can have up to 2 ounces.",
+    "citation": "State of Colorado, Laws about cannabis use",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.colorado.gov/laws-about-cannabis-use"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Colorado\u2019s state site says medical cannabis has its own use and possession rules. DISA\u2019s national map also lists medical use as legal.",
+    "citation": "State of Colorado, Laws about cannabis use; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.colorado.gov/laws-about-cannabis-use",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   }
+  },
+  "CT": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "The state\u2019s adult-use page says residents over 21 can legally possess and consume cannabis, and that possessing 1.5 ounces is legal.",
+    "citation": "Connecticut Department of Consumer Protection, Adult-use cannabis in Connecticut",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://portal.ct.gov/cannabis"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Connecticut\u2019s medical marijuana program continues to serve patients alongside adult use.",
+    "citation": "Connecticut Department of Consumer Protection, Adult-use cannabis in Connecticut",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://portal.ct.gov/cannabis"
+    ]
+   }
+  },
+  "DC": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "A person at least 21 may possess 2 ounces or less and use marijuana on private property.",
+    "citation": "Metropolitan Police Department, The facts on DC marijuana laws",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://mpdc.dc.gov/marijuana"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "DC\u2019s Alcoholic Beverage and Cannabis Administration registers medical cannabis patients and caregivers and licenses medical cannabis retailers.",
+    "citation": "DC Alcoholic Beverage and Cannabis Administration",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://abca.dc.gov/"
+    ]
+   }
+  },
+  "DE": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and over may possess up to 1 ounce of marijuana or 750 milligrams of concentrated THC products.",
+    "citation": "Delaware Office of the Marijuana Commissioner, Adult use",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://omc.delaware.gov/adult-use/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Medical marijuana may be authorized by a doctor to relieve symptoms of certain diseases.",
+    "citation": "Delaware Office of the Marijuana Commissioner",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://omc.delaware.gov/"
+    ]
+   }
+  },
+  "FL": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Florida has no adult-use law. Possessing 20 grams of cannabis or less is a first-degree misdemeanor; larger amounts are felonies.",
+    "citation": "Fla. Stat. 893.13(6)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899%2F0893%2FSections%2F0893.13.html"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Medical marijuana and low-THC cannabis are available to qualified patients. A qualified physician orders them, and licensed medical marijuana treatment centers are the only businesses allowed to dispense them.",
+    "citation": "Florida Office of Medical Marijuana Use",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://knowthefactsmmj.com/"
+    ]
+   }
+  },
+  "GA": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Georgia has no adult-use law. The state\u2019s Access to Medical Cannabis Commission says adult-use marijuana is not legal and that growing, possessing and smoking marijuana are crimes. Possessing 1 ounce or less is a misdemeanor punishable by up to 12 months in jail, a fine of up to $1,000, or both.",
+    "citation": "Georgia Access to Medical Cannabis Commission FAQ; O.C.G.A. 16-13-2(b)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.gmcc.ga.gov/faqs",
+     "https://gdna.georgia.gov/document/document/132824956ocga-16-13-controlled-substancespdf/download"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Low-THC oil program only",
+    "detail": "Georgia\u2019s commission runs a medical cannabis registry and licenses dispensaries. DISA\u2019s national map lists Georgia as CBD oil only.",
+    "citation": "Georgia Access to Medical Cannabis Commission; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.gmcc.ga.gov/",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   }
+  },
+  "HI": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Hawaii has no adult-use law. Possessing 3 grams of marijuana or less is a violation with a $130 fine rather than a crime, and distribution remains illegal. That is how the Attorney General\u2019s office described current law in February 2024; national compilations list no adult use as of November 2026.",
+    "citation": "Haw. Rev. Stat. 712-1249(2), per Department of the Attorney General testimony (2024); Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://data.capitol.hawaii.gov/sessions/Session2024/Testimony/HB1596_TESTIMONY_JHA-HLT_02-06-24_.PDF",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Patients must register with the Department of Health before medical use. The department also runs a dispensary program that serves qualified patients.",
+    "citation": "Hawaii Department of Health, Medical cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://health.hawaii.gov/medicalcannabis/"
+    ]
+   }
+  },
+  "IA": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Iowa has no adult-use law. A first conviction for possessing marijuana can bring up to six months in jail, a fine of up to $1,000, or both. Penalties rise for repeat offenses.",
+    "citation": "Iowa Code 124.401(5)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.legis.iowa.gov/docs/code/124.401.pdf"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Medical cannabidiol card program",
+    "detail": "The Iowa Department of Health and Human Services registers patients 18 and older who have a health care practitioner\u2019s certification, with cards good for one year. Cardholders buy from five licensed dispensaries. The program page also links a waiver form for the limit of 4.5 grams of THC per 90 days.",
+    "citation": "Iowa Department of Health and Human Services, Medical cannabis patients and caregivers",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://hhs.iowa.gov/health-prevention/medical-cannabis-patients-caregivers"
+    ]
+   }
+  },
+  "ID": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Idaho has no adult-use law. Possessing 3 ounces of marijuana or less is a misdemeanor, with a fine of at least $300 for anyone 18 or older. More than 3 ounces is a felony punishable by up to 5 years in prison, a fine of up to $10,000, or both.",
+    "citation": "Idaho Code 37-2732(e)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://legislature.idaho.gov/statutesrules/idstat/title37/t37ch27/sect37-2732/"
+    ]
+   },
+   "medical": {
+    "status": "not-permitted",
+    "short": "No medical marijuana law",
+    "detail": "Idaho has no medical marijuana law. The possession penalties in Idaho Code 37-2732 make no exception for medical use.",
+    "citation": "Idaho Code 37-2732",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://legislature.idaho.gov/statutesrules/idstat/title37/t37ch27/sect37-2732/"
+    ]
+   }
+  },
+  "IL": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may buy cannabis. Residents and non-residents have different possession limits.",
+    "citation": "Illinois Cannabis Regulation Oversight Officer, FAQs",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.illinois.gov/about/faqs.html"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Illinois registers medical cannabis patients and caregivers. 191 dispensaries were licensed to sell medical cannabis as of November 1, 2026.",
+    "citation": "Illinois Cannabis Regulation Oversight Officer",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.illinois.gov/"
+    ]
+   }
+  },
+  "IN": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Indiana has no adult-use law. Possessing marijuana is a Class B misdemeanor. It is a Class A misdemeanor with a prior drug conviction, and a Level 6 felony with a prior drug conviction and 30 grams or more.",
+    "citation": "Indiana Code 35-48-4-11",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://iga.in.gov/ic/2026/Title_35/Article_48.pdf"
+    ]
+   },
+   "medical": {
+    "status": "not-permitted",
+    "short": "No medical marijuana law",
+    "detail": "Indiana has no medical marijuana law. Its possession statute, Indiana Code 35-48-4-11, makes no exception for medical use.",
+    "citation": "Indiana Code 35-48-4-11",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://iga.in.gov/ic/2026/Title_35/Article_48.pdf"
+    ]
+   }
+  },
+  "KS": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Kansas has no adult-use law. Possessing marijuana is a Class B nonperson misdemeanor. One prior conviction makes it a Class A misdemeanor, and two or more make it a drug felony.",
+    "citation": "K.S.A. 21-5706(c)(3)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.ksrevisor.gov/statutes/chapters/ch21/021_057_0006.html"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Legal defense for CBD treatment oil",
+    "detail": "Kansas law gives an affirmative defense to a person charged with possessing a cannabidiol treatment preparation for a debilitating medical condition who has a letter from a Kansas physician dated within the past 15 months. It is a defense in court, not a program for buying medical marijuana.",
+    "citation": "K.S.A. 21-5706(d)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.ksrevisor.gov/statutes/chapters/ch21/021_057_0006.html"
+    ]
+   }
+  },
+  "KY": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Kentucky has no adult-use law. Possessing marijuana is a Class B misdemeanor with no more than 45 days in jail. The offense does not apply to medical cannabis cardholders.",
+    "citation": "KRS 218A.1422",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54299"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, since 2025",
+    "detail": "Senate Bill 47 legalized medical cannabis effective January 1, 2025. The Office of Medical Cannabis runs the program.",
+    "citation": "Kentucky Office of Medical Cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://kymedcan.ky.gov/"
+    ]
+   }
+  },
+  "LA": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Louisiana has no adult-use law. Without medical authorization, possessing 14 grams or less brings a summons and a fine of up to $100. A first conviction for more than 14 grams can bring up to six months in jail, a $500 fine, or both.",
+    "citation": "La. R.S. 40:966",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.legis.la.gov/Legis/Law.aspx?d=98880"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, with a clinician\u2019s recommendation",
+    "detail": "The Louisiana Department of Health regulates medical marijuana. A patient with a recommendation from an authorized clinician buys from licensed retailers, and raw flower is limited to 71 grams (2.5 ounces) every 14 days. State law exempts patients in the program from the possession penalties.",
+    "citation": "Louisiana Department of Health; La. R.S. 40:966(F)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ldh.la.gov/bureau-of-sanitarian-services/medical-marijuana",
+     "https://www.legis.la.gov/Legis/Law.aspx?d=98880"
+    ]
+   }
+  },
+  "MA": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "You must be 21 or older to buy or grow adult-use marijuana. Adults may carry up to 2 ounces and keep up to 10 ounces at home.",
+    "citation": "Massachusetts Cannabis Control Commission, Know the laws",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://masscannabiscontrol.com/know-the-laws/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Medical Use of Marijuana Program serves registered patients and caregivers. Out-of-state residents cannot buy medical marijuana in Massachusetts.",
+    "citation": "Massachusetts Cannabis Control Commission",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://masscannabiscontrol.com/",
+     "https://masscannabiscontrol.com/know-the-laws/"
+    ]
+   }
+  },
+  "MD": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "The Maryland Cannabis Administration states that cannabis is legal for adults 21 and older.",
+    "citation": "Maryland Cannabis Administration, BeCannabisSmart",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.maryland.gov/Pages/BeCannabisSmart.aspx"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Maryland Cannabis Administration runs a medical cannabis program alongside adult use.",
+    "citation": "Maryland Cannabis Administration",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cannabis.maryland.gov/"
+    ]
+   }
+  },
+  "ME": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Maine\u2019s adult use program serves consumers 21 and older, who may possess up to 2.5 ounces.",
+    "citation": "Maine Office of Cannabis Policy, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.maine.gov/dafs/ocp/resources/faq"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Maine runs both a medical cannabis program and an adult use program.",
+    "citation": "Maine Office of Cannabis Policy, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.maine.gov/dafs/ocp/resources/faq"
+    ]
+   }
+  },
+  "MI": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Michigan law allows personal possession and use of marijuana by people 21 and older.",
+    "citation": "Michigan Cannabis Regulatory Agency, Consumer connection",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.michigan.gov/cra/resources/consumer-connection"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Michigan Medical Marijuana Program registers patients and caregivers.",
+    "citation": "Michigan Cannabis Regulatory Agency, Consumer connection",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.michigan.gov/cra/resources/consumer-connection"
+    ]
+   }
+  },
+  "MN": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "A person 21 or older may possess up to 2 ounces of flower in public and 2 pounds at home, plus 8 grams of concentrate and edibles with up to 800 milligrams of THC in total.",
+    "citation": "Minnesota Office of Cannabis Management, Adult-use cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://mn.gov/ocm/consumers/adult-use/index.jsp"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Office of Cannabis Management runs Minnesota\u2019s medical cannabis program.",
+    "citation": "Minnesota Office of Cannabis Management",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://mn.gov/ocm/"
+    ]
+   }
+  },
+  "MO": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Consumers at least 21 years old may possess up to 3 ounces of marijuana.",
+    "citation": "Missouri Department of Health and Senior Services, Adult use FAQs",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://health.mo.gov/business-professionals/cannabis-regulation/adult-use-faqs"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Missouri issues medical marijuana ID cards to patients.",
+    "citation": "Missouri Department of Health and Senior Services, Cannabis regulation",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://health.mo.gov/safety/cannabis/"
+    ]
+   }
+  },
+  "MS": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Mississippi has no adult-use law. The state Health Department\u2019s medical cannabis program says recreational use and possession remain illegal. Its patient toolkit lists a $250 fine for a first offense of up to 30 grams outside the program, jail time for repeat offenses, and a felony for more than 30 grams.",
+    "citation": "Mississippi Medical Cannabis Program toolkit: patient rights and applicable laws (2026)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.mmcp.ms.gov/sites/default/files/2026/MMCP%20Tool%20Kit%20-%20August%202026/MSDH_Medical_Cannabis_Patient%27s%20Rights.pdf"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Mississippi Medical Cannabis Program accepts applications from patients, caregivers, medical practitioners, facilities and services.",
+    "citation": "Mississippi Medical Cannabis Program",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.mmcp.ms.gov/"
+    ]
+   }
+  },
+  "MT": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older with ID may buy from licensed dispensaries in counties where adult sales are allowed (green counties). Possession limits are 1 ounce of flower, 8 grams of concentrate and 800 milligrams of THC in products. Using marijuana in a public place is prohibited.",
+    "citation": "Montana Department of Revenue, adult-use consumer summary",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://revenuefiles.mt.gov/files/Cannabis/CCD-Adult-Consumer-Summary-Sheet.pdf"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, with a registry card",
+    "detail": "Montana residents with a Montana physician\u2019s recommendation can get a one-year registry card for $20 and buy up to 1 ounce a day and 5 ounces a month at any licensed dispensary.",
+    "citation": "Montana Department of Revenue, cardholder information",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://revenue.mt.gov/card/cannabis/cardholder-information"
+    ]
+   }
+  },
+  "NC": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "North Carolina has no adult-use law. Possessing half an ounce or less is a Class 3 misdemeanor. More than half an ounce, up to 1.5 ounces, is a Class 1 misdemeanor, and more than 1.5 ounces is a Class I felony.",
+    "citation": "N.C. Gen. Stat. 90-95(d)(4)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_90/gs_90-95.html"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Hemp extract for intractable epilepsy",
+    "detail": "State law lets a caregiver possess and give hemp extract with less than 0.9% THC and at least 5% CBD to a person with intractable epilepsy, with a certificate of analysis for the extract.",
+    "citation": "N.C. Gen. Stat. 90-94.1",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.ncleg.gov/enactedlegislation/statutes/pdf/bysection/chapter_90/gs_90-94.1.pdf"
+    ]
+   }
+  },
+  "ND": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "North Dakota has no adult-use law. Without a medical card, possessing less than half an ounce is an infraction. Half an ounce up to 500 grams is a class B misdemeanor, and more than 500 grams is a class A misdemeanor.",
+    "citation": "N.D.C.C. 19-03.1-23(7)(d)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ndlegis.gov/cencode/t19c03-1.pdf"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, with a state registry card",
+    "detail": "North Dakota residents with written certification from a North Dakota-licensed provider can apply for a registry card ($40). Cardholders may buy only from the state\u2019s eight registered dispensaries; state law does not protect marijuana bought anywhere else.",
+    "citation": "North Dakota Department of Health and Human Services, Medical Marijuana Patients",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.hhs.nd.gov/mm/patients"
+    ]
+   }
+  },
+  "NE": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Nebraska has no adult-use law. Without a medical recommendation, a first offense for 1 ounce or less is an infraction with a citation and a $300 fine, and a drug education course may be required. More than 1 ounce, up to 1 pound, is a Class III misdemeanor.",
+    "citation": "Neb. Rev. Stat. 28-416",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, with a written recommendation",
+    "detail": "Voters approved Initiative 437 in 2024. It lets a qualified patient with a health care practitioner\u2019s written recommendation use and possess up to 5 ounces of cannabis. The Nebraska Medical Cannabis Commission regulates the program; its application page says only cultivator and manufacturer license applications have opened so far.",
+    "citation": "Neb. Rev. Stat. 71-24,104; Nebraska Medical Cannabis Commission",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://nebraskalegislature.gov/laws/statutes.php?statute=71-24%2C104&print=true",
+     "https://mcc.nebraska.gov/about-us",
+     "https://mcc.nebraska.gov/how-to-apply"
+    ]
+   }
+  },
+  "NH": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "New Hampshire has no adult-use law. Since 2017, possessing three-quarters of an ounce of marijuana or less has been a violation, not a crime, for people 18 and older; possessing more is a misdemeanor. That is how the Attorney General\u2019s office described the law in a 2019 court brief; national compilations list no adult use as of November 2026.",
+    "citation": "RSA 318-B:2-c and 318-B:26, II(c), per the State\u2019s brief in case No. 2018-0647 (2019); Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.courts.nh.gov/sites/g/files/ehbemt471/files/inline-documents/sonh/20180647_statebrief.pdf",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Therapeutic Cannabis Program issues registry ID cards that let cardholders buy from Alternative Treatment Centers.",
+    "citation": "New Hampshire Department of Health and Human Services, Therapeutic Cannabis Program",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis"
+    ]
+   }
+  },
+  "NJ": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may have up to 6 ounces of cannabis.",
+    "citation": "New Jersey Cannabis Regulatory Commission, Recreational cannabis in New Jersey",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.nj.gov/cannabis/adult-personal/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "New Jersey runs a Medicinal Cannabis Program for patients.",
+    "citation": "New Jersey Cannabis Regulatory Commission",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.nj.gov/cannabis/"
+    ]
+   }
+  },
+  "NM": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may cultivate, buy, possess and consume cannabis.",
+    "citation": "New Mexico Regulation and Licensing Department, Cannabis in New Mexico",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Department of Health continues to oversee the medical cannabis patient program.",
+    "citation": "New Mexico Regulation and Licensing Department, Cannabis in New Mexico",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/"
+    ]
+   }
+  },
+  "NV": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older can legally possess up to 2.5 ounces of cannabis and up to 1/4 ounce of concentrate.",
+    "citation": "Nevada Cannabis Compliance Board, Laws and regulations",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccb.nv.gov/laws-regulations/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Cannabis Compliance Board oversees medical cannabis, including patient ID cards.",
+    "citation": "Nevada Cannabis Compliance Board",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccb.nv.gov/"
+    ]
+   }
+  },
+  "NY": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may possess, buy and transport up to 3 ounces of cannabis and 24 grams of concentrate. Up to 5 pounds may be kept at home if secured from anyone under 21.",
+    "citation": "N.Y. Penal Law \u00a7\u00a7 222.05 and 222.15; Office of Cannabis Management",
+    "reviewed_on": "2026-11-01",
+    "sources": [
+     "https://www.nysenate.gov/legislation/laws/PEN/222.05",
+     "https://www.nysenate.gov/legislation/laws/PEN/222.15",
+     "https://cannabis.ny.gov/adult-use-information"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "A certifying provider may certify a patient for any condition they judge suitable. Patients or caregivers may buy up to a 60-day supply. A 2025 law (S3294A) lets registered patients and caregivers 18 and older grow at home and lets patients certified in other states buy in New York.",
+    "citation": "Office of Cannabis Management, Patients; Senate Bill S3294A (2025)",
+    "reviewed_on": "2026-11-01",
+    "sources": [
+     "https://cannabis.ny.gov/patients",
+     "https://www.nysenate.gov/legislation/bills/2025/S3294/amendment/A"
+    ]
+   }
+  },
+  "OH": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may use and possess marijuana bought from a licensed Ohio dispensary, up to 2.5 ounces of plant material and 15 grams of extract in total, counting homegrown marijuana.",
+    "citation": "Ohio Revised Code 3796.221",
+    "reviewed_on": "2026-11-05",
+    "sources": [
+     "https://codes.ohio.gov/assets/laws/revised-code/authenticated/37/3796/3796.221/3-20-2026/3796.221-3-20-2026.pdf"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "A patient registered with the Division of Cannabis Control, with a certified physician\u2019s recommendation for a qualifying condition, may possess up to a 90-day supply bought from a licensed dispensary. Caregivers register separately.",
+    "citation": "Ohio Revised Code 3796.22 and 3796.08",
+    "reviewed_on": "2026-11-05",
+    "sources": [
+     "https://codes.ohio.gov/assets/laws/revised-code/authenticated/37/3796/3796.22/3-20-2026/3796.22-3-20-2026.pdf",
+     "https://codes.ohio.gov/assets/laws/revised-code/authenticated/37/3796/3796.08/3-20-2026/3796.08-3-20-2026.pdf"
+    ]
+   }
+  },
+  "OK": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Oklahoma has no adult-use law. In March 2023, more than 61% of voters rejected State Question 820, which would have legalized recreational marijuana. National compilations list no adult use as of November 2026.",
+    "citation": "Oklahoma State Senate (2023); Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://oksenate.gov/press-releases/sen-garvin-calls-more-guardrails-medical-marijuana-program-after-recreational-defeat",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Oklahoma Medical Marijuana Authority regulates the state\u2019s medical marijuana program.",
+    "citation": "Oklahoma Medical Marijuana Authority",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://oklahoma.gov/omma.html"
+    ]
+   }
+  },
+  "OR": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older can possess and use cannabis within set limits.",
+    "citation": "Oregon Health Authority, Cannabis laws in Oregon",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.oregon.gov/oha/ph/PreventionWellness/marijuana/Pages/laws.aspx"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Oregon Medical Marijuana Act allows medical use for qualifying medical conditions.",
+    "citation": "Oregon Health Authority, Cannabis laws in Oregon",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.oregon.gov/oha/ph/PreventionWellness/marijuana/Pages/laws.aspx"
+    ]
+   }
+  },
+  "PA": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Pennsylvania has no adult-use law. Without a medical card, possessing up to 30 grams of marijuana or 8 grams of hashish is a misdemeanor punishable by up to 30 days in jail, a fine of up to $500, or both.",
+    "citation": "Controlled Substance, Drug, Device and Cosmetic Act (Act 64 of 1972)",
+    "reviewed_on": "2026-10-28",
+    "sources": [
+     "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1972/0/0064..HTM"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Medical use is lawful only for a registered patient or caregiver with a Department of Health ID card and practitioner certification. A dispensary may sell no more than a 90-day supply, and smoking medical marijuana is unlawful.",
+    "citation": "Medical Marijuana Act (Act 16 of 2016)",
+    "reviewed_on": "2026-10-28",
+    "sources": [
+     "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2016/0/0016..HTM"
+    ]
+   }
+  },
+  "RI": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adult use has been legal since December 1, 2022 for people at least 21 years old.",
+    "citation": "Rhode Island Cannabis Control Commission, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccc.ri.gov/faq"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "The Cannabis Control Commission regulates both adult-use and medical marijuana.",
+    "citation": "Rhode Island Cannabis Control Commission, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccc.ri.gov/faq"
+    ]
+   }
+  },
+  "SC": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "South Carolina has no adult-use law. A first offense for 1 ounce or less is a misdemeanor punishable by up to 30 days in jail or a fine of $100 to $200. A second or later offense can bring up to a year in jail or a fine of at least $200.",
+    "citation": "S.C. Code 44-53-370(d)(5)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://scstatehouse.gov/code/t44c053.php"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Low-THC CBD for severe epilepsy",
+    "detail": "State law excludes from the definition of marijuana a cannabidiol product with no more than 0.9% THC and more than 15% CBD, for a person with severe epilepsy, such as Lennox-Gastaut or Dravet syndrome, who has a written certification from a South Carolina-licensed physician.",
+    "citation": "S.C. Code 44-53-110 (definition of marijuana)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://scstatehouse.gov/code/t44c053.php"
+    ]
+   }
+  },
+  "SD": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "South Dakota has no adult-use law. The state Health Department says any sale or purchase of cannabis outside licensed medical cannabis establishments is illegal. Possessing 2 ounces or less is a Class 1 misdemeanor (up to one year in county jail, a fine of up to $2,000, or both), as Legislative Research Council staff summarized the law in 2021; national compilations list no adult use as of November 2026.",
+    "citation": "SDCL 22-42-6, per Legislative Research Council staff (2021); South Dakota Department of Health; Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://doh.sd.gov/programs/medical-cannabis/patients-cargivers-practitioners/",
+     "https://mylrc.sdlegislature.gov/api/Documents/Attachment/220552.pdf?Year=2021",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Patients get a medical cannabis card, and the Department of Health certifies dispensaries.",
+    "citation": "South Dakota Department of Health, Medical cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://doh.sd.gov/programs/medical-cannabis"
+    ]
+   }
+  },
+  "TN": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Tennessee has no adult-use law. The Attorney General\u2019s 2016 opinion describes possessing any amount as a Class A misdemeanor (up to 11 months and 29 days in jail, a fine of up to $2,500, or both), with minimum fines starting at $250. National compilations list no adult use as of November 2026.",
+    "citation": "Tenn. Code Ann. 39-17-418, per Attorney General Opinion 16-40; Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.tn.gov/content/dam/tn/attorneygeneral/documents/ops/2016/op16-040.pdf",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "CBD oil only",
+    "detail": "DISA\u2019s national map lists Tennessee as CBD oil only, marked as legislation passed with a future effective date.",
+    "citation": "DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   }
+  },
+  "TX": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Texas has no adult-use law. Possessing under 2 ounces of marijuana is a Class B misdemeanor, punishable by jail time and fines. That is how the Senate Research Center described state law in March 2025; national compilations list no adult use as of November 2026.",
+    "citation": "Tex. Health & Safety Code 481.121, per the Senate Research Center analysis of S.B. 1059 (2025); Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB01059I.htm",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "Low-THC program only",
+    "detail": "The Department of Public Safety runs the Compassionate Use Program created by the 2015 Texas Compassionate Use Act. DISA\u2019s national map lists Texas as CBD oil only.",
+    "citation": "Texas Department of Public Safety; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://www.dps.texas.gov/section/compassionate-use-program",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   }
+  },
+  "UT": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "Utah has no adult-use law. Possessing marijuana is a class B misdemeanor, and a third conviction within seven years is a class A misdemeanor. That is the law as reprinted in a January 2026 House bill; national compilations list no adult use as of November 2026.",
+    "citation": "Utah Code 58-37-8(2)(d), as reprinted in 2026 H.B. 253; Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://le.utah.gov/Session/2026/bills/introduced/HB0253.pdf",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Utah\u2019s Center for Medical Cannabis works to give Utahns safe access to medical cannabis, and its site lists pharmacies that serve patients.",
+    "citation": "Utah Center for Medical Cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://medicalcannabis.utah.gov/"
+    ]
+   }
+  },
+  "VA": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older may possess up to 2 ounces outside their home and generally may use cannabis in private residences.",
+    "citation": "Virginia Cannabis Control Authority, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cca.virginia.gov/faq"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Virginia runs a medical cannabis program.",
+    "citation": "Virginia Cannabis Control Authority",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://cca.virginia.gov/"
+    ]
+   }
+  },
+  "VT": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Adults 21 and older with a valid government-issued photo ID may buy cannabis.",
+    "citation": "Vermont Cannabis Control Board, Frequently asked questions",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccb.vermont.gov/faq"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Vermont has a medical cannabis program.",
+    "citation": "Vermont Cannabis Control Board",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://ccb.vermont.gov/"
+    ]
+   }
+  },
+  "WA": {
+   "adult-use": {
+    "status": "allowed",
+    "short": "Yes, 21 and older",
+    "detail": "Only adults 21 and older can buy and possess cannabis.",
+    "citation": "Washington State Liquor and Cannabis Board, Know the law",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://lcb.wa.gov/education/know-the-law-cannabis"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes, with a practitioner\u2019s authorization",
+    "detail": "With a health care practitioner\u2019s authorization, an adult patient may grow up to four plants. A recognition card from a medically endorsed store adds tax exemptions and higher limits: by default up to 3 ounces of usable cannabis (or equivalent products) and six plants. Patients 18 to 20 must register to buy.",
+    "citation": "Washington State Department of Health; RCW 69.51A.210",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://doh.wa.gov/you-and-your-family/cannabis/medical-cannabis/patient-information/frequently-asked-questions",
+     "https://lawfilesext.leg.wa.gov/Law/RCWPDF/RCW%20%2069%20%20TITLE/RCW%20%2069%20.%2051A%20CHAPTER/RCW%20%2069%20.%2051A.210.pdf"
+    ]
+   }
+  },
+  "WI": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Wisconsin has no adult-use law. A first conviction for possession is a misdemeanor (a fine of up to $1,000, up to six months in jail, or both), and a repeat conviction is a Class I felony. That is the Legislative Reference Bureau\u2019s December 2023 summary of current law; national compilations list no adult use as of November 2026.",
+    "citation": "Wis. Stat. 961.41(3g)(e), per Legislative Reference Bureau analysis; Ballotpedia; DISA national map",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://docs.legis.wisconsin.gov/2023/related/proposals/ab861",
+     "https://ballotpedia.org/Marijuana_laws_in_the_United_States",
+     "https://disa.com/marijuana-legality-by-state"
+    ]
+   },
+   "medical": {
+    "status": "limited",
+    "short": "CBD with a physician\u2019s certification",
+    "detail": "State law lets a person possess a cannabidiol product with a certification from a Wisconsin-licensed physician, issued within the past year, stating that it treats a medical condition.",
+    "citation": "Wis. Stat. 961.32(2m)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://docs.legis.wisconsin.gov/statutes/statutes/961/iii/32"
+    ]
+   }
+  },
+  "WV": {
+   "adult-use": {
+    "status": "medical-only",
+    "short": "No",
+    "detail": "West Virginia has no adult-use law. Possessing marijuana is a misdemeanor punishable by 90 days to 6 months in jail, a fine of up to $1,000, or both. A first offense involving less than 15 grams must be handled through conditional discharge, under which completing probation ends the case without a conviction.",
+    "citation": "W. Va. Code 60A-4-401(c), 60A-4-407",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://code.wvlegislature.gov/60A-4-401/",
+     "https://code.wvlegislature.gov/60a-4-407/"
+    ]
+   },
+   "medical": {
+    "status": "allowed",
+    "short": "Yes",
+    "detail": "Patients apply to the Office of Medical Cannabis for a card, and its site lists dispensaries.",
+    "citation": "West Virginia Office of Medical Cannabis",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://omc.wv.gov/"
+    ]
+   }
+  },
+  "WY": {
+   "adult-use": {
+    "status": "not-permitted",
+    "short": "No",
+    "detail": "Wyoming has no adult-use law. Possessing up to 3 ounces of marijuana in plant form is a misdemeanor punishable by up to 12 months in jail, a $1,000 fine, or both. Larger amounts are a felony punishable by up to 5 years in prison, a $10,000 fine, or both.",
+    "citation": "W.S. 35-7-1031(c)",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://wyoleg.gov/statutes/compress/title35.pdf"
+    ]
+   },
+   "medical": {
+    "status": "not-permitted",
+    "short": "No medical marijuana law",
+    "detail": "Wyoming law bars practitioners from prescribing or dispensing marijuana or THC except FDA-approved drugs such as dronabinol. Its former article on supervised medical use of hemp extracts (W.S. 35-7-1901 to 35-7-1903) was repealed in 2019, and hemp products are now outside the controlled substances law.",
+    "citation": "W.S. 35-7-1031(c) and 35-7-1063",
+    "reviewed_on": "2026-11-15",
+    "sources": [
+     "https://wyoleg.gov/statutes/compress/title35.pdf"
+    ]
+   }
+  }
+ }
+}

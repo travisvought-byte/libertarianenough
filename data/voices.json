@@ -1,0 +1,566 @@
+{
+  "checked": "2026-11-26",
+  "groups": {
+    "thinkers": [
+      {
+        "name": "John Locke",
+        "years": "1632–1704",
+        "line": "English philosopher whose Two Treatises of Government (1689) grounded government in natural rights and consent; a founding text of liberalism.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/locke-john",
+          "https://en.wikipedia.org/wiki/Two_Treatises_of_Government"
+        ]
+      },
+      {
+        "name": "Adam Smith",
+        "years": "1723–1790",
+        "line": "Scottish economist and moral philosopher; The Wealth of Nations (1776) is often called the first comprehensive defense of free markets.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/smith-adam",
+          "https://wikiwand.com/en/Wealth_of_Nations"
+        ]
+      },
+      {
+        "name": "Thomas Paine",
+        "years": "1737–1809",
+        "line": "Pamphleteer whose Common Sense (January 1776) made the popular case for American independence.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/paine-thomas",
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States"
+        ]
+      },
+      {
+        "name": "Thomas Jefferson",
+        "years": "1743–1826",
+        "line": "Drafted the Declaration of Independence in 1776; his ideas on limited government shaped American political thought.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/jefferson-thomas"
+        ]
+      },
+      {
+        "name": "Frédéric Bastiat",
+        "years": "1801–1850",
+        "line": "French economist and legislator; The Law (1850) argues law should protect persons and property and warns against 'legal plunder.'",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/bastiat-frederic-1801-1850",
+          "https://en.wikipedia.org/wiki/The_Law_(Bastiat_book)"
+        ]
+      },
+      {
+        "name": "John Stuart Mill",
+        "years": "1806–1873",
+        "line": "English philosopher; On Liberty (1859) defends individual freedom on utilitarian grounds.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/mill-john-stuart"
+        ]
+      },
+      {
+        "name": "Lysander Spooner",
+        "years": "1808–1887",
+        "line": "Abolitionist and individualist anarchist; challenged the postal monopoly in 1844 and wrote No Treason: The Constitution of No Authority (1870).",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lysander_Spooner",
+          "https://www.libertarianism.org/encyclopedia/spooner-lysander"
+        ]
+      },
+      {
+        "name": "Henry David Thoreau",
+        "years": "1817–1862",
+        "line": "Jailed in 1846 for refusing his poll tax over slavery and the Mexican War; his 1849 essay became known as 'Civil Disobedience.'",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/thoreau-henry-david"
+        ]
+      },
+      {
+        "name": "Benjamin R. Tucker",
+        "years": "1854–1939",
+        "line": "Leading American individualist anarchist; edited the journal Liberty from 1881 to 1908.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/tucker-benjamin-r",
+          "https://libertarianism.org/publications/essays/benjamin-tucker-individualism-liberty-not-daughter-mother-order"
+        ]
+      },
+      {
+        "name": "Ludwig von Mises",
+        "years": "1881–1973",
+        "line": "Austrian School economist; author of Socialism (1922) and Human Action (1949); the Mises Institute is named for him.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/mises-ludwig-von",
+          "https://en.wikipedia.org/wiki/Mises_Institute"
+        ]
+      },
+      {
+        "name": "Henry Hazlitt",
+        "years": "1894–1993",
+        "line": "Journalist and economist; wrote Economics in One Lesson (1946) and helped found the Foundation for Economic Education.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/hazlitt-henry-1894-1993",
+          "https://en.wikipedia.org/wiki/Foundation_for_Economic_Education"
+        ]
+      },
+      {
+        "name": "Leonard E. Read",
+        "years": "1898–1983",
+        "line": "Founded the Foundation for Economic Education in 1946 and led it until his death.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/read-leonard-e",
+          "https://en.wikipedia.org/wiki/Leonard_Read"
+        ]
+      },
+      {
+        "name": "F. A. Hayek",
+        "years": "1899–1992",
+        "line": "Austrian-British economist; wrote The Road to Serfdom (1944), founded the Mont Pelerin Society (1947) and shared the 1974 Nobel Prize in economics.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/hayek-friedrich",
+          "https://en.wikipedia.org/wiki/Mont_Pelerin_Society"
+        ]
+      },
+      {
+        "name": "Ayn Rand",
+        "years": "1905–1982",
+        "line": "Novelist and philosopher who developed Objectivism; Atlas Shrugged (1957) drew many readers to individualism.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/rand-ayn",
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States"
+        ]
+      },
+      {
+        "name": "Milton Friedman",
+        "years": "1912–2006",
+        "line": "Chicago economist; Capitalism and Freedom (1962), the 1976 Nobel Prize, and Free to Choose (1980); proposed school vouchers and argued for a volunteer military.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/friedman-milton"
+        ]
+      },
+      {
+        "name": "Karl Hess",
+        "years": "1923–1994",
+        "line": "Former Goldwater speechwriter who moved toward anarchism; his essay 'The Death of Politics' (1969) became a rallying point for libertarians.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/hess-karl",
+          "https://en.wikipedia.org/wiki/Karl_Hess"
+        ]
+      },
+      {
+        "name": "Tonie Nathan",
+        "years": "1923–2014",
+        "line": "1972 Libertarian vice-presidential nominee and the first woman to receive an electoral vote.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/nathan-tonie",
+          "https://en.wikipedia.org/wiki/Tonie_Nathan"
+        ]
+      },
+      {
+        "name": "Murray Rothbard",
+        "years": "1926–1995",
+        "line": "Economist and leading theorist of anarcho-capitalism; wrote For a New Liberty (1973), helped found Cato, and later argued for a 'paleo' populist strategy.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/rothbard-murray",
+          "https://en.wikipedia.org/wiki/For_a_New_Liberty",
+          "https://en.wikipedia.org/wiki/Paleolibertarianism"
+        ]
+      },
+      {
+        "name": "Ed Clark",
+        "years": "1930–2025",
+        "line": "1980 Libertarian presidential nominee whose 921,128 votes stood as the party's record for more than three decades.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/clark-ed-1930",
+          "https://en.wikipedia.org/wiki/Ed_Clark",
+          "https://reason.com/2025/07/02/ed-clark-r-i-p/"
+        ]
+      },
+      {
+        "name": "Robert Nozick",
+        "years": "1938–2002",
+        "line": "Philosopher whose Anarchy, State, and Utopia (1974) defended a minimal state and won the 1975 National Book Award.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/nozick-robert",
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States"
+        ]
+      },
+      {
+        "name": "David Nolan",
+        "years": "1943–2010",
+        "line": "Co-founder and first national chair of the Libertarian Party; created the Nolan Chart (1971).",
+        "sources": [
+          "https://en.wikipedia.org/wiki/David_Nolan_(politician)",
+          "https://en.wikipedia.org/wiki/Nolan_Chart"
+        ]
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Libertarian Party",
+        "line": "U.S. political party founded December 11, 1971; it has run a presidential candidate in every election since 1972.",
+        "url": "https://lp.org",
+        "sources": [
+          "https://lp.org/our-history",
+          "https://en.wikipedia.org/wiki/Libertarian_Party_(United_States)",
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States"
+        ]
+      },
+      {
+        "name": "Mises Caucus",
+        "line": "Faction within the Libertarian Party founded in 2017 by Michael Heise; won control of the national committee at the 2022 convention.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mises_Caucus",
+          "https://reason.com/2022/05/29/mises-caucus-takes-control-of-libertarian-party"
+        ]
+      },
+      {
+        "name": "Reason",
+        "line": "Libertarian magazine and website ('Free Minds and Free Markets') founded in 1968, with a video arm, Reason TV.",
+        "url": "https://reason.com",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Reason_(magazine)",
+          "https://reason.com/2013/07/09/45-years-45-days-introducing-reason"
+        ]
+      },
+      {
+        "name": "Reason Foundation",
+        "line": "Policy research nonprofit founded in 1978 that publishes Reason.",
+        "url": "https://reason.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States",
+          "https://en.wikipedia.org/wiki/Reason_(magazine)"
+        ]
+      },
+      {
+        "name": "Cato Institute",
+        "line": "Washington, D.C., public-policy research organization founded in 1977 by Ed Crane with Charles Koch and Murray Rothbard; mission centers on individual liberty, limited government, free markets and peace.",
+        "url": "https://www.cato.org",
+        "sources": [
+          "https://ballotpedia.org/Cato_Institute",
+          "https://en.wikipedia.org/wiki/Cato_Institute"
+        ]
+      },
+      {
+        "name": "Mises Institute",
+        "line": "Educational, research and publishing institute for Austrian economics, founded in 1982 by Lew Rockwell in Auburn, Alabama.",
+        "url": "https://mises.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mises_Institute"
+        ]
+      },
+      {
+        "name": "Foundation for Economic Education (FEE)",
+        "line": "Founded in 1946 by Leonard Read with Henry Hazlitt; often called the oldest free-market think tank in the U.S.; now based in Atlanta.",
+        "url": "https://fee.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Foundation_for_Economic_Education",
+          "https://fee.org/fee-history/"
+        ]
+      },
+      {
+        "name": "Institute for Justice",
+        "line": "Libertarian public-interest law firm founded in 1991 by Chip Mellor and Clint Bolick; litigates economic liberty, property rights, school choice and free speech cases.",
+        "url": "https://ij.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Institute_for_Justice",
+          "https://ij.org/william-chip-mellor/"
+        ]
+      },
+      {
+        "name": "Pacific Legal Foundation",
+        "line": "Public-interest law firm founded in Sacramento in 1973, described as the oldest libertarian public-interest law firm; focuses on property rights, equality and opportunity, and separation of powers.",
+        "url": "https://pacificlegal.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pacific_Legal_Foundation",
+          "https://ballotpedia.org/Pacific_Legal_Foundation"
+        ]
+      },
+      {
+        "name": "Goldwater Institute",
+        "line": "Phoenix think tank founded in 1988 with Sen. Barry Goldwater's support; added a constitutional litigation arm in 2007.",
+        "url": "https://www.goldwaterinstitute.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Goldwater_Institute",
+          "https://ballotpedia.org/Goldwater_Institute"
+        ]
+      },
+      {
+        "name": "Students For Liberty",
+        "line": "Student organization formed in 2008 after a conference at Columbia University; supports libertarian student groups.",
+        "url": "https://studentsforliberty.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Students_for_Liberty"
+        ]
+      },
+      {
+        "name": "Young Americans for Liberty",
+        "line": "Campus organization founded in 2008 out of the Students for Ron Paul effort.",
+        "url": "https://yaliberty.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Young_Americans_for_Liberty",
+          "https://fee.org/articles/an-interview-with-jeff-frazee/"
+        ]
+      },
+      {
+        "name": "Institute for Humane Studies",
+        "line": "Founded in 1961 by economist F. A. 'Baldy' Harper to support classical liberal scholarship; associated with George Mason University since 1985.",
+        "url": "https://theihs.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Institute_for_Humane_Studies",
+          "https://ballotpedia.org/The_Institute_for_Humane_Studies"
+        ]
+      },
+      {
+        "name": "Atlas Network",
+        "line": "Founded in 1981 by Antony Fisher; links several hundred free-market think tanks in more than 100 countries.",
+        "url": "https://www.atlasnetwork.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Atlas_Network",
+          "https://en.wikipedia.org/wiki/Antony_Fisher"
+        ]
+      },
+      {
+        "name": "Mont Pelerin Society",
+        "line": "International society of classical liberal scholars founded by Hayek in 1947 near Lake Geneva.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mont_Pelerin_Society",
+          "https://www.hoover.org/research/mont-pelerin-society"
+        ]
+      },
+      {
+        "name": "Libertarianism.org",
+        "line": "Online library with an encyclopedia of libertarian thinkers and ideas, essays and podcasts.",
+        "url": "https://www.libertarianism.org",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia"
+        ]
+      },
+      {
+        "name": "Free State Project",
+        "line": "Effort launched in 2001 to move 20,000 liberty-minded people to New Hampshire (chosen in 2003); it passed 20,000 pledges in 2016.",
+        "url": "https://www.fsp.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Free_State_Project",
+          "https://www.fsp.org/?p=64"
+        ]
+      },
+      {
+        "name": "Advocates for Self-Government",
+        "line": "Distributes the 'World's Smallest Political Quiz,' a version of the Nolan Chart.",
+        "url": "https://www.theadvocates.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/David_Nolan_(politician)",
+          "https://www.theadvocates.org/libertarian-celebrities/john-stossel"
+        ]
+      }
+    ],
+    "officeholders": [
+      {
+        "name": "Rand Paul",
+        "office": "U.S. Senator, Kentucky (since 2011)",
+        "party": "Republican",
+        "status": "current",
+        "line": "Describes himself as a constitutional conservative and has called himself libertarian-leaning; son of Ron Paul.",
+        "sources": [
+          "https://wikiwand.com/EN/Rand_Paul",
+          "https://www.britannica.com/biography/Rand-Paul",
+          "https://cbsnews.com/news/five-things-to-know-about-rand-paul"
+        ]
+      },
+      {
+        "name": "Thomas Massie",
+        "office": "U.S. Representative, Kentucky's 4th District (since 2012)",
+        "party": "Republican",
+        "status": "current",
+        "line": "Described by Reason and others as a libertarian Republican; lost his May 19, 2026 primary to Trump-backed Ed Gallrein, so his term ends in January 2027.",
+        "sources": [
+          "https://reason.com/people/thomas-massie/",
+          "https://www.pbs.org/newshour/amp/politics/trump-backed-gallrein-defeats-rep-thomas-massie-in-gop-primary",
+          "https://www.aljazeera.com/news/2026/5/20/republican-thomas-massie-who-stood-up-to-trump-defeated-in-kentucky-primary"
+        ]
+      },
+      {
+        "name": "Mike Lee",
+        "office": "U.S. Senator, Utah (since 2011)",
+        "party": "Republican",
+        "status": "current",
+        "line": "Described by the Associated Press as a libertarian-leaning conservative.",
+        "sources": [
+          "https://kutv.com/news/election/utah-republican-mike-lee-wins-reelection-to-us-senate",
+          "https://ballotpedia.org/Mike_Lee_(U.S._Senate,_Utah)"
+        ]
+      },
+      {
+        "name": "Jared Polis",
+        "office": "Governor of Colorado",
+        "party": "Democratic",
+        "status": "current",
+        "line": "Was the only Democratic member of the House Liberty Caucus; Reason has called him perhaps the most libertarian governor in America, a label other libertarians dispute.",
+        "sources": [
+          "https://www.wikiwand.com/en/articles/Jared_Polis",
+          "https://reason.com/?p=8181111",
+          "https://www.coloradopolitics.com/2025/01/29/gov-jared-polis-is-a-libertarian-hardly-podium"
+        ]
+      },
+      {
+        "name": "Justin Amash",
+        "office": "Former U.S. Representative, Michigan's 3rd District (2011–2021)",
+        "party": "Libertarian",
+        "status": "former",
+        "line": "Describes himself as a libertarian; joined the LP in April 2020 as the first Libertarian in Congress, ran in the 2024 Republican U.S. Senate primary, and returned to the LP in 2025.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Justin_Amash"
+        ]
+      },
+      {
+        "name": "Javier Milei",
+        "office": "President of Argentina (since December 10, 2023)",
+        "party": "La Libertad Avanza",
+        "status": "current",
+        "line": "Economist widely described as a libertarian; won the November 2023 runoff with 55.7%.",
+        "sources": [
+          "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2023)754610",
+          "https://www.dawn.com/news/1791101",
+          "https://www.michiganpublic.org/2023-11-19/javier-milei-a-radical-libertarian-populist-elected-president-of-argentina"
+        ]
+      },
+      {
+        "name": "Ron Paul",
+        "office": "Former U.S. Representative, Texas",
+        "party": "Republican (1988 Libertarian nominee)",
+        "status": "former",
+        "line": "Libertarian presidential nominee in 1988 and Republican presidential candidate in 2008 and 2012.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/paul-ron-1935",
+          "https://www.wikiwand.com/en/Electoral_history_of_Ron_Paul",
+          "https://en.wikipedia.org/wiki/Ron_Paul_2012_presidential_campaign"
+        ]
+      },
+      {
+        "name": "Gary Johnson",
+        "office": "Former Governor of New Mexico",
+        "party": "Republican as governor; Libertarian nominee",
+        "status": "former",
+        "line": "Libertarian presidential nominee in 2012 and 2016; won 3.28% in 2016, the party's best result.",
+        "sources": [
+          "https://ballotpedia.org/Libertarian_Party_candidates,_2016",
+          "https://www.kolotv.com/content/news/-Libertarian-Party-Convention-tests-former-New-Mexico-Gov-Gary-Johnson-381245771.html"
+        ]
+      },
+      {
+        "name": "Marshall Burt",
+        "office": "Former Wyoming state representative, House District 39 (elected 2020)",
+        "party": "Libertarian",
+        "status": "former",
+        "line": "Won his seat in 2020 as a Libertarian, the party's first state legislative win in about two decades; lost re-election in 2022.",
+        "sources": [
+          "https://lp.org/?p=25775",
+          "https://reason.com/?p=8092100"
+        ]
+      }
+    ],
+    "media": [
+      {
+        "name": "Reason TV",
+        "kind": "video",
+        "line": "Reason's video arm, publishing documentaries and commentary, also on YouTube.",
+        "url": "https://reason.com/video/",
+        "sources": [
+          "https://reason.com/video/"
+        ]
+      },
+      {
+        "name": "EconTalk",
+        "kind": "podcast",
+        "line": "Weekly economics interview podcast hosted by Russ Roberts since 2006, from Liberty Fund's Library of Economics and Liberty.",
+        "url": "https://www.econtalk.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/EconTalk"
+        ]
+      },
+      {
+        "name": "Free to Choose",
+        "kind": "TV series and book",
+        "line": "Milton and Rose Friedman's 1980 PBS series and companion best-seller on markets and freedom.",
+        "url": "https://www.freetochoosenetwork.org",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Free_to_Choose",
+          "https://www.dallasfed.org/-/media/Documents/research/pubs/ftc/intro.pdf"
+        ]
+      },
+      {
+        "name": "Stossel TV",
+        "kind": "video",
+        "line": "Online channel journalist John Stossel launched in 2019 after careers at ABC News and Fox Business.",
+        "url": "https://www.johnstossel.com",
+        "sources": [
+          "https://en.wikipedia.org/wiki/John_Stossel"
+        ]
+      },
+      {
+        "name": "Part of the Problem",
+        "kind": "podcast",
+        "line": "Libertarian podcast hosted by comedian Dave Smith, a member of the LP's Mises Caucus.",
+        "url": "https://podcasts.apple.com/podcast/id833706616",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Dave_Smith_(comedian)"
+        ]
+      },
+      {
+        "name": "Free Thoughts",
+        "kind": "podcast",
+        "line": "Libertarianism.org's podcast on libertarian ideas and history.",
+        "sources": [
+          "https://www.libertarianism.org/podcasts/free-thoughts/rothbardian-anarchism"
+        ]
+      },
+      {
+        "name": "The Road to Serfdom (F. A. Hayek, 1944)",
+        "kind": "book",
+        "line": "Hayek's warning against central economic planning; a Reader's Digest condensation reached a mass audience in 1945.",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html",
+        "sources": [
+          "https://en.wikipedia.org/wiki/The_Road_to_Serfdom"
+        ]
+      },
+      {
+        "name": "Economics in One Lesson (Henry Hazlitt, 1946)",
+        "kind": "book",
+        "line": "Widely read short primer on free-market economics.",
+        "url": "https://www.penguinrandomhouse.com/books/77569",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/77569"
+        ]
+      },
+      {
+        "name": "Capitalism and Freedom (Milton Friedman, 1962)",
+        "kind": "book",
+        "line": "Case for free trade, school vouchers and limited government from a Nobel economist.",
+        "sources": [
+          "https://www.libertarianism.org/encyclopedia/friedman-milton"
+        ]
+      },
+      {
+        "name": "For a New Liberty (Murray Rothbard, 1973)",
+        "kind": "book",
+        "line": "Often called the first modern free-market anarchist manifesto; free from the Mises Institute.",
+        "url": "https://mises.org/library/new-liberty-libertarian-manifesto",
+        "sources": [
+          "https://en.wikipedia.org/wiki/For_a_New_Liberty"
+        ]
+      },
+      {
+        "name": "The Machinery of Freedom (David Friedman, 1973)",
+        "kind": "book",
+        "line": "Consequentialist case that law and defense could be supplied privately.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/The_Machinery_of_Freedom"
+        ]
+      },
+      {
+        "name": "Anarchy, State, and Utopia (Robert Nozick, 1974)",
+        "kind": "book",
+        "line": "Philosophical defense of the minimal state; won the National Book Award.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States"
+        ]
+      }
+    ]
+  }
+}
