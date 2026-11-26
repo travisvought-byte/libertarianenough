@@ -63,10 +63,11 @@
     var svg=document.querySelector('#chart svg'); if(!svg) return;
     var ns='http://www.w3.org/2000/svg';
     function add(tag,attrs,text){var el=document.createElementNS(ns,tag);for(var k in attrs) el.setAttribute(k,attrs[k]); if(text) el.textContent=text; svg.appendChild(el); return el;}
-    if(them){var x=px(them.E),y=py(them.P); add('polygon',{points:x+','+(y-12)+' '+(x+12)+','+y+' '+x+','+(y+12)+' '+(x-12)+','+y,fill:'#ffffff',stroke:'#1a1a1a','stroke-width':3}); add('text',{x:x+15,y:y+5,'font-size':16,'font-weight':700,fill:'#1a1a1a'},'Them');}
+    function lab(x,y,dy,txt,size,weight){var right=x>430,top=y+dy<24;add('text',{x:right?x-16:x+16,y:top?y+26:y+dy,'text-anchor':right?'end':'start','font-size':size,'font-weight':weight,fill:'#1a1a1a',stroke:'#fffdf5','stroke-width':5,'stroke-linejoin':'round','paint-order':'stroke'},txt);}
+    if(them){var x=px(them.E),y=py(them.P); add('polygon',{points:x+','+(y-12)+' '+(x+12)+','+y+' '+x+','+(y+12)+' '+(x-12)+','+y,fill:'#ffffff',stroke:'#1a1a1a','stroke-width':3}); lab(x,y,5,'Them',16,700);}
     var x2=px(me.E),y2=py(me.P);
     add('polygon',{points:star(x2,y2),fill:'#f5c400',stroke:'#1a1a1a','stroke-width':2.5});
-    add('text',{x:x2+16,y:y2-8,'font-size':17,'font-weight':800,fill:'#1a1a1a'},label);
+    lab(x2,y2,-8,label,17,800);
     var desc=svg.querySelector('desc');
     if(desc) desc.textContent+=' '+label+': economic freedom '+me.E+', personal freedom '+me.P+'.';
   }
