@@ -1,0 +1,604 @@
+{
+  "checked": "2026-11-26",
+  "causes": [
+    {
+      "id": "cannabis",
+      "facts": [
+        {
+          "text": "The DEA issued a final rule on April 22, 2026 (published in the Federal Register April 28, 2026) moving certain medical marijuana products from Schedule I to Schedule III. It covers marijuana, marijuana extracts and delta-9-THC outside the hemp definition when they are in an FDA-approved drug or made, distributed or dispensed under a state medical license. Everything else stays in Schedule I. The rule followed Executive Order 14370 (December 2025).",
+          "as_of": "2026-09",
+          "source": "https://www.morganlewis.com/pubs/2026/09/high-time-for-a-change-post-dea-hearing-broader-marijuana-rescheduling-questions-remain"
+        },
+        {
+          "text": "A separate proceeding on moving all marijuana to Schedule III held an 11-day DEA hearing (June 29 to July 15, 2026). On September 29, 2026 the administrative law judge stayed the case after parties asked to add a September 23 GAO report on drug-scheduling procedures. As of mid-October no recommended decision had issued, so no final decision has been made.",
+          "as_of": "2026-10-19",
+          "source": "https://www.morganlewis.com/de/pubs/2026/10/marijuana-rescheduling-pause-what-employers-need-to-know"
+        },
+        {
+          "text": "The Marijuana Policy Project counts 24 states that have legalized cannabis for adults and 41 states plus D.C. with effective medical cannabis laws. It also says 19 states still jail people for simple possession. Counts vary somewhat by tracker.",
+          "as_of": "2026-11",
+          "source": "https://www.mpp.org/issues/legislation/key-marijuana-policy-reform/"
+        },
+        {
+          "text": "Massachusetts voters rejected Question 8, which would have ended adult-use cannabis sales starting in 2028, by about 76% to 24% in preliminary results on November 3, 2026.",
+          "as_of": "2026-11 (preliminary results)",
+          "source": "https://wjla.com/news/nation-world/fact-check-team-massachusetts-voters-reject-effort-to-roll-back-recreational-marijuana-legalization-laws"
+        },
+        {
+          "text": "FBI data for 2025 show at least 218,152 marijuana arrests, 200,960 of them (92%) for possession. Possession arrests were about 23% of all 858,852 drug arrests. That is up from about 204,000 marijuana arrests in 2024, and about 13% of agencies did not report.",
+          "as_of": "2025 data (published 2026-08-25)",
+          "source": "https://norml.org/blog/2026/08/25/fbi-nearly-1-in-4-drug-arrests-nationwide-are-for-marijuana-possession/"
+        },
+        {
+          "text": "As of 2023, 45 states, two territories and D.C. had record-clearing laws that may apply to cannabis, 28 of them cannabis-specific. Eleven states, D.C. and the U.S. Virgin Islands provide automatic expungement for some cannabis offenses. Most other relief still requires a petition to a court, and some automatic programs, such as Missouri's, have been slowed by paper records.",
+          "as_of": "2023",
+          "source": "https://www.ncsl.org/civil-and-criminal-justice/cannabis-overview"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NORML",
+          "line": "Long-running nonprofit that works to legalize marijuana for adults and tracks state laws and arrest data.",
+          "url": "https://norml.org"
+        },
+        {
+          "name": "Marijuana Policy Project",
+          "line": "Nonprofit that drafts and lobbies for state cannabis legalization and medical cannabis laws.",
+          "url": "https://www.mpp.org"
+        },
+        {
+          "name": "Last Prisoner Project",
+          "line": "Nonprofit focused on freeing people imprisoned for cannabis, clearing records and supporting reentry.",
+          "url": "https://www.lastprisonerproject.org"
+        },
+        {
+          "name": "Students for Sensible Drug Policy",
+          "line": "Student and youth network working on drug policy through campus and community chapters.",
+          "url": "https://ssdp.org"
+        }
+      ],
+      "local_actions": [
+        "Host a free cannabis record-clearing clinic with volunteer attorneys or legal aid, walking people through your state's expungement or sealing process.",
+        "Ask your city council or county prosecutor to make low-level cannabis possession the lowest enforcement priority, and testify at the hearing.",
+        "Pull your county's marijuana arrest numbers each year and publish a short public report."
+      ]
+    },
+    {
+      "id": "sex-work",
+      "facts": [
+        {
+          "text": "Nevada licenses brothels through county license boards, which is the licensing model. State law (NRS 244.345(8)) bars licensing a 'house of ill fame or repute' in any county of 700,000 or more people, which rules out Clark County and Las Vegas.",
+          "as_of": "current statute",
+          "source": "https://nevada.public.law/statutes/nrs_244.345"
+        },
+        {
+          "text": "About 19 legal brothels were open in 6 of Nevada's 17 counties as of September 2023, down from a peak of about 35 in the early 1980s. Several counties, including Washoe (Reno) and Carson City, ban them.",
+          "as_of": "2023-09",
+          "source": "https://en.wikipedia.org/wiki/List_of_brothels_in_Nevada"
+        },
+        {
+          "text": "New Zealand decriminalized sex work with its Prostitution Reform Act 2003, removing criminal penalties for consenting adults. The act states its purpose as decriminalising prostitution 'while not endorsing or morally sanctioning' it, to protect sex workers' human rights, welfare and occupational health and safety, and to bar anyone under 18 from being used in prostitution.",
+          "as_of": "2003 act, current text",
+          "source": "https://legislation.govt.nz/act/public/2003/28/en/latest/"
+        },
+        {
+          "text": "Under the 'Nordic model', named for Sweden, which adopted it first, selling sex is decriminalized but buying it stays a crime. Maine became the first U.S. state to adopt it in June 2023, when Gov. Janet Mills signed a law removing penalties for selling sex while keeping laws against buying it. Supporters argued it cuts demand and stops arresting people who are exploited. Full-decriminalization advocates, including Decriminalize Sex Work and Maine's Preble Street, argued that penalizing buyers pushes the trade further underground and raises the risk of violence, and that poverty and homelessness must be addressed too.",
+          "as_of": "2023-06",
+          "source": "https://www.spokesman.com/stories/2023/jun/30/maine-becomes-first-state-to-decriminalize-selling/"
+        },
+        {
+          "text": "In New York, the Stop Violence in the Sex Trades Act, first introduced by Sen. Julia Salazar in 2019, would remove criminal penalties for adults who buy and sell sex while keeping the crimes for minors and trafficking. A competing bill, the Sex Trade Survivors Justice and Equality Act, would decriminalize only the people who sell sex.",
+          "as_of": "2021",
+          "source": "https://www.law360.com/articles/1431732/competing-bills-seek-to-decriminalize-sex-work-in-ny"
+        },
+        {
+          "text": "A June 2021 GAO report on FOSTA-SESTA (2018) found that, as of March 2021, federal prosecutors had brought only one case under FOSTA's new crime (18 U.S.C. 2421A), filed in June 2020. Criminal restitution had not been sought and no civil damages had been awarded. DOJ said prosecutors had succeeded using other statutes, such as racketeering and money laundering laws.",
+          "as_of": "2021-03",
+          "source": "https://gao.gov/products/GAO-21-385"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Decriminalize Sex Work",
+          "line": "National advocacy group working to end criminal penalties for consensual adult sex work; backed the court challenge to FOSTA.",
+          "url": "https://decriminalizesex.work"
+        },
+        {
+          "name": "SWOP Behind Bars",
+          "line": "National grassroots network supporting sex workers and trafficking survivors, especially people in prison or reentering; runs a peer support line.",
+          "url": "https://www.swopbehindbars.org"
+        },
+        {
+          "name": "Woodhull Freedom Foundation",
+          "line": "D.C.-based nonprofit that treats sexual freedom as a human right; a plaintiff in the lawsuit against FOSTA.",
+          "url": "https://www.woodhullfoundation.org"
+        }
+      ],
+      "local_actions": [
+        "Hold a public forum where sex workers, trafficking survivors and anti-trafficking groups each explain their view of your state's prostitution laws.",
+        "Testify on state bills that change prostitution penalties, and ask sponsors which model (decriminalization, Nordic or licensing) the bill follows.",
+        "Connect people with prostitution-related convictions, including trafficking survivors, to record-clearing and vacatur help."
+      ]
+    },
+    {
+      "id": "bodily-autonomy",
+      "facts": [
+        {
+          "text": "The federal Right to Try Act, signed May 30, 2018, lets patients with a life-threatening disease who have exhausted approved treatments and can't join a clinical trial seek an unapproved drug that has completed Phase 1 testing. Companies are not required to provide the drug, and the FDA does not review individual requests.",
+          "as_of": "2018 law, current FDA guidance",
+          "source": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try"
+        },
+        {
+          "text": "Oregon (Measure 109, 2020) and Colorado (Proposition 122, 2022) legalized psilocybin access through voter initiatives. New Mexico became the third state, and the first through its legislature, when Gov. Michelle Lujan Grisham signed the Medical Psilocybin Act (SB 219) on April 7, 2025. Its program must be running by December 31, 2027.",
+          "as_of": "2025-04",
+          "source": "https://www.foley.com/insights/publications/2025/04/new-mexico-becomes-third-state-us-legalize-access-psilocybin/"
+        },
+        {
+          "text": "Medical aid in dying is authorized in 13 states and D.C.: California, Colorado, Delaware, Hawaii, Illinois, Maine, Montana (by court ruling), New Jersey, New Mexico, New York, Oregon, Vermont, Washington and the District of Columbia.",
+          "as_of": "2026",
+          "source": "https://www.compassionandchoices.org/state-advocacy"
+        },
+        {
+          "text": "On March 29, 2023 the FDA approved Narcan 4 mg naloxone nasal spray for sale without a prescription, the first over-the-counter opioid overdose reversal drug.",
+          "as_of": "2023-03-29",
+          "source": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-over-counter-naloxone-nasal-spray"
+        },
+        {
+          "text": "By April 2023, 36 states plus D.C. had legalized fentanyl test strips, which many states had treated as illegal drug paraphernalia. Fourteen states still classed them as illegal at that time.",
+          "as_of": "2023-04",
+          "source": "https://www.smithsonianmag.com/smart-news/lifesaving-fentanyl-test-strips-are-being-legalized-in-more-states-180982352/"
+        },
+        {
+          "text": "Libertarians split on abortion. Pro-choice libertarians say bodily autonomy means the state has no business in the decision. Pro-life libertarians, such as Libertarians for Life, say a human before birth has the same rights as one after birth, including the right to life. The Libertarian Party's platform said from 2012 to May 2022 that 'government should be kept out of the matter'. The party dropped that plank in 2022.",
+          "as_of": "2022",
+          "source": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_abortion"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Compassion & Choices",
+          "line": "National nonprofit campaigning for medical aid in dying and other end-of-life options; tracks state laws.",
+          "url": "https://www.compassionandchoices.org"
+        },
+        {
+          "name": "Drug Policy Alliance",
+          "line": "National nonprofit working to reduce the harms of drug use and punitive drug laws, including naloxone, drug checking and syringe services.",
+          "url": "https://drugpolicy.org"
+        },
+        {
+          "name": "National Harm Reduction Coalition",
+          "line": "National network supporting harm reduction programs, including fentanyl resources and test strip work.",
+          "url": "https://harmreduction.org"
+        },
+        {
+          "name": "NEXT Distro",
+          "line": "Online service that connects people with naloxone and drug-checking supplies through state partner programs.",
+          "url": "https://nextdistro.org"
+        }
+      ],
+      "local_actions": [
+        "Hold naloxone trainings and hand out kits at community events and meetings.",
+        "Ask your city or county to fund or allow fentanyl test strip distribution, and testify where state paraphernalia law still gets in the way.",
+        "Host a public panel on end-of-life options or psychedelic-therapy laws with doctors, patients and opponents."
+      ]
+    },
+    {
+      "id": "licensing",
+      "facts": [
+        {
+          "text": "The Institute for Justice's License to Work (3rd edition) studied 102 lower-income occupations and found more than 2,700 licenses across the 50 states and D.C. The average license requires about $295 in fees, nearly a year of education and experience, and at least one exam.",
+          "as_of": "2022-11-29",
+          "source": "https://ij.org/press-release/new-report-licensing-burdens-creep-downward-yet-still-weigh-heavily-on-too-many-americans/"
+        },
+        {
+          "text": "Of the 102 occupations studied, 88% go unlicensed in at least one state, and 14 have been delicensed by at least one state in recent years. That suggests many licenses aren't needed for public safety.",
+          "as_of": "2022-11-29",
+          "source": "https://ij.org/press-release/new-report-licensing-burdens-creep-downward-yet-still-weigh-heavily-on-too-many-americans/"
+        },
+        {
+          "text": "Training demands can be far out of line with risk: an EMT license takes about 36 days of training on average, while a cosmetology license takes about 342 days.",
+          "as_of": "2022-11-29",
+          "source": "https://ij.org/press-release/new-report-licensing-burdens-creep-downward-yet-still-weigh-heavily-on-too-many-americans/"
+        },
+        {
+          "text": "Twenty states have enacted universal license recognition, which lets a licensed worker who moves keep working without starting over. Five of them limit it to residents, and 12 require the home-state license to be 'substantially equivalent'.",
+          "as_of": "2026 (undated IJ tracker)",
+          "source": "https://ij.org/legislative-advocacy/states-reforms-for-universal-recognition-of-occupational-licensing/"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Institute for Justice",
+          "line": "Libertarian public-interest law firm; publishes License to Work and litigates for the right to earn a living.",
+          "url": "https://ij.org"
+        },
+        {
+          "name": "Goldwater Institute",
+          "line": "Arizona-based free-market think tank that tracks and promotes universal license recognition.",
+          "url": "https://www.goldwaterinstitute.org"
+        },
+        {
+          "name": "Pacific Legal Foundation",
+          "line": "National public-interest law firm that sues over government overreach, including professional regulation.",
+          "url": "https://pacificlegal.org"
+        }
+      ],
+      "local_actions": [
+        "Pick one licensed job common in your area, compare your state's fees, hours and exams with neighboring states, and send the comparison to legislators.",
+        "Testify on bills or sunset reviews that create new licenses or add training hours.",
+        "Help newcomers, including military spouses, understand your state's license recognition rules, and collect their problems for legislators."
+      ]
+    },
+    {
+      "id": "forfeiture",
+      "facts": [
+        {
+          "text": "Since 2000, civil and criminal forfeiture has generated at least $82 billion nationwide, according to the Institute for Justice's Policing for Profit (4th edition).",
+          "as_of": "2026-03",
+          "source": "https://ij.org/report/policing-for-profit-4/executive-summary/"
+        },
+        {
+          "text": "In states with usable data, nearly half of forfeitures happen without anyone, let alone the owner, being convicted of a crime.",
+          "as_of": "2026-03",
+          "source": "https://ij.org/report/policing-for-profit-4/executive-summary/"
+        },
+        {
+          "text": "Fighting a forfeiture rarely pays: IJ estimates a simple state-court case costs about $3,300, nearly twice the median cash forfeiture of $1,678 across 24 states. Most cases end by default.",
+          "as_of": "2026-03",
+          "source": "https://ij.org/report/policing-for-profit-4/executive-summary/"
+        },
+        {
+          "text": "Maine became the fourth state to end civil forfeiture in 2021, joining New Mexico (2015), Nebraska (2016) and North Carolina. Those states require a criminal case before property can be forfeited.",
+          "as_of": "2021",
+          "source": "https://ij.org/press-release/maine-becomes-fourth-state-to-end-civil-forfeiture/"
+        },
+        {
+          "text": "Thirty-five states and the federal government get an overall grade of D+ or below for their forfeiture laws, and Massachusetts gets the only F.",
+          "as_of": "2025 grades",
+          "source": "https://ij.org/report/policing-for-profit-4/grading-civil-forfeiture-laws/recent-reforms-and-overall-grades/"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Institute for Justice",
+          "line": "Public-interest law firm that publishes Policing for Profit, grades state forfeiture laws and represents property owners.",
+          "url": "https://ij.org"
+        },
+        {
+          "name": "Cato Institute",
+          "line": "Libertarian think tank in Washington, D.C., that publishes research on criminal justice and civil liberties, including forfeiture.",
+          "url": "https://www.cato.org"
+        }
+      ],
+      "local_actions": [
+        "Request your county's and police department's forfeiture records and federal equitable-sharing reports, and publish what you find.",
+        "Testify for state bills that require a criminal conviction before forfeiture and send proceeds to the general fund instead of police budgets.",
+        "Ask your city council to limit local police participation in federal equitable sharing."
+      ]
+    },
+    {
+      "id": "housing",
+      "facts": [
+        {
+          "text": "Eighteen states have laws broadly allowing homeowners to build and rent out accessory dwelling units (ADUs). The Mercatus Center rated 10 of them 'strong' as of July 2025, meaning they removed the rules that most often kill ADU projects: owner-occupancy requirements, off-street parking mandates and discretionary permit review. The other 8 are weaker.",
+          "as_of": "2025-07",
+          "source": "https://www.mercatus.org/research/policy-briefs/taxonomy-state-accessory-dwelling-unit-laws-2025"
+        },
+        {
+          "text": "After California eased its ADU rules, permits rose from fewer than 1,300 in 2016 to almost 25,000 in 2022, and nearly one in five new homes produced in the state is an ADU.",
+          "as_of": "2022 data (published 2025-08)",
+          "source": "https://www.mercatus.org/research/policy-briefs/taxonomy-state-accessory-dwelling-unit-laws-2025"
+        },
+        {
+          "text": "In 2025 California passed S.B. 79, overriding local zoning to allow apartments near transit stops. Texas passed S.B. 840, allowing housing in commercially zoned areas of large cities, and S.B. 15, limiting minimum lot sizes in large new subdivisions. Montana barred parking minimums and height limits on new apartments in central cities.",
+          "as_of": "2025-09",
+          "source": "https://reason.com/2025/09/23/yimby-reforms-win-big-in-state-legislatures-in-2025"
+        },
+        {
+          "text": "Oregon (2019), California (2021), Maine (2022), Washington (2023) and Montana (2023) have ended single-family-only zoning in whole or in part. A court put Montana's law on hold at the time this source was written.",
+          "as_of": "2023",
+          "source": "https://faculty.law.harvard.edu/joseph-singer/?p=782"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mercatus Center",
+          "line": "Market-oriented research center at George Mason University that publishes state-by-state ADU and land-use research.",
+          "url": "https://www.mercatus.org"
+        },
+        {
+          "name": "AccessoryDwellings.org",
+          "line": "Information hub on accessory dwelling units; publishes a statewide ADU reform matrix with Mercatus.",
+          "url": "https://accessorydwellings.org"
+        },
+        {
+          "name": "Lincoln Institute of Land Policy",
+          "line": "Land-policy research organization that publishes a state-by-state guide to zoning reform.",
+          "url": "https://www.lincolninst.edu"
+        }
+      ],
+      "local_actions": [
+        "Ask your city to allow ADUs by right and drop owner-occupancy and off-street parking mandates, and testify at the planning commission.",
+        "Show up at zoning and permit hearings for proposed housing to speak for owners' right to build.",
+        "Map how much of your town is zoned single-family only and share the map with council members."
+      ]
+    },
+    {
+      "id": "speech-privacy",
+      "facts": [
+        {
+          "text": "In June 2023 the Director of National Intelligence declassified a report on 'commercially available information'. It confirmed that intelligence agencies buy data about Americans from data brokers, which the report said raises significant privacy and civil-liberties concerns.",
+          "as_of": "2023-06",
+          "source": "https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2023/3701-dni-haines-statement-on-declassified-report-on-commercially-available-information"
+        },
+        {
+          "text": "A Senate vote to take up a three-year Section 702 reauthorization failed on June 5, 2026, and Congress had not reauthorized the program as of mid-November 2026. Surveillance continues under existing court certifications until March 2027. Reform groups want any renewal to require warrants and close the 'data broker loophole'.",
+          "as_of": "2026-11-16",
+          "source": "https://www.brennancenter.org/our-work/research-reports/section-702-foreign-intelligence-surveillance-act-fisa-2026-resource-page"
+        },
+        {
+          "text": "In Free Speech Coalition v. Paxton (June 27, 2025), the Supreme Court ruled 6-3 that Texas may require age verification for sexually explicit websites, applying only intermediate scrutiny. EFF argues the ruling covers only material minors have no right to see, not broader age-verification mandates.",
+          "as_of": "2025-07",
+          "source": "https://www.eff.org/deeplinks/2025/07/despite-supreme-court-setback-eff-fights-against-online-age-mandates"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Electronic Frontier Foundation",
+          "line": "Digital civil-liberties nonprofit working on surveillance, privacy and online speech.",
+          "url": "https://www.eff.org"
+        },
+        {
+          "name": "FIRE (Foundation for Individual Rights and Expression)",
+          "line": "Nonpartisan group that defends free speech and free thought in courts and on campuses.",
+          "url": "https://www.fire.org"
+        },
+        {
+          "name": "Brennan Center for Justice",
+          "line": "Law and policy institute that tracks Section 702 and government data purchases.",
+          "url": "https://www.brennancenter.org"
+        }
+      ],
+      "local_actions": [
+        "Ask your city council to pass a surveillance-technology ordinance requiring public approval and annual reports before police buy or use new surveillance tools or data.",
+        "Ask your members of Congress, at town halls or by letter, whether they will require a warrant for searches of Americans' communications and for government data purchases.",
+        "Host a know-your-rights night on free speech for students, protesters and online creators."
+      ]
+    },
+    {
+      "id": "guns",
+      "facts": [
+        {
+          "text": "In New York State Rifle & Pistol Association v. Bruen (June 23, 2022), the Supreme Court ruled 6-3 that New York's 'proper cause' requirement for a carry license was unconstitutional. It replaced the balancing tests many lower courts used with a test based on the Second Amendment's text and the nation's historical tradition of gun regulation.",
+          "as_of": "2022-06-23",
+          "source": "https://www.law.cornell.edu/wex/new_york_state_rifle_pistol_association_(nysrpa)_v._bruen_(2022)"
+        },
+        {
+          "text": "In Wolford v. Lopez (June 25, 2026), the Supreme Court ruled 6-3 that Hawaii could not ban licensed carriers from bringing guns onto private property open to the public, such as stores, unless the owner expressly allowed it. The Court applied Bruen and found Hawaii's historical examples insufficient.",
+          "as_of": "2026-06-25",
+          "source": "https://www.faegredrinker.com/zh/insights/publications/2026/6/supreme-court-decides-wolford-v-lopez-attorney-general-of-hawaii"
+        },
+        {
+          "text": "Twenty-nine states allow permitless ('constitutional') carry. No state joined in 2025, and one estimate says 46.8% of Americans live in these states.",
+          "as_of": "2025-12-30",
+          "source": "https://www.shootingillustrated.com/content/carry-permit-numbers-decline-with-increase-in-constitutional-carry"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Firearms Policy Coalition",
+          "line": "Gun-rights group that brings Second Amendment lawsuits, including challenges to state handgun rules.",
+          "url": "https://www.firearmspolicy.org"
+        },
+        {
+          "name": "Liberty Justice Center",
+          "line": "Public-interest litigation center; filed a friend-of-the-court brief in Wolford v. Lopez.",
+          "url": "https://libertyjusticecenter.org"
+        }
+      ],
+      "local_actions": [
+        "Host or promote safety and legal-carry classes so members know current state and local carry rules.",
+        "Track and testify on local ordinances that add 'sensitive places' or new carry restrictions.",
+        "Ask your sheriff or state agency to publish how long carry-permit applications take, and share the numbers."
+      ]
+    },
+    {
+      "id": "war",
+      "facts": [
+        {
+          "text": "The 2001 Authorization for Use of Military Force, passed after 9/11, is still in force. As of February 2018, administrations had cited it for 41 operations in 19 countries, according to the Congressional Research Service.",
+          "as_of": "2018-02",
+          "source": "https://www.newamerica.org/insights/tools-congress-manage-us-security-partnerships/part-iii-use-of-force/"
+        },
+        {
+          "text": "The FY2026 National Defense Authorization Act, signed December 18, 2025, repealed the 1991 Gulf War and 2002 Iraq war authorizations. Sen. Tim Kaine called it the first repeal of a war authorization in more than 50 years. The 2001 AUMF was not repealed.",
+          "as_of": "2025-12-18",
+          "source": "https://www.kaine.senate.gov/press-releases/kaine-and-young-applaud-bipartisan-bill-to-formally-end-iraq-wars-becoming-law"
+        },
+        {
+          "text": "A 2023 statement in the Congressional Record notes that the 2001 AUMF has been publicly cited as legal authority for military action in at least seven countries: Afghanistan, Iraq, Syria, Libya, Yemen, Somalia and Niger.",
+          "as_of": "2023-03-29",
+          "source": "https://congress.gov/118/crec/2023/03/29/169/57/modified/CREC-2023-03-29-pt1-PgS1055-3.htm"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Defense Priorities",
+          "line": "Think tank promoting military restraint, diplomacy and free trade.",
+          "url": "https://www.defensepriorities.org"
+        },
+        {
+          "name": "Friends Committee on National Legislation",
+          "line": "Nonpartisan Quaker lobby that has pushed Congress to repeal old war authorizations and end unauthorized wars.",
+          "url": "https://www.fcnl.org"
+        },
+        {
+          "name": "Concerned Veterans for America",
+          "line": "Veterans' advocacy group that has published material on war powers and congressional authorization.",
+          "url": "https://cv4a.org"
+        }
+      ],
+      "local_actions": [
+        "Ask your House member and senators, at town halls or by letter, whether they support repealing or replacing the 2001 AUMF.",
+        "Host a veterans' panel on war powers and the costs of open-ended deployments.",
+        "Ask state legislators under what conditions your state's National Guard can be sent to overseas combat, and testify on related bills."
+      ]
+    },
+    {
+      "id": "schooling",
+      "facts": [
+        {
+          "text": "Eighteen states have universal private school choice programs open to all families. Across those states there are 24 programs: 10 education savings accounts (ESAs), 10 tax-credit programs and 4 vouchers.",
+          "as_of": "2025-12",
+          "source": "https://ballotpedia.org/States_with_and_without_universal_school_choice_programs"
+        },
+        {
+          "text": "Several programs face court fights. A judge ruled Ohio's EdChoice voucher unconstitutional on June 24, 2025, but it keeps operating during the appeal. Utah's program continues pending a state supreme court ruling, and an injunction has blocked payouts under Wyoming's program.",
+          "as_of": "2025-12",
+          "source": "https://ballotpedia.org/States_with_and_without_universal_school_choice_programs"
+        },
+        {
+          "text": "States must opt in to the new federal K-12 scholarship tax credit, which starts in 2027. Virginia was first, on January 9, 2026, and 27 states had opted in by May 2026.",
+          "as_of": "2026-05-19",
+          "source": "https://news.ballotpedia.org/2026/05/19/new-york-governor-says-state-plans-to-participate-in-federal-education-tax-credit-scholarship-program/"
+        },
+        {
+          "text": "About 3.4% of U.S. K-12 students were homeschooled in the 2022-23 school year, up from 2.8% in 2018-19, according to federal survey data.",
+          "as_of": "2023",
+          "source": "https://www.pewresearch.org/short-reads/2025/02/20/a-look-at-homeschooling-in-the-us/"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "EdChoice",
+          "line": "Nonpartisan nonprofit that tracks school choice programs and helps families find the school setting that fits.",
+          "url": "https://www.edchoice.org"
+        },
+        {
+          "name": "Home School Legal Defense Association",
+          "line": "Nonprofit that defends parents' right to direct their children's education, including homeschooling.",
+          "url": "https://hslda.org"
+        },
+        {
+          "name": "Coalition for Responsible Home Education",
+          "line": "Nonprofit focused on homeschooled children's welfare; publishes homeschooling data.",
+          "url": "https://responsiblehomeschooling.org"
+        }
+      ],
+      "local_actions": [
+        "Run an information night on your state's school choice programs and homeschool rules for local families.",
+        "Testify at school board or state budget hearings on how choice programs are funded and held accountable.",
+        "Build a local directory of homeschool co-ops, microschools and other learning options."
+      ]
+    },
+    {
+      "id": "food",
+      "facts": [
+        {
+          "text": "Eighteen states ban all sales of raw milk, while 32 allow sales under certain conditions, such as on the farm, in retail stores or through herd shares, depending on the state.",
+          "as_of": "2025-04",
+          "source": "https://nationalaglawcenter.org/food-law-in-the-states-2025-update/"
+        },
+        {
+          "text": "In 2025, Arkansas, Utah and North Dakota changed their raw milk laws. Arkansas now allows raw goat, sheep and whole milk sales at farmers' markets or by delivery from the farm. North Dakota also expanded cottage food sales to cross state lines and go online, by phone or by mail.",
+          "as_of": "2025-04",
+          "source": "https://nationalaglawcenter.org/food-law-in-the-states-2025-update/"
+        },
+        {
+          "text": "Wyoming's Food Freedom Act took effect March 3, 2015. It bars state and local agencies from requiring licenses, permits, inspections or labels for homemade food sold directly to an informed consumer for home use within Wyoming. Meat other than poultry is excluded.",
+          "as_of": "2015-03-03",
+          "source": "https://wyoleg.gov/2015/Enroll/HB0056.pdf"
+        },
+        {
+          "text": "Indiana's governor signed HB 1424 on March 12, 2026, letting home-based vendors sell prepared dishes, select meats, baked goods and more. The Institute for Justice counts seven states with the broadest homemade food laws, which allow even perishable foods: California, Iowa, Montana, North Dakota, Oklahoma, Utah and Wyoming.",
+          "as_of": "2026-03-12",
+          "source": "https://ij.org/press-release/institute-for-justice-stands-with-home-based-vendors-to-praise-passage-of-food-freedom-bill/"
+        },
+        {
+          "text": "According to the Institute for Justice, no state has found a foodborne illness caused by food sold under its homemade food law.",
+          "as_of": "2026-03-12",
+          "source": "https://ij.org/press-release/institute-for-justice-stands-with-home-based-vendors-to-praise-passage-of-food-freedom-bill/"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Farm-to-Consumer Legal Defense Fund",
+          "line": "Nonprofit that offers legal representation and policy advocacy for farmers and small food producers who sell directly to customers.",
+          "url": "https://www.farmtoconsumer.org"
+        },
+        {
+          "name": "Institute for Justice",
+          "line": "Public-interest law firm with a food freedom initiative supporting home bakers, cooks and small vendors.",
+          "url": "https://ij.org"
+        },
+        {
+          "name": "National Agricultural Law Center",
+          "line": "Research center that tracks state food and agriculture laws, including raw milk and cottage food rules.",
+          "url": "https://nationalaglawcenter.org"
+        }
+      ],
+      "local_actions": [
+        "Ask your city or county to allow home-based food sales and food trucks with simple registration instead of commercial-kitchen rules.",
+        "Staff a farmers' market table explaining your state's cottage food and raw milk rules to buyers and producers.",
+        "Bring local home bakers and farmers to testify on state cottage food or food freedom bills."
+      ]
+    },
+    {
+      "id": "criminal-justice",
+      "facts": [
+        {
+          "text": "The United States locks up nearly 2 million people in prisons, jails, youth facilities and immigration detention, at a cost of about $445 billion a year.",
+          "as_of": "2026-03-11",
+          "source": "https://www.prisonpolicy.org/blog/2026/03/11/whole-pie-2026/"
+        },
+        {
+          "text": "About 1 in 5 incarcerated people, roughly 362,000, are held for a drug offense.",
+          "as_of": "2026",
+          "source": "https://www.prisonpolicy.org/graphs/pie2026_drugs.html"
+        },
+        {
+          "text": "The number of people held in ICE detention grew by 25,200 (58%) over the prior year, driving most of the overall increase in confinement.",
+          "as_of": "2026-03-11",
+          "source": "https://www.prisonpolicy.org/blog/2026/03/11/whole-pie-2026/"
+        },
+        {
+          "text": "The jail incarceration rate was 194 per 100,000 residents in 2024, down 17% from 234 in 2014.",
+          "as_of": "2024",
+          "source": "https://bjs.ojp.gov/library/publications/jail-inmates-2024-statistical-tables/web-report"
+        },
+        {
+          "text": "New Mexico's Civil Rights Act (2021) bars state and local government employees from using qualified immunity as a defense when sued in state court for violating state constitutional rights.",
+          "as_of": "2021-04",
+          "source": "https://eji.org/news/new-mexico-ends-qualified-immunity-for-abusive-police/"
+        },
+        {
+          "text": "Qualified immunity is a federal judge-made doctrine, so state laws like New Mexico's and Colorado's (2020) create state-court claims without it. Federal Section 1983 lawsuits can still face the defense.",
+          "as_of": "2021",
+          "source": "https://newrepublic.com/article/162026/new-mexico-ended-qualified-immunity"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Prison Policy Initiative",
+          "line": "Research and advocacy group that publishes the annual Mass Incarceration: The Whole Pie report.",
+          "url": "https://www.prisonpolicy.org"
+        },
+        {
+          "name": "The Sentencing Project",
+          "line": "Nonprofit that researches and advocates for effective, humane responses to crime and punishment.",
+          "url": "https://www.sentencingproject.org"
+        },
+        {
+          "name": "Equal Justice Initiative",
+          "line": "Alabama-based legal nonprofit that challenges excessive punishment and tracks criminal justice reforms.",
+          "url": "https://eji.org"
+        }
+      ],
+      "local_actions": [
+        "Attend county budget hearings and ask what the jail costs and how many people held there are awaiting trial.",
+        "Start a court-watch program to observe bail and sentencing hearings and publish what you see.",
+        "Ask state legislators for a state-court civil-rights claim without qualified immunity, modeled on New Mexico's 2021 law, and testify on such bills."
+      ]
+    }
+  ]
+}

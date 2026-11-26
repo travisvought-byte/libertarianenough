@@ -1,0 +1,740 @@
+{
+  "checked": "2026-11-26",
+  "list_source": "https://lp.org/state-affiliates/",
+  "list_note": "lp.org/state-affiliates lists each affiliate's state and chair (49 states plus DC, page modified 2026-11-03) but no website links; URLs were found via Wikipedia and confirmed by fetching each site.",
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "affiliate": "Libertarian Party of Alabama",
+      "url": "https://lpalabama.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpalabama.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "affiliate": "Alaska Libertarian Party",
+      "url": "https://alaskalp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://alaskalp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "affiliate": "Arizona Libertarian Party",
+      "url": "https://azlp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://azlp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "affiliate": "Libertarian Party of Arkansas",
+      "url": "https://lpar.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpar.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "affiliate": "Libertarian Party of California",
+      "url": "https://ca.lp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://ca.lp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "affiliate": "Libertarian Party of Colorado",
+      "url": "https://lpcolorado.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpcolorado.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "affiliate": "Libertarian Party of Connecticut",
+      "url": "https://www.lpct.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://www.lpct.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "affiliate": "Libertarian Party of Delaware",
+      "url": "https://lp-delaware.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lp-delaware.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "affiliate": "Libertarian Party of the District of Columbia",
+      "url": "https://dc.libertarianparty.com",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://dc.libertarianparty.com",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://dc.libertarianparty.com/about"
+      ]
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "affiliate": "Libertarian Party of Florida",
+      "url": "https://lpf.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpf.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "affiliate": "Libertarian Party of Georgia",
+      "url": "https://lpgeorgia.com",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpgeorgia.com",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "affiliate": "Libertarian Party of Hawaii",
+      "url": "https://libertarianpartyofhawaii.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://libertarianpartyofhawaii.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://elections.hawaii.gov/wp-content/uploads/FS122BO029-Qualified-Political-Parties.pdf"
+      ]
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "affiliate": "Libertarian Party of Idaho",
+      "url": "https://lpid.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpid.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "affiliate": "Libertarian Party of Illinois",
+      "url": "https://lpillinois.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpillinois.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "affiliate": "Libertarian Party of Indiana",
+      "url": "https://lpin.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpin.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "affiliate": "Libertarian Party of Iowa",
+      "url": "https://lpia.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpia.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "affiliate": "Libertarian Party of Kansas",
+      "url": "https://lpks.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpks.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "affiliate": "Libertarian Party of Kentucky",
+      "url": "https://lpky.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpky.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "affiliate": "Libertarian Party of Louisiana",
+      "url": "https://lplouisiana.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lplouisiana.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "affiliate": "Libertarian Party of Maine",
+      "url": "https://lpme.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpme.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "affiliate": "Libertarian Party of Maryland",
+      "url": "https://lpmaryland.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpmaryland.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "affiliate": "Libertarian Party of Massachusetts (Unified Libertarians of Massachusetts)",
+      "url": "https://lpofma.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": "The previous affiliate, the Libertarian Association of Massachusetts, voted to disaffiliate from the national party in June 2022 after the LNC recognized a rival leadership, and it now operates separately as the Liberty Alliance of Massachusetts.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpofma.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Unified_Libertarians_of_Massachusetts",
+        "https://en.wikipedia.org/wiki/Liberty_Alliance_of_Massachusetts",
+        "https://www.lpmass.org/why_is_lama_no_longer_affiliated_with_the_national_libertarian_party"
+      ]
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "affiliate": "Libertarian Party of Michigan",
+      "url": "https://michiganlp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": "Two groups have claimed the Libertarian Party of Michigan name since 2022; in Libertarian National Committee v. Saliba a federal court barred the faction the LNC does not recognize from using the party's trademark, and the Sixth Circuit largely upheld that injunction.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://michiganlp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://law360.com/mealeys/mealeys-trademarks/articles/1874747/6th-circuit-largely-upholds-preliminary-injunction-in-libertarians-trademark-row",
+        "https://ballot-access.org/?p=83386",
+        "https://michiganlp.org/leadership"
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "affiliate": "Libertarian Party of Minnesota",
+      "url": "https://lpmn.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpmn.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "affiliate": "Libertarian Party of Mississippi",
+      "url": "https://mslp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://mslp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "affiliate": "Missouri Libertarian Party",
+      "url": "https://lpmo.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpmo.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "affiliate": "Montana Libertarian Party",
+      "url": "https://mtlp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://mtlp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "affiliate": "Libertarian Party of Nebraska",
+      "url": "https://lpne.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpne.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "affiliate": "Libertarian Party of Nevada",
+      "url": "https://www.lpnevada.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://www.lpnevada.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "affiliate": "Granite State Libertarian Party",
+      "url": null,
+      "url_verified": false,
+      "on_lnc_list": false,
+      "notes": "The LNC voted 15-2 on May 25, 2026 to disaffiliate the Libertarian Party of New Hampshire and later recognized the Granite State Libertarian Party as its new affiliate, which does not yet appear on the lp.org affiliate list (last updated Nov 3, 2026) and whose website could not be found.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://www.nhpr.org/nh-news/2026-05-28/nh-libertarians-newhampshire-ejected-party-jeremy-kauffman",
+        "https://patch.com/new-hampshire/manchester-nh/granite-state-libertarians-booted-national-party-after-new-hampshire",
+        "https://www.bostonglobe.com/2026/09/24/metro/nh-libertarian-x-post-assassination-denounced/",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_New_Hampshire"
+      ]
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "affiliate": "New Jersey Libertarian Party",
+      "url": "https://njlp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://njlp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "affiliate": "Free New Mexico Party",
+      "url": "https://flpnm.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": "The former Libertarian Party of New Mexico ended its national affiliation in August 2022, the LNC-recognized replacement renamed itself the Free New Mexico Party in 2023, and the two groups have been in a dispute over use of the Libertarian name.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://flpnm.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_New_Mexico",
+        "https://independentpoliticalreport.com/?p=88355",
+        "https://lp.org/wp-content/uploads/LNC-Minutes-October-5-2025.pdf"
+      ]
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "affiliate": "Libertarian Party of New York",
+      "url": "https://lpny.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpny.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "affiliate": "Libertarian Party of North Carolina",
+      "url": "https://lpnc.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpnc.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "affiliate": "Libertarian Party of North Dakota",
+      "url": "https://lpnorthdakota.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpnorthdakota.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "affiliate": "Libertarian Party of Ohio",
+      "url": "https://lpo.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpo.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "affiliate": "Libertarian Party of Oklahoma",
+      "url": "https://oklp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://oklp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "affiliate": "Libertarian Party of Oregon",
+      "url": "https://lporegon.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lporegon.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "affiliate": "Libertarian Party of Pennsylvania",
+      "url": "https://lppa.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lppa.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "affiliate": "Libertarian Party of Rhode Island",
+      "url": "https://lpri.us",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpri.us",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "affiliate": "South Carolina Libertarian Party",
+      "url": "https://sclp.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://sclp.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "affiliate": "Libertarian Party of South Dakota",
+      "url": "https://lpsouthdakota.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpsouthdakota.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "affiliate": "Libertarian Party of Tennessee",
+      "url": "https://lptn.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lptn.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "affiliate": "Libertarian Party of Texas",
+      "url": "https://www.lptexas.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://www.lptexas.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "affiliate": "Utah Libertarian Party",
+      "url": "https://libertarianutah.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://libertarianutah.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "affiliate": "Libertarian Party of Vermont",
+      "url": "https://vtliberty.org",
+      "url_verified": false,
+      "on_lnc_list": true,
+      "notes": "Website unconfirmed: vtliberty.org (listed on Wikipedia) loads a Vermont page for Libertarian candidates but does not name the party, and lpvt.org blocks automated checks.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://vtliberty.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_Vermont",
+        "https://ballotpedia.org/Libertarian_Party_of_Vermont"
+      ]
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "affiliate": "Libertarian Party of Virginia",
+      "url": "https://lpva.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": "In September 2022 the state central committee narrowly voted to dissolve the party, the national chair disputed the committee's authority to do so, and the party continues as the LNC's Virginia affiliate.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpva.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://virginiamercury.com/2022/09/13/libertarian-party-of-virginia-dissolving-after-national-partys-bigoted-turn-ex-chair-says/",
+        "https://www.wdbj7.com/2022/09/20/virginia-libertarian-party-leaders-vote-dissolve-state-organization/"
+      ]
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "affiliate": "Libertarian Party of Washington",
+      "url": "https://lpwa.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpwa.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "affiliate": "Libertarian Party of West Virginia",
+      "url": "https://lpwv.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpwv.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "affiliate": "Libertarian Party of Wisconsin",
+      "url": "https://lpwi.org",
+      "url_verified": true,
+      "on_lnc_list": true,
+      "notes": null,
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpwi.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)"
+      ]
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "affiliate": "Libertarian Party of Wyoming",
+      "url": "https://lpwy.org",
+      "url_verified": false,
+      "on_lnc_list": true,
+      "notes": "Site could not be reached during this check; the domain comes from the party contact email on the Wyoming Secretary of State's party page.",
+      "sources": [
+        "https://lp.org/state-affiliates/",
+        "https://lpwy.org",
+        "https://en.wikipedia.org/wiki/List_of_state_parties_of_the_Libertarian_Party_(United_States)",
+        "https://sos.wyo.gov/elections/politicalpartyinfo.aspx",
+        "https://en.wikipedia.org/wiki/Libertarian_Party_of_Wyoming"
+      ]
+    }
+  ]
+}
