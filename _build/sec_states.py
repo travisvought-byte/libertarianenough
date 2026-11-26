@@ -1,6 +1,6 @@
 """A page for every state and DC."""
 import re
-from core import page, e, ic, ext, sources, data
+from core import page, e, ic, ext, sources, data, mailto
 
 SC = [("States", "states/index.html")]
 
@@ -47,7 +47,7 @@ def build():
 <div class="tablewrap"><table><caption>State affiliates and adult-use cannabis status</caption>
 <thead><tr><th scope="col">State</th><th scope="col">Libertarian affiliate</th><th scope="col">Adult-use cannabis</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <h2 id="claim">How to claim your state</h2>
-<p>Someone authorized by the state affiliate (chair, vice chair or a board-approved webmaster) asks, and we confirm through the party's public contact before changing anything. <a href="https://github.com/travisvought-byte/libertarianenough/issues/new?title=Claim%20a%20state%20page">Start a request on GitHub</a>. A simpler form is coming.</p>
+<p>Someone authorized by the state affiliate (chair, vice chair or a board-approved webmaster) asks, and we confirm through the party's public contact before changing anything. To start, email {mailto("Claim a state page")} with your state, your role and where we can confirm it.</p>
 <p class="src">Affiliate list: {ext(st["list_source"], "lp.org state affiliates")} (lists names and chairs, not websites). Websites found through public listings and opened one by one on {e(st["checked"])}. Cannabis status from {ext("https://the-reefer.com", "The Reefer")}'s state data, as of {e(cs["as_of"])}.</p>
 """
     page("states/index.html", "Libertarian state affiliates, state by state", "Every state's Libertarian Party affiliate, public disputes, and cannabis and sex work law status, with a page each state can claim.",
