@@ -7,6 +7,12 @@ SITE = "https://libertarianenough.org"
 NAME = "Libertarian Enough"
 CHECKED = "November 26, 2026"
 REPO = "https://github.com/travisvought-byte/libertarianenough"
+CONTACT = "veteranhomeguardians@gmail.com"
+
+
+def mailto(subject):
+    from urllib.parse import quote
+    return f'<a href="mailto:{CONTACT}?subject={quote(subject)}">{CONTACT}</a>'
 
 NAV = [("quiz.html", "Quiz"), ("learn/index.html", "Learn"), ("plan/index.html", "Plan"), ("causes/index.html", "Causes"),
        ("organize/index.html", "Organize"), ("fundraise/index.html", "Fundraise"), ("states/index.html", "States"),

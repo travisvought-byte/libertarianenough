@@ -1,5 +1,5 @@
 """Book, free sites, about, 404."""
-from core import page, e, ic, ext, REPO, CHECKED
+from core import page, e, ic, ext, REPO, CHECKED, mailto
 from quizdata import QUESTIONS
 
 
@@ -78,7 +78,7 @@ def free_sites():
 <p>These are run by the same builder. They're examples of the kind of site you'd get, not endorsements by them.</p>
 <ul class="facts">{bl}</ul>
 <h2>How to ask</h2>
-<p>A request form is coming. For now, <a href="https://github.com/travisvought-byte/libertarianenough/issues/new?title=Free%20site%20request">open a request on GitHub</a> with your group's name, what you need, and a public way to confirm you're who you say you are.</p>
+<p>Email {mailto("Free site request")} with your group's name, what you need, and a public way to confirm you're who you say you are.</p>
 """
     page("free-sites.html", "Free websites for libertarian groups and candidates", "Libertarian groups and candidates can get a fast, accessible website built free, hosted free, on their own domain.",
          "Free websites", body, crumbs=[("Free websites", "")], wide=False)
@@ -120,7 +120,7 @@ def about():
 <p>Every fact on the site has a source link next to it. The research behind the learn, causes, organize, fundraise and state pages is published as plain data files, so anyone can check or reuse it: {ext(REPO + "/tree/main/data", "the data folder on GitHub")}. Facts were checked {CHECKED}. Cannabis status comes from {ext("https://the-reefer.com", "The Reefer")}'s state data.</p>
 
 <h2 id="fix">Found a mistake?</h2>
-<p>Tell us and we'll fix it. {ext(REPO + "/issues/new?title=Correction", "Report a correction on GitHub")}, with the page and a source. A simpler form is coming.</p>
+<p>Tell us and we'll fix it. Email {mailto("Correction")} with the page and a source.</p>
 """
     page("about.html", "About, scoring and privacy", "What Libertarian Enough is, how the quiz scores you, what happens to your answers, and where the facts come from.",
          "About Libertarian Enough", body, crumbs=[("About", "")], wide=False)
