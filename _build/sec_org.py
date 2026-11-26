@@ -315,11 +315,11 @@ def models():
 <p>{ext("https://findbingo.org", "Find Bingo")} and {ext("https://ohiobingo.org", "Ohio Bingo")} list bingo games so players can find one tonight. {ext("https://the-reefer.com", "The Reefer")} and {ext("https://ohioweed.org", "OhioWeed.org")} answer what cannabis law allows, state by state. None of them ask for anything up front. They're useful, so people come back, and an audience that trusts you is the start of every donor list.</p>
 <p><b>Copy it:</b> pick a question people in your state ask every week and nobody answers well. Where can I find a gun range? Which licenses does my trade need? What did my county commission vote on? Build the answer. We'll <a href="../free-sites.html">build the site free</a>.</p>
 <h2>Model 2: free for everyone, with a way to give back</h2>
-<p>The bingo sites run on a simple deal: listings are free for every hall, halls that want extra services can pay for them, and halls can share a part of their net proceeds with {ext("https://vethomeguard.org", "Veteran Home Guardians")}, the veterans nonprofit behind the sites. Nobody's locked out for not paying.</p>
+<p>The bingo sites run on a simple deal: listings are free for every hall, halls that want extra services can pay for them, and halls that want to can give back a share of their net proceeds. Nobody's locked out for not paying.</p>
 <p><b>Copy it:</b> give the service away, offer paid extras to the people who want them, and make giving back to the cause easy and optional.</p>
 <h2>Model 3: one goal, one deadline, one page</h2>
-<p>Veteran Home Guardians' Giving Tuesday campaign has one dollar goal, one date, one page on a no-fee nonprofit platform, and a link from the footer of every site in the family.</p>
-<p><b>Copy it:</b> pick one number and one date, build one page, and link it from everything you run. A political committee can't use nonprofit-only tools, but the shape of the campaign is the same.</p>
+<p>The campaigns that work have one dollar goal, one date and one page, and every site you run links to that page from its footer until the date passes.</p>
+<p><b>Copy it:</b> pick one number and one date, like a filing deadline or the end of a finance quarter, build one page on your own processor, and link it from everything you run.</p>
 <h2>Bingo and raffles: partner with a charity</h2>
 <p>Charity gaming is usually licensed to charities, not parties, so the move is to partner with one.</p>
 {pts("charity-gaming")}
