@@ -22,7 +22,7 @@ def home():
         ("organize/index.html", "megaphone", "Actually organize", "The playbook libertarians keep skipping: precinct seats, candidates, messages that land in 10 seconds."),
         ("fundraise/index.html", "dollar", "Raise money in your state", "Dinners, small-dollar giving and charity models, stolen shamelessly from Republicans, Democrats and nonprofits."),
         ("states/index.html", "map", "Find your state", "Every state affiliate, the public facts, the drama, and a page your state can claim."),
-        ("free-sites.html", "browser", "Get a free website", "Libertarian groups and candidates who need a site can get one built free. No hosting bills."),
+        ("website-help.html", "browser", "Website help", "Put the quiz, the plan and ready-made issue pages on the site your group already has."),
     ]
     cards = "".join(f'<a class="card door cardlink" href="{h}">{ic(i)}<h3>{t}</h3><p>{d}</p></a>' for h, i, t, d in doors)
     body = f"""
@@ -53,7 +53,7 @@ def home():
 
 <h2>What this is, and what it isn't</h2>
 <div class="grid">
-<div class="card"><h3>An organizing body, not a party</h3><p>No ballot line, no national committee, no nine-hour bylaws debate. Libertarian Enough builds tools, playbooks and free websites for the people doing the work. It isn't affiliated with the Libertarian National Committee or any state party.</p></div>
+<div class="card"><h3>An organizing body, not a party</h3><p>No ballot line, no national committee, no nine-hour bylaws debate. Libertarian Enough builds tools and playbooks for the people doing the work. It isn't affiliated with the Libertarian National Committee or any state party.</p></div>
 <div class="card"><h3>We don't take your money</h3><p>No donations, no dues, no pass-through fund. State affiliates raise their own money in their own states, and we show them how. <a href="fundraise/index.html">How the money works</a>.</p></div>
 <div class="card"><h3>Facts first, sass second</h3><p>Every fact on this site has a source and a date. The jokes are aimed at behavior and ideas, never at who people are. If we got something wrong, <a href="about.html#fix">tell us</a>.</p></div>
 </div>

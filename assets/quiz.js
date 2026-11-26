@@ -43,6 +43,17 @@
   function finish(){
     var code=D.version+'.'+ans.join('');
     try{localStorage.setItem('le_mine',code); localStorage.removeItem('le_progress');}catch(e){}
+    var out=root.getAttribute('data-results');
+    if(out){
+      /* Embedded on someone else's site: the results open on ours, in a new tab. */
+      bar.style.width='100%'; status.textContent='Done. Your results are ready.';
+      stage.innerHTML='<div class="done"><h2 id="qdone" tabindex="-1">Done. Your results are ready.</h2><p>They open on Libertarian Enough in a new tab.</p>'+
+        '<p class="row"><a class="btn gold" href="'+out+'#a='+code+'" target="_blank" rel="noopener">See my results<span class="sr"> (opens in a new tab)</span></a>'+
+        '<button type="button" class="btn ghost" id="qagain">Take it again</button></p></div>';
+      document.getElementById('qdone').focus();
+      document.getElementById('qagain').addEventListener('click',function(){ans=ans.map(function(){return null}); save(); i=0; render(true);});
+      return;
+    }
     location.href='results.html#a='+code;
   }
   document.getElementById('quiz-start').addEventListener('click',function(){

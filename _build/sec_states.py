@@ -43,7 +43,7 @@ def build():
 <p>Every state and DC has a page with its Libertarian Party affiliate, any public disputes about who that is, and where cannabis and sex work law stand. More is coming as states ask for it.</p>
 <div class="note"><p><b>Listing isn't partnership.</b> We list each affiliate as public information, the same way for every state. No state party is a partner of Libertarian Enough until it says yes, and we'll say so on its page when it does.</p></div>
 <h2>Is this your state party?</h2>
-<p>Any state affiliate can claim its page. We'll turn it into your own section of this site, with your events, candidates and donate link (to your own account, not ours), or <a href="../free-sites.html">build you a whole site free</a>. <a href="#claim">How to claim it</a>.</p>
+<p>Any state affiliate can claim its page. We'll turn it into your own section of this site, with your events, candidates and donate link (to your own account, not ours). For your own site, grab the quiz and issue pages from <a href="../website-help.html">Website help</a>. <a href="#claim">How to claim it</a>.</p>
 <div class="tablewrap"><table><caption>State affiliates and adult-use cannabis status</caption>
 <thead><tr><th scope="col">State</th><th scope="col">Libertarian affiliate</th><th scope="col">Adult-use cannabis</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <h2 id="claim">How to claim your state</h2>
@@ -94,7 +94,7 @@ def state_page(s, cs):
 <h2>Sex work</h2><p>{e(sw)} <a href="../causes/sex-work.html">The libertarian case</a>.</p>
 {extra}
 <h2>Is this your state party?</h2>
-<p>Claim this page and we'll turn it into your own section: events, candidates, causes and a donate link to your own account. Or we'll <a href="../free-sites.html">build you a full site free</a>. <a href="index.html#claim">How to claim it</a>.</p>
+<p>Claim this page and we'll turn it into your own section: events, candidates, causes and a donate link to your own account. Want the quiz or issue pages on your own site? <a href="../website-help.html">Website help</a>. <a href="index.html#claim">How to claim it</a>.</p>
 <p class="row"><a class="btn ghost" href="index.html">All states</a><a class="btn gold" href="../organize/index.html">Organize in {e(s["name"])}</a></p>
 """
     page(f"states/{slug(s['name'])}.html", f"Libertarians in {s['name']}", f"{s['name']}'s Libertarian Party affiliate, public disputes, cannabis law and sex work law, with a page the state party can claim.",

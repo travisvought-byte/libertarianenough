@@ -144,7 +144,7 @@ def candidates():
 <li><b>Make the binder.</b> Every office in your county, its filing deadline, the forms, the signature count, the fee. One page per office. This is the thing the California GOP handed out, and it's the thing most people never get.</li>
 <li><b>Keep a bench list.</b> Every member who might run someday, what they care about and what they'd run for.</li>
 <li><b>Recruit by cause.</b> The person fighting a zoning board is your planning commission candidate. The parent fighting the school is your school board candidate.</li>
-<li><b>Train in one Saturday.</b> Filing, signatures, a 10-second message, door knocking, a basic website. We'll <a href="../free-sites.html">build the website free</a>.</li>
+<li><b>Train in one Saturday.</b> Filing, signatures, a 10-second message, door knocking, a basic website. <a href="../website-help.html">Website help</a> has paste-ready issue pages and an accessibility checklist.</li>
 <li><b>Run a slate.</b> Five candidates in one county share volunteers, literature and a launch event.</li>
 </ol>
 <p class="row"><a class="btn ghost" href="index.html">Back to the playbook</a></p>"""
@@ -248,12 +248,12 @@ def fund_index():
 <div class="grid">
 <div class="card"><h3>We don't take donations</h3><p>There's no donate button on this site and there won't be one until we've said exactly where the money goes. Right now, Libertarian Enough runs on volunteer time.</p></div>
 <div class="card"><h3>We don't hand out money</h3><p>No national pot, no pass-through. Money raised in Ohio should be spent by Ohioans, and the same goes for every other state.</p></div>
-<div class="card"><h3>We give states the tools</h3><p>Playbooks, templates, event kits and free websites, so each state affiliate can raise its own money, under its own state's rules, from its own people.</p></div>
+<div class="card"><h3>We give states the tools</h3><p>Playbooks, templates, event kits and website pieces, so each state affiliate can raise its own money, under its own state's rules, from its own people.</p></div>
 </div>
 <h2>What's coming</h2>
 <ul class="facts">
 <li>Event kits: a dinner and a cheap cookout, with ticket ladders, run-of-show and sponsor sheets.</li>
-<li>Donate pages built into the <a href="../free-sites.html">free websites</a>, pointing at each group's own processor.</li>
+<li>A paste-ready donate page for the site you already have, pointing at your own processor.</li>
 <li>A state-by-state sheet of the basic fundraising rules, starting with the states that ask first.</li>
 </ul>
 <h2>The playbook</h2>
@@ -314,7 +314,7 @@ def models():
 <p>We build websites that people use every week, and those sites are how the causes behind them raise money. Here's what we've learned, so your state can copy it.</p>
 <h2>Model 1: build something useful, and the audience follows</h2>
 <p>{ext("https://findbingo.org", "Find Bingo")} and {ext("https://ohiobingo.org", "Ohio Bingo")} list bingo games so players can find one tonight. {ext("https://the-reefer.com", "The Reefer")} and {ext("https://ohioweed.org", "OhioWeed.org")} answer what cannabis law allows, state by state. None of them ask for anything up front. They're useful, so people come back, and an audience that trusts you is the start of every donor list.</p>
-<p><b>Copy it:</b> pick a question people in your state ask every week and nobody answers well. Where can I find a gun range? Which licenses does my trade need? What did my county commission vote on? Build the answer. We'll <a href="../free-sites.html">build the site free</a>.</p>
+<p><b>Copy it:</b> pick a question people in your state ask every week and nobody answers well. Where can I find a gun range? Which licenses does my trade need? What did my county commission vote on? Build the answer. If you need a whole site for it, <a href="../website-help.html#whole-site">we'll build it free</a>.</p>
 <h2>Model 2: free for everyone, with a way to give back</h2>
 <p>The bingo sites run on a simple deal: listings are free for every hall, halls that want extra services can pay for them, and halls that want to can give back a share of their net proceeds. Nobody's locked out for not paying.</p>
 <p><b>Copy it:</b> give the service away, offer paid extras to the people who want them, and make giving back to the cause easy and optional.</p>
