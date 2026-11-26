@@ -1,10 +1,10 @@
-"""Book, free sites, about, 404."""
+"""Book, about, 404."""
 from core import page, e, ic, ext, REPO, CHECKED, mailto
 from quizdata import QUESTIONS
 
 
 def build():
-    book(); free_sites(); about(); notfound()
+    book(); about(); notfound()
 
 
 def book():
@@ -41,47 +41,6 @@ def book():
 """
     page("book.html", "The Asymmetric Libertarian, the book behind this site", "Key ideas from The Asymmetric Libertarian by Travis Jon Vought: operational libertarianism, systems, friction, failure cost and messaging that lands.",
          "The Asymmetric Libertarian", body, kicker="The book behind the site", crumbs=[("The book", "")], wide=False)
-
-
-def free_sites():
-    built = [
-        ("https://findbingo.org", "Find Bingo", "A national directory of bingo games."),
-        ("https://ohiobingo.org", "Ohio Bingo", "Every bingo game in Ohio."),
-        ("https://the-reefer.com", "The Reefer", "Cannabis law, state by state."),
-        ("https://ohioweed.org", "OhioWeed.org", "Ohio's cannabis guide."),
-        ("https://abuseofoffice.org", "Abuse of Office", "Public records on officials, lawmakers and lobbyists."),
-    ]
-    bl = "".join(f'<li>{ext(u, e(n))}: {e(d)}</li>' for u, n, d in built)
-    body = f"""
-<p class="lead">If you're a libertarian group or a candidate who needs a website, we'll build it free. You pay for your domain name, about the cost of a pizza a year, and nothing else.</p>
-<h2>What you get</h2>
-<ul class="facts">
-<li><b>A fast, simple site</b> on your own domain, hosted free on GitHub Pages. No monthly hosting bill, no plugin updates, nothing to get hacked.</li>
-<li><b>Accessible by default.</b> Built to WCAG AA: readable contrast, keyboard friendly, screen-reader friendly, big tap targets.</li>
-<li><b>The pages that matter:</b> who you are, your causes, events, candidates, how to join, and a donate button that points to <em>your</em> processor and <em>your</em> account.</li>
-<li><b>Privacy-friendly visitor counts</b> with no cookies.</li>
-<li><b>You own it.</b> The code lives in a repository you can take anywhere.</li>
-</ul>
-<h2>Who qualifies</h2>
-<ul class="facts">
-<li>Libertarian state, county and campus groups, whatever their national affiliation.</li>
-<li>Candidates running on libertarian ideas, in any party or none, especially for local and nonpartisan office.</li>
-<li>Single-issue groups working on the <a href="causes/index.html">causes</a> on this site.</li>
-</ul>
-<h2>What we won't do</h2>
-<ul class="facts">
-<li>Handle your money. Donations go straight to your own account.</li>
-<li>Write your platform or speak for you.</li>
-<li>Build anything that targets people for who they are. Punch at ideas and behavior all you want.</li>
-</ul>
-<h2>What we've built</h2>
-<p>These are run by the same builder. They're examples of the kind of site you'd get, not endorsements by them.</p>
-<ul class="facts">{bl}</ul>
-<h2>How to ask</h2>
-<p>Email {mailto("Free site request")} with your group's name, what you need, and a public way to confirm you're who you say you are.</p>
-"""
-    page("free-sites.html", "Free websites for libertarian groups and candidates", "Libertarian groups and candidates can get a fast, accessible website built free, hosted free, on their own domain.",
-         "Free websites", body, crumbs=[("Free websites", "")], wide=False)
 
 
 def about():

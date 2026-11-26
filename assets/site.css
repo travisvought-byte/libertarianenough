@@ -127,3 +127,26 @@ ol.steps.mini a{font-weight:700}
 @media (max-width:560px){.stepnav .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{header.site,footer.site,nav.main,.btn{display:none}}
+/* Website help */
+.snip{margin:.75rem 0 1.1rem}
+.snip label{display:block;font-weight:700;margin-bottom:.3rem}
+.snip textarea{width:100%;font:.88rem/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);background:#fff;border:2px solid var(--line);border-radius:8px;padding:.6rem .7rem;resize:vertical}
+.snip textarea:focus-visible{border-color:var(--focus)}
+.snip .row{margin-top:.4rem}
+.btn.small{min-height:44px;padding:.35em 1.1em}
+.copied{font-weight:700;color:var(--green)}
+details.kit{border:2px solid var(--line);border-radius:10px;background:var(--card);margin:.6rem 0;padding:0 1rem}
+details.kit summary{cursor:pointer;font-weight:700;min-height:48px;display:flex;align-items:center}
+details.kit[open]{padding-bottom:.6rem}
+details.kit iframe{display:block;margin:.5rem 0}
+.checks li{margin-bottom:.9rem}
+.how{display:block;color:var(--muted);font-size:.95rem;margin-top:.2rem}
+.planart.plain{background:none;padding:0}
+.planart.plain img{width:100%;height:auto;display:block;border-radius:18px}
+/* Embeds */
+body.embed{background:var(--bg)}
+body.embed main{padding:1rem 1rem .5rem}
+body.embed h1{font-size:clamp(1.6rem,5vw,2.2rem)}
+.embedfoot{max-width:1100px;margin:0 auto;padding:0 1rem 1rem;font-size:.9rem;color:var(--muted)}
+.embedfoot p{margin:0}
+.quiz .done h2{margin-top:.5em}

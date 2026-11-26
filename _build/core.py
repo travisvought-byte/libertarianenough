@@ -16,7 +16,7 @@ def mailto(subject):
 
 NAV = [("quiz.html", "Quiz"), ("learn/index.html", "Learn"), ("plan/index.html", "Plan"), ("causes/index.html", "Causes"),
        ("organize/index.html", "Organize"), ("fundraise/index.html", "Fundraise"), ("states/index.html", "States"),
-       ("free-sites.html", "Free sites")]
+       ("website-help.html", "Website help")]
 
 PAGES = []  # (path) for sitemap
 
@@ -56,7 +56,7 @@ NICE = {"en.wikipedia.org": "Wikipedia", "wikipedia.org": "Wikipedia", "reason.c
         "capitol.texas.gov": "Texas Legislature", "americanheritage.com": "American Heritage", "knau.org": "KNAU",
         "9news.com": "9News", "airandspace.si.edu": "Smithsonian Air and Space Museum", "sandyspringsga.gov": "City of Sandy Springs",
         "nvfc.org": "National Volunteer Fire Council", "fsp.org": "Free State Project", "theanarchistlibrary.org": "The Anarchist Library",
-        "docs.legis.wisconsin.gov": "Wisconsin Legislative Council", "foxnews.com": "Fox News"}
+        "docs.legis.wisconsin.gov": "Wisconsin Legislative Council", "foxnews.com": "Fox News", "cdc.gov": "CDC", "w3.org": "W3C", "webaim.org": "WebAIM"}
 
 
 def srcname(url):
@@ -143,7 +143,7 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
 <div><p><b>{NAME}</b> is an independent libertarian organizing project. It is not a political party and is not affiliated with the Libertarian National Committee or any state party.</p>
 <p>Made in Ohio by Travis Vought, author of <a href="{P}book.html">The Asymmetric Libertarian</a>. Every jab here is aimed from inside the tent.</p></div>
 <div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
-<div><p><b>About</b></p><ul><li><a href="{P}about.html">About, scoring and privacy</a></li><li><a href="{P}about.html#sources">Sources and data</a></li><li><a href="{P}free-sites.html">Free websites</a></li><li>{ext(REPO, "Code on GitHub")}</li></ul></div>
+<div><p><b>About</b></p><ul><li><a href="{P}about.html">About, scoring and privacy</a></li><li><a href="{P}about.html#sources">Sources and data</a></li><li><a href="{P}website-help.html">Website help</a></li><li>{ext(REPO, "Code on GitHub")}</li></ul></div>
 </div><p>Facts checked {CHECKED}. Quiz answers never leave your browser.</p></div></footer>
 {scr}
 </body></html>
@@ -198,3 +198,47 @@ def ref_table(refs, you_row=False):
     return ('<div class="tablewrap"><table><caption>Who is on the chart (cheeky estimates, not measurements)</caption>'
             '<thead><tr><th scope="col">Who</th><th scope="col">Economic freedom</th><th scope="col">Personal freedom</th><th scope="col">Why there</th></tr></thead>'
             f'{you}<tbody>{rows}</tbody></table></div>')
+
+
+# Embeds run inside other people's sites, so they carry no header, menu or footer, and they ask search engines not to index them.
+EMBED_HEIGHT = ('<script>(function(){if(window.parent===window)return;function s(){window.parent.postMessage({le:"height",h:document.documentElement.scrollHeight},"*")}'
+                'window.addEventListener("load",s);window.addEventListener("resize",s);if(window.ResizeObserver)new ResizeObserver(s).observe(document.body);s();})();</script>')
+
+
+def embed_page(path, title, canonical, body, scripts=()):
+    depth = path.count("/")
+    P = "../" * depth
+    scr = "".join(f'<script src="{P}{s}"></script>' for s in scripts)
+    out = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(title)} | {NAME}</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{SITE}/{canonical}">
+<link rel="stylesheet" href="{P}assets/site.css">{GC}
+</head><body class="embed">
+<main id="main">
+{body}
+</main>
+<footer class="embedfoot"><p>From {ext(SITE + "/", NAME)}</p></footer>
+{scr}{EMBED_HEIGHT}
+</body></html>
+"""
+    full = os.path.join(ROOT, path)
+    os.makedirs(os.path.dirname(full), exist_ok=True)
+    with open(full, "w") as f:
+        f.write(out)
+
+
+def moved(path, to, title):
+    """A page that moved. GitHub Pages can't send real redirects, so this one sends people on at once."""
+    out = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(title)} | {NAME}</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{SITE}/{to}">
+<meta http-equiv="refresh" content="0; url={to}">
+<link rel="stylesheet" href="assets/site.css">
+</head><body><main id="main" class="narrow"><h1>{e(title)}</h1><p>This page moved to <a href="{to}">{e(title)}</a>.</p></main></body></html>
+"""
+    with open(os.path.join(ROOT, path), "w") as f:
+        f.write(out)

@@ -284,8 +284,12 @@ def build():
     debate()
 
 
-def road_svg():
-    """Decorative-plus: a road with six numbered stops that forks into two destinations. The list below repeats every word."""
+ROAD_DESC = ("A winding road starts at Today and passes six numbered stops: 1 Stop the harm, 2 Tear up the permission slips, 3 Open the exits, "
+             "4 Cap it and set a clock, 5 Push power down, 6 Hand it back. After stop 6 the road forks. One branch leads to A small state, the other to No state.")
+
+
+def road_parts():
+    """The road, its six stops and its three labels, drawn on a navy background by whoever uses them."""
     stops = [(68, 141), (165, 112), (260, 150), (355, 112), (450, 150), (545, 112)]
     q = ['<path d="M10 160 C 60 160, 100 100, 165 112 S 230 160, 260 150 S 320 100, 355 112 S 420 160, 450 150 S 520 100, 560 112 C 600 118, 610 120, 630 120" '
          'fill="none" stroke="#fffdf5" stroke-width="30" stroke-linecap="round"/>',
@@ -299,10 +303,13 @@ def road_svg():
     q.append('<text x="14" y="206" font-size="20" font-weight="800" fill="#ffffff">Today</text>')
     q.append('<text x="726" y="58" font-size="20" font-weight="800" fill="#ffffff">A small state</text>')
     q.append('<text x="726" y="184" font-size="20" font-weight="800" fill="#ffffff">No state</text>')
-    desc = ("A winding road starts at Today and passes six numbered stops: 1 Stop the harm, 2 Tear up the permission slips, 3 Open the exits, "
-            "4 Cap it and set a clock, 5 Push power down, 6 Hand it back. After stop 6 the road forks. One branch leads to A small state, the other to No state.")
+    return q
+
+
+def road_svg():
+    """Decorative-plus: a road with six numbered stops that forks into two destinations. The list below repeats every word."""
     return ('<svg viewBox="0 0 880 230" role="img" aria-labelledby="road-t road-d"><title id="road-t">The road from today to less government</title>'
-            f'<desc id="road-d">{e(desc)}</desc>' + "".join(q) + '</svg>')
+            f'<desc id="road-d">{e(ROAD_DESC)}</desc>' + "".join(road_parts()) + '</svg>')
 
 
 def steps_list(prefix="", mini=False):
