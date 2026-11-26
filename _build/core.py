@@ -8,7 +8,7 @@ NAME = "Libertarian Enough"
 CHECKED = "November 26, 2026"
 REPO = "https://github.com/travisvought-byte/libertarianenough"
 
-NAV = [("quiz.html", "Quiz"), ("learn/index.html", "Learn"), ("causes/index.html", "Causes"),
+NAV = [("quiz.html", "Quiz"), ("learn/index.html", "Learn"), ("plan/index.html", "Plan"), ("causes/index.html", "Causes"),
        ("organize/index.html", "Organize"), ("fundraise/index.html", "Fundraise"), ("states/index.html", "States"),
        ("free-sites.html", "Free sites")]
 
@@ -43,7 +43,14 @@ NICE = {"en.wikipedia.org": "Wikipedia", "wikipedia.org": "Wikipedia", "reason.c
         "prisonpolicy.org": "Prison Policy Initiative", "norml.org": "NORML", "mpp.org": "Marijuana Policy Project",
         "supremecourt.gov": "Supreme Court", "thirdpartywatch.com": "Third Party Watch", "axios.com": "Axios",
         "calmatters.org": "CalMatters", "isps.yale.edu": "Yale ISPS", "opensecrets.org": "OpenSecrets",
-        "wikiwand.com": "Wikiwand", "cbsnews.com": "CBS News", "sos.wyo.gov": "Wyoming Secretary of State"}
+        "wikiwand.com": "Wikiwand", "cbsnews.com": "CBS News", "sos.wyo.gov": "Wyoming Secretary of State",
+        "csgjusticecenter.org": "CSG Justice Center", "rollcall.com": "Roll Call", "sunset.texas.gov": "Texas Sunset Advisory Commission",
+        "cleanslateinitiative.org": "Clean Slate Initiative", "fee.org": "Foundation for Economic Education", "econlib.org": "Econlib",
+        "homebrewersassociation.org": "American Homebrewers Association", "wyoleg.gov": "Wyoming Legislature",
+        "capitol.texas.gov": "Texas Legislature", "americanheritage.com": "American Heritage", "knau.org": "KNAU",
+        "9news.com": "9News", "airandspace.si.edu": "Smithsonian Air and Space Museum", "sandyspringsga.gov": "City of Sandy Springs",
+        "nvfc.org": "National Volunteer Fire Council", "fsp.org": "Free State Project", "theanarchistlibrary.org": "The Anarchist Library",
+        "docs.legis.wisconsin.gov": "Wisconsin Legislative Council", "foxnews.com": "Fox News"}
 
 
 def srcname(url):
@@ -129,7 +136,7 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
 <footer class="site"><div class="in"><div class="cols">
 <div><p><b>{NAME}</b> is an independent libertarian organizing project. It is not a political party and is not affiliated with the Libertarian National Committee or any state party.</p>
 <p>Made in Ohio by Travis Vought, author of <a href="{P}book.html">The Asymmetric Libertarian</a>. Every jab here is aimed from inside the tent.</p></div>
-<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
+<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
 <div><p><b>About</b></p><ul><li><a href="{P}about.html">About, scoring and privacy</a></li><li><a href="{P}about.html#sources">Sources and data</a></li><li><a href="{P}free-sites.html">Free websites</a></li><li>{ext(REPO, "Code on GitHub")}</li></ul></div>
 </div><p>Facts checked {CHECKED}. Quiz answers never leave your browser.</p></div></footer>
 {scr}

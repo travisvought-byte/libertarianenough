@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core
 from core import ROOT, SITE
 import quizdata
-import sec_quiz, sec_learn, sec_causes, sec_org, sec_states, sec_misc
+import sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc
 
 
 def write(path, text):
@@ -26,7 +26,7 @@ def main():
         "refs": quizdata.REFS,
     }
     write("assets/data.js", "window.LE=" + json.dumps(js, ensure_ascii=False, separators=(",", ":")) + ";\n")
-    for m in (sec_quiz, sec_learn, sec_causes, sec_org, sec_states, sec_misc):
+    for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc):
         m.build()
     # 404 is served at any depth, so its links must be absolute.
     p = os.path.join(ROOT, "404.html")

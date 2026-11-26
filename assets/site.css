@@ -103,5 +103,27 @@ fieldset.q legend{font-size:1.3rem;font-weight:700;line-height:1.35;padding:0 .3
 .statelist li{margin:.25em 0;break-inside:avoid}
 blockquote{margin:1rem 0;padding:.6rem 1rem;border-left:6px solid var(--navy);background:#fff}
 blockquote p{margin:.3em 0}
+/* plan */
+.planart{background:var(--navy);border-radius:18px;padding:1rem;margin:1rem 0}
+.planart svg{width:100%;height:auto;display:block}
+ol.steps{list-style:none;padding:0;margin:1.2rem 0}
+ol.steps>li{position:relative;padding:0 0 1.2rem 4.2rem}
+ol.steps>li:not(:last-child)::before{content:"";position:absolute;left:calc(1.6rem - 5px);top:3.2rem;bottom:0;width:10px;border-radius:5px;background:linear-gradient(to right,var(--navy) 0 4px,var(--gold) 4px 6px,var(--navy) 6px)}
+.stepnum{position:absolute;left:0;top:.6rem;width:3.2rem;height:3.2rem;border-radius:50%;background:var(--gold);border:3px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.35rem;color:var(--ink);z-index:1}
+ol.steps .card h3{margin:.1em 0 .2em}
+ol.steps .card .ico{float:right;margin:0 0 .3rem .6rem}
+ol.steps.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.6rem;margin:1rem 0}
+ol.steps.mini>li{display:flex;align-items:center;gap:.6rem;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.5rem .7rem;min-height:56px}
+ol.steps.mini>li::before{display:none}
+ol.steps.mini .stepnum{position:static;width:2.3rem;height:2.3rem;font-size:1.05rem;flex:0 0 auto;border-width:2px}
+ol.steps.mini a{font-weight:700}
+.grid.stack{grid-template-columns:1fr}
+.stepnav ol{list-style:none;padding:0;margin:.6rem 0 1rem;display:grid;grid-template-columns:repeat(6,1fr);gap:.3rem}
+.stepnav a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.25rem;text-decoration:none;color:var(--ink);font-size:.8rem;line-height:1.2;padding:.3rem .15rem;border-radius:8px;min-height:44px}
+.stepnav .dot{width:2.2rem;height:2.2rem;border-radius:50%;border:2px solid var(--ink);background:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem}
+.stepnav a[aria-current=page]{font-weight:700;background:#fff7d1}
+.stepnav a[aria-current=page] .dot{background:var(--gold)}
+.stepnav a:hover .lbl{text-decoration:underline;color:var(--link)}
+@media (max-width:560px){.stepnav .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{header.site,footer.site,nav.main,.btn{display:none}}
