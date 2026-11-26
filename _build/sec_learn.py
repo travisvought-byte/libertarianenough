@@ -66,7 +66,7 @@ def what_counts():
 
 <h2>Doesn't count, and why</h2>
 <ul class="facts">
-<li><b>"Liberty for my people only."</b> Rights belong to individuals, every one of them. Anyone who wants liberty for their own group and checkpoints for everyone else is a collectivist in a Gadsden flag. Even the Libertarian Party's current platform says it defends "the rights of every person, regardless of their race, ethnicity, or any other aspect of their identity" (plank 3.5, {ext("https://lp.org/platform/", "LP platform")}).</li>
+<li><b>"Liberty for my people only."</b> Rights belong to individuals, every one of them. Anyone who wants liberty for their own group and checkpoints for everyone else is a collectivist in a Gadsden flag. Even the Libertarian Party's current platform says it defends "the rights of every person, regardless of their race, ethnicity, or any other aspect of their identity" (plank 3.5, {ext("https://lp.org/platform-page/", "LP platform")}).</li>
 <li><b>Wanting a king, even a privately owned one.</b> Swapping an elected government for an owner who can't be voted out is not less state. It's more state with a crown on it.</li>
 <li><b>Sovereign citizens.</b> A legal theory, not a philosophy, and courts reject it every time. Declaring your car a "private conveyance" won't get you out of a traffic ticket. It will get you a longer hearing.</li>
 <li><b>Crony capitalism.</b> Pro-market is not pro-business. A company lobbying for a license rule that keeps competitors out is using the state as a weapon. Libertarians are against that, even when the company sponsors the event.</li>
