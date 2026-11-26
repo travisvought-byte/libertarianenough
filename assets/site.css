@@ -1,4 +1,5 @@
 /* Libertarian Enough. Plain CSS, no framework. Colors meet WCAG AA on the cream background. */
+[hidden]{display:none!important}
 :root{--bg:#fffdf5;--ink:#1a1a1a;--muted:#4a4a4a;--navy:#1f2a44;--gold:#f5c400;--gold-ink:#1a1a1a;--link:#0b4f8a;--line:#d9d3bf;--card:#ffffff;--red:#a4161a;--green:#1e6b35;--focus:#0b4f8a}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
