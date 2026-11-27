@@ -1,5 +1,7 @@
 """Home, quiz, results, types, spectrum and traps."""
+import copy
 from core import page, e, ic, ext, chart_svg, ref_table
+import sec_stats
 from sec_plan import mini_road
 from quizdata import QUESTIONS, TYPES, REFS, VERDICTS, ANSWERS, HEDGE
 
@@ -34,13 +36,14 @@ def home():
 <div class="row"><a class="btn gold" href="quiz.html">Take the quiz</a><a class="btn ghost" href="spectrum.html">See the spectrum</a></div>
 <p class="src">About five minutes. Your answers stay in your browser. We never see them.</p>
 </div>
-<div class="art" aria-hidden="true">
-<svg viewBox="0 0 300 300"><rect x="20" y="20" width="260" height="260" rx="10" fill="#fffdf5"/><path d="M150 20v260M20 150h260" stroke="#1f2a44" stroke-width="2" stroke-dasharray="6 5"/>
-<text x="270" y="44" font-size="15" font-weight="800" text-anchor="end" fill="#1a1a1a">LIBERTARIAN</text><text x="30" y="270" font-size="15" font-weight="800" fill="#1a1a1a">STATIST</text>
-<circle cx="70" cy="245" r="9" fill="#1f2a44"/><circle cx="95" cy="230" r="9" fill="#1f2a44"/><circle cx="250" cy="60" r="9" fill="#1f2a44"/><circle cx="235" cy="80" r="9" fill="#1f2a44"/><circle cx="90" cy="90" r="9" fill="#1f2a44"/><circle cx="220" cy="215" r="9" fill="#1f2a44"/>
-<polygon points="212,95 217,108 231,108 220,116 224,130 212,122 200,130 204,116 193,108 207,108" fill="#f5c400" stroke="#1a1a1a" stroke-width="2.5"/><text x="232" y="132" font-size="18" font-weight="800" fill="#1a1a1a">You?</text></svg>
-</div>
+<figure class="art heroart" id="homechart">{home_chart()}
+<figcaption id="homecap">Where would you land? <a href="quiz.html">Take the quiz</a> and your gold star shows up here.</figcaption></figure>
 </section>
+
+<h2>The numbers behind the movement</h2>
+<p>Lots of Americans lean libertarian. Very few of them join anything. That gap is the whole reason this site exists.</p>
+{sec_stats.funnel()}
+<p class="row"><a class="btn ghost" href="spectrum.html#numbers">More charts</a></p>
 
 <h2>Being libertarian enough is the easy part</h2>
 <p class="lead">Getting anything done is where the movement keeps tripping over its own bylaws. We've spent fifty years arguing about whether roads should be private while the other two parties quietly filled every county committee seat in America. This site is the fix: a guide for normies, a playbook for organizers, and tools for every state.</p>
@@ -69,7 +72,18 @@ def home():
 """
     page("index.html", "Are you libertarian enough? The quiz, the guide and the organizing playbook | Libertarian Enough",
          "Take the cheeky libertarian purity test, see where you land on the political spectrum, and learn how to actually organize and fundraise in your state.",
-         "", body)
+         "", body, scripts=("assets/data.js", "assets/score.js", "assets/home.js"))
+
+
+def home_chart():
+    R = copy.deepcopy(REFS)
+    by = {r["n"]: r for r in R}
+    by["Ayn Rand"]["side"] = "start"
+    by["The 'liberty for me' guy"]["side"] = "start"
+    by["The 'liberty for me' guy"]["n"] = "'Liberty for me' guy"
+    pick = [i for i, r in enumerate(REFS) if r["n"] in ("Murray Rothbard", "Ayn Rand", "John Stuart Mill", "Karl Marx", "Thomas Hobbes",
+                                                         "The DMV", "Franklin D. Roosevelt", "The 'liberty for me' guy")]
+    return chart_svg(R, "The libertarian spectrum, with a few famous neighbors", names=True, pick=pick, uid="h")
 
 
 def quiz():
@@ -98,6 +112,11 @@ def results():
 <div id="result" aria-live="polite"><p>Scoring your answers...</p><noscript><p class="warn">Results need JavaScript. <a href="types/index.html">Browse all 15 types</a> instead.</p></noscript></div>
 <div id="after" hidden>
 <div class="chart" id="chart">{chart_svg(REFS, "Your spot on the libertarian spectrum")}</div>
+<p class="src">Up is more liberty, down more authority, left and right as usual. <a href="spectrum.html#how">How to read this chart</a>.</p>
+<h2>Your stat sheet</h2>
+<div id="statsheet"></div>
+<h2>How you prioritize</h2>
+<div id="theory"></div>
 <h3>Your closest neighbors on the chart</h3>
 <div id="neighbors"></div>
 <h2>Your purity trap receipts</h2>
@@ -119,7 +138,7 @@ def results():
 </div>
 """
     page("results.html", "Your results", "Your libertarian type, purity score and spot on the spectrum.", "", body,
-         scripts=("assets/data.js", "assets/results.js"), crumbs=[("Your results", "")])
+         scripts=("assets/data.js", "assets/score.js", "assets/results.js"), crumbs=[("Your results", "")])
 
 
 def type_page(t):
@@ -151,15 +170,25 @@ def spectrum():
     body = f"""
 <div class="chart">{chart_svg(REFS)}</div>
 {ref_table(REFS)}
-<h2>How the chart works</h2>
-<p><b>Economic freedom</b> runs left to right: taxes, minimum wage, licensing, tariffs, bailouts, the Fed. <b>Personal freedom</b> runs bottom to top: drugs, sex work, speech, guns, marriage, immigration, warrants. Libertarians want both, so they live in the top right. Progressives want the bedroom free and the economy managed. Conservatives want the reverse. Statists want the state in both.</p>
-<p>This two-axis layout is an old idea. David Nolan, who helped found the Libertarian Party, published a version in January 1971, and political quizzes have been redrawing it ever since ({ext("https://en.wikipedia.org/wiki/Nolan_Chart", "Wikipedia on the Nolan Chart")}). Ours adds a purity score, because of course it does.</p>
+<h2 id="how">How the chart works</h2>
+<p>It's a cross. <b>Up and down</b> is liberty against authority: how much the state runs your life and your money combined. <b>Left and right</b> is the usual left-right split: progressives want the bedroom free and the economy managed, conservatives the reverse.</p>
+<p>The diamond is built from two scores. <b>Economic freedom</b> runs up the lower-right edge: taxes, minimum wage, licensing, tariffs, bailouts, the Fed. <b>Personal freedom</b> runs up the lower-left edge: drugs, sex work, speech, guns, marriage, immigration, warrants. Max out both and you're at the top. Zero out both and you're at the bottom with the DMV.</p>
+<div class="grid">
+<div class="card"><h3>Libertarian, top</h3><p>Free wallet, free life. Both scores over 50.</p></div>
+<div class="card"><h3>Progressive, left</h3><p>Free life, managed wallet.</p></div>
+<div class="card"><h3>Conservative, right</h3><p>Free wallet, managed life.</p></div>
+<div class="card"><h3>Statist, bottom</h3><p>The state runs both. The small square in the middle is centrist.</p></div>
+</div>
+<p>This is the Nolan Chart. David Nolan, who helped found the Libertarian Party, published it in January 1971, and the party's own quiz still uses the diamond ({ext("https://en.wikipedia.org/wiki/Nolan_Chart", "Wikipedia on the Nolan Chart")}). Ours adds a purity score, because of course it does.</p>
+<h2 id="numbers">By the numbers</h2>
+<p>We don't collect quiz answers, so there's no live leaderboard. These come from national surveys and party counts instead.</p>
+{sec_stats.block()}
 <h2>Why no live leaderboard?</h2>
-<p>We don't collect your answers, so there's nothing to average. You're compared with famous people, archetypes and any friend who sends you their link. The positions above are our cheeky estimates, not survey data. If you think we put Hayek in the wrong spot, you're probably right and also exactly the kind of person who'd say so.</p>
+<p>We don't collect your answers, so there's nothing to average. You're compared with famous people, archetypes and any friend who sends you their link. The positions on the chart are our cheeky estimates, not survey data. If you think we put Hayek in the wrong spot, you're probably right and also exactly the kind of person who'd say so.</p>
 <p class="row"><a class="btn gold" href="quiz.html">Find your spot</a></p>
 """
-    page("spectrum.html", "The libertarian spectrum", "Economic freedom and personal freedom on two axes, with Rothbard, Marx, Rand, your HOA and the DMV on the chart.",
-         "The spectrum", body, lead="Two axes, twenty reference points, one gold star with your name on it once you take the quiz.",
+    page("spectrum.html", "The libertarian spectrum", "The Nolan Chart as a cross: liberty against authority, left against right, with Rothbard, Marx, your HOA and real survey numbers.",
+         "The spectrum", body, lead="A real cross: liberty against authority, left against right. Twenty reference points, three charts of real numbers, and a gold star with your name on it once you take the quiz.",
          crumbs=[("The spectrum", "")])
 
 

@@ -51,6 +51,8 @@ def main():
         "questions": quizdata.QUESTIONS,
         "types": quizdata.TYPES,
         "refs": quizdata.REFS,
+        "areas": quizdata.AREAS,
+        "methods": quizdata.METHODS,
     }
     write("assets/data.js", "window.LE=" + json.dumps(js, ensure_ascii=False, separators=(",", ":")) + ";\n")
     for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help):
