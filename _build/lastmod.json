@@ -1,7 +1,7 @@
 {
  "about.html": {
   "date": "2026-11-27",
-  "key": "b7fdfb6732f0b281"
+  "key": "958fd6f08ddb3e31"
  },
  "book.html": {
   "date": "2026-11-26",
@@ -81,7 +81,7 @@
  },
  "index.html": {
   "date": "2026-11-27",
-  "key": "14336a2e79bf5290"
+  "key": "e5995d6e0d74aa81"
  },
  "learn/controversies.html": {
   "date": "2026-11-26",
@@ -110,6 +110,10 @@
  "learn/what-counts.html": {
   "date": "2026-11-26",
   "key": "64dac17dcf0178ac"
+ },
+ "life/index.html": {
+  "date": "2026-11-27",
+  "key": "71cf1de8ae51d6c4"
  },
  "organize/ballot-access.html": {
   "date": "2026-11-26",

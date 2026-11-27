@@ -11,7 +11,9 @@ CONTACT = "veteranhomeguardians@gmail.com"
 # Google AdSense publisher ID. ads.txt is written from it, and Google's ad code goes on every content page.
 ADSENSE = "ca-pub-9220804879239310"
 # Pages that never load ad code: the 404, the about/privacy page, and the results page (its address carries the quiz answers).
-NO_ADS = {"404.html", "about.html", "results.html"}
+NO_ADS = {"404.html", "about.html", "results.html", "life/result.html"}
+# Result pages carry someone's answers in the address, so they stay out of the sitemap.
+NO_INDEX = {"results.html", "life/result.html"}
 # IndexNow key. build.py publishes it as <key>.txt at the site root; .github/workflows/indexnow.yml sends changed pages with it.
 INDEXNOW_KEY = "4a4ba9c20a8845af6ac3b35fa8b53183"
 
@@ -162,7 +164,7 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
 <footer class="site"><div class="in"><div class="cols">
 <div><p><b>{NAME}</b> is an independent libertarian organizing project. It is not a political party and is not affiliated with the Libertarian National Committee or any state party.</p>
 <p>Made in Ohio by <a href="https://travisvought.com/">Travis Vought</a>, author of <a href="{P}book.html">The Asymmetric Libertarian</a>. Every jab here is aimed from inside the tent.</p></div>
-<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
+<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}life/index.html">What would you actually do?</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
 <div><p><b>About</b></p><ul><li><a href="{P}about.html">About, scoring and privacy</a></li><li><a href="{P}about.html#sources">Sources and data</a></li><li><a href="{P}website-help.html">Website help</a></li><li>{ext(REPO, "Code on GitHub")}</li></ul></div>
 <div><p><b>Related</b></p><ul><li><a href="https://the-reefer.com/">The Reefer</a>: cannabis law in every state</li><li><a href="https://abuseofoffice.org/">Abuse of Office</a>: public officials who broke the public's trust</li></ul></div>
 </div><p>Facts checked {CHECKED}. Quiz answers never leave your browser.</p></div></footer>
