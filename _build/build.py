@@ -5,7 +5,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core
 from core import ROOT, SITE
 import quizdata
-import sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help
+import sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life
+import lifedata
 
 
 def write(path, text):
@@ -55,14 +56,17 @@ def main():
         "methods": quizdata.METHODS,
     }
     write("assets/data.js", "window.LE=" + json.dumps(js, ensure_ascii=False, separators=(",", ":")) + ";\n")
-    for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help):
+    life = {"version": lifedata.VERSION, "chapters": lifedata.CHAPTERS, "scenes": lifedata.SCENES, "order": lifedata.ORDER,
+            "classes": lifedata.CLASSES, "hows": lifedata.HOWS, "areas": lifedata.LAREAS}
+    write("assets/life-data.js", "window.LIFE=" + json.dumps(life, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life):
         m.build()
     # 404 is served at any depth, so its links must be absolute.
     p = os.path.join(ROOT, "404.html")
     s = open(p).read()
     s = re.sub(r'(href|src)="(?!https?:|/|#|mailto:)([^"]*)"', r'\1="/\2"', s)
     open(p, "w").write(s)
-    listed = [u for u in sorted(set(core.PAGES)) if u != "results.html"]
+    listed = [u for u in sorted(set(core.PAGES)) if u not in core.NO_INDEX]
     dates = lastmods(listed)
     urls = "".join(f"<url><loc>{SITE}/{'' if u == 'index.html' else u}</loc><lastmod>{dates[u]}</lastmod></url>" for u in listed)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')

@@ -2,6 +2,7 @@
 import copy
 from core import page, e, ic, ext, chart_svg, ref_table
 import sec_stats
+import lifedata
 from sec_plan import mini_road
 from quizdata import QUESTIONS, TYPES, REFS, VERDICTS, ANSWERS, HEDGE
 
@@ -33,7 +34,7 @@ def home():
 <p class="kicker">The libertarian purity test, finally</p>
 <h1>Are you libertarian enough?</h1>
 <p class="lead">{N} statements. Roads, driver's licenses, Grand Theft Auto, heroin and, for the final boss, nukes. Find out what kind of libertarian you are, where you sit on the spectrum, and how many purity traps you walked straight into.</p>
-<div class="row"><a class="btn gold" href="quiz.html">Take the quiz</a><a class="btn ghost" href="spectrum.html">See the spectrum</a></div>
+<div class="row"><a class="btn gold" href="quiz.html">Take the quiz</a><a class="btn ghost" href="life/index.html">What would you actually do?</a></div>
 <p class="src">About five minutes. Your answers stay in your browser. We never see them.</p>
 </div>
 <figure class="art heroart" id="homechart">{home_chart()}
@@ -119,6 +120,7 @@ def results():
 <div id="theory"></div>
 <h3>Your closest neighbors on the chart</h3>
 <div id="neighbors"></div>
+<div class="note"><p><b>That's what you say.</b> Now find out what you'd do. <a href="life/index.html">The real-life quiz</a> drops you into {len(lifedata.ORDER)} everyday situations and puts your choices on this same chart.</p></div>
 <h2>Your purity trap receipts</h2>
 <p>The questions the purity police actually care about, and how you did.</p>
 <div id="receipts"></div>

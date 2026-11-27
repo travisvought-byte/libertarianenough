@@ -185,3 +185,14 @@ ol.prio{list-style:none;padding:0;counter-reset:p;display:grid;gap:.8rem}
 ol.prio>li{display:grid;grid-template-columns:44px 1fr;gap:.8rem;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem}
 ol.prio .ph{margin:.1rem 0}
 ol.prio p{margin:.3rem 0}
+/* The real-life quiz */
+h2.scene{margin:.2rem 0 .6rem;font-size:1.6rem}
+h2.scene:focus{outline:none}
+.situ{font-size:1.1rem}
+.after{padding:1rem 1.2rem;border:2px solid var(--line);border-left:6px solid var(--gold);border-radius:12px;background:var(--card);margin:1rem 0}
+ol.journal{list-style:none;padding:0;display:grid;gap:.9rem;counter-reset:j}
+ol.journal>li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.8rem 1.1rem}
+ol.journal h3{margin:.1rem 0 .3rem}
+ol.journal h3 .qnum{display:inline;margin-left:.4rem}
+ol.journal p{margin:.35rem 0}
+ol.journal .against{border-left:4px solid var(--red);padding-left:.7rem}
