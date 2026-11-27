@@ -26,6 +26,7 @@ def org_index():
         ("ballot-access.html", "scroll", "Ballot access", "How parties get on the ballot, and why you should sign the petition."),
         ("messaging.html", "megaphone", "Messages that land", "The 10-second test, the one-sentence rule and the four kinds of message."),
         ("steal-this.html", "fight", "Steal from the big parties", "What Republicans and Democrats do that works, and how to copy it."),
+        ("../convention/index.html", "gavel", "Survive the national convention", "The rules, the numbers, what to say at the mic, and how first-timers get steamrolled."),
     ]
     cards = "".join(f'<a class="card cardlink" href="{h}">{ic(i)}<h3>{t}</h3><p>{d}</p></a>' for h, i, t, d in pages)
     body = f"""

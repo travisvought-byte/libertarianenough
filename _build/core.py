@@ -64,7 +64,9 @@ NICE = {"en.wikipedia.org": "Wikipedia", "wikipedia.org": "Wikipedia", "reason.c
         "capitol.texas.gov": "Texas Legislature", "americanheritage.com": "American Heritage", "knau.org": "KNAU",
         "9news.com": "9News", "airandspace.si.edu": "Smithsonian Air and Space Museum", "sandyspringsga.gov": "City of Sandy Springs",
         "nvfc.org": "National Volunteer Fire Council", "fsp.org": "Free State Project", "theanarchistlibrary.org": "The Anarchist Library",
-        "docs.legis.wisconsin.gov": "Wisconsin Legislative Council", "foxnews.com": "Fox News", "cdc.gov": "CDC", "w3.org": "W3C", "webaim.org": "WebAIM"}
+        "docs.legis.wisconsin.gov": "Wisconsin Legislative Council", "foxnews.com": "Fox News", "cdc.gov": "CDC", "w3.org": "W3C", "webaim.org": "WebAIM",
+        "lpedia.org": "LPedia", "robertsrules.com": "Robert's Rules Association", "aft.org": "AFT", "lpnc.org": "LP North Carolina",
+        "lpo.org": "Libertarian Party of Ohio", "nbcnews.com": "NBC News", "nsarwark.substack.com": "Nicholas Sarwark", "yahoo.com": "Yahoo News"}
 
 
 def srcname(url):
@@ -164,7 +166,7 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
 <footer class="site"><div class="in"><div class="cols">
 <div><p><b>{NAME}</b> is an independent libertarian organizing project. It is not a political party and is not affiliated with the Libertarian National Committee or any state party.</p>
 <p>Made in Ohio by <a href="https://travisvought.com/">Travis Vought</a>, author of <a href="{P}book.html">The Asymmetric Libertarian</a>. Every jab here is aimed from inside the tent.</p></div>
-<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}life/index.html">What would you actually do?</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
+<div><p><b>The site</b></p><ul><li><a href="{P}quiz.html">Take the quiz</a></li><li><a href="{P}life/index.html">What would you actually do?</a></li><li><a href="{P}convention/index.html">Convention guide</a></li><li><a href="{P}plan/index.html">The plan</a></li><li><a href="{P}spectrum.html">The spectrum</a></li><li><a href="{P}traps.html">Purity traps</a></li><li><a href="{P}types/index.html">All 15 types</a></li><li><a href="{P}book.html">The book</a></li></ul></div>
 <div><p><b>About</b></p><ul><li><a href="{P}about.html">About, scoring and privacy</a></li><li><a href="{P}about.html#sources">Sources and data</a></li><li><a href="{P}website-help.html">Website help</a></li><li>{ext(REPO, "Code on GitHub")}</li></ul></div>
 <div><p><b>Related</b></p><ul><li><a href="https://the-reefer.com/">The Reefer</a>: cannabis law in every state</li><li><a href="https://abuseofoffice.org/">Abuse of Office</a>: public officials who broke the public's trust</li></ul></div>
 </div><p>Facts checked {CHECKED}. Quiz answers never leave your browser.</p></div></footer>
