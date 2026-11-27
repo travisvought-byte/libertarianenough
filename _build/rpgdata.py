@@ -1,0 +1,297 @@
+"""Herding Porcupines: the coalition RPG. All game content lives here; build.py writes it to assets/rpg-data.js for assets/rpg.js.
+Porter County and everyone in it are made up. The mechanics are the lesson: listen first, argue to what people care about,
+answer the worry they actually have, find the overlap, and count the votes."""
+
+VERSION = 1
+DAYS = 12
+
+# Lenses: the values an argument speaks to. Each person cares about some, shrugs at others.
+LENSES = {
+    "fair": {"name": "Fairness", "icon": "⚖️", "short": "everyone treated by the same rules"},
+    "care": {"name": "Compassion", "icon": "❤️", "short": "looking after people who are hurting"},
+    "family": {"name": "Family", "icon": "🏠", "short": "kids, parents, grandparents"},
+    "safe": {"name": "Safety", "icon": "🛡️", "short": "order, and not getting hurt"},
+    "money": {"name": "Money", "icon": "💵", "short": "jobs, costs and taxpayers"},
+    "free": {"name": "Freedom", "icon": "🗽", "short": "being left alone to run your own life"},
+    "community": {"name": "Community", "icon": "⛪", "short": "neighbors, faith and tradition"},
+    "local": {"name": "Local control", "icon": "📍", "short": "this town deciding for itself"},
+}
+
+# Character classes come from the real-life quiz (assets/life.js classFor). Lenses are what this character argues from naturally.
+CLASSES = {
+    "neighbor": {"name": "The Good Neighbor", "icon": "🤝", "hp": 30, "lenses": ["community", "care", "free"],
+                 "perk": "Common ground hits half again as hard. You mean it, and people can tell."},
+    "wolf": {"name": "The Lone Wolf", "icon": "🐺", "hp": 36, "lenses": ["free", "money", "local"],
+             "perk": "Thick skin: more composure, and a slogan backfires only half as hard."},
+    "caretaker": {"name": "The Caretaker", "icon": "🩹", "hp": 28, "lenses": ["care", "family", "fair"],
+                  "perk": "Listening earns two trust instead of one."},
+    "monitor": {"name": "The Hall Monitor", "icon": "📋", "hp": 32, "lenses": ["safe", "fair", "local"],
+                "perk": "You know the process cold. Objections hit you for 2 less."},
+    "fixer": {"name": "The Fixer", "icon": "🔧", "hp": 30, "lenses": ["money", "fair", "community"],
+              "perk": "Deals cost half as much party unity, and asking for support gets 10 points better odds."},
+}
+
+# The eight groups in town, one person each. side: which aisle they sit on (for the cross-aisle lessons).
+# cares: lenses they respond to (much harder). cold: a lens that lands at half strength.
+# stance: where they start on each measure, -2 to +2. Below zero, they start out fighting it.
+# objections: what they throw at you, in order, each tied to a lens. Answer with an argument in that lens.
+FACTIONS = [
+    {"id": "tenants", "who": "Dana Reyes", "org": "Eastside Tenants Union", "place": "coffee", "side": "left",
+     "cares": ["fair", "care", "family"], "cold": "money", "stance": {"forfeit": 1, "build": 2, "weed": 2},
+     "face": {"skin": "#c68642", "hair": "#2b1b10", "style": "long", "shirt": "#7a3e9d", "extra": ""},
+     "hello": "Dana is behind the counter, wiping the same spot for the third time. \"A libertarian. In my coffee shop. Okay, what do you want?\"",
+     "objections": [["fair", "Your people say 'free market' like it's not the reason rent doubled."],
+                    ["care", "Who looks out for the people at the bottom if nobody's in charge?"],
+                    ["community", "You show up every election and disappear the day after."]],
+     "joined": "\"Fine. You're weird, but you're right about this one. I'll get the tenants out.\""},
+    {"id": "church", "who": "Pastor Ruth Okafor", "org": "Grace Community Church", "place": "church", "side": "right",
+     "cares": ["community", "family", "care"], "cold": "free", "stance": {"forfeit": 1, "build": 0, "weed": -2},
+     "face": {"skin": "#8d5524", "hair": "#d9d9d9", "style": "short", "shirt": "#1a1a1a", "extra": "collar"},
+     "hello": "Pastor Ruth is stacking hymnals. \"I've read your pamphlets. A lot of 'me' in them, not much 'we.' Sit down anyway.\"",
+     "objections": [["community", "Freedom without responsibility is just selfishness with a flag on it."],
+                    ["family", "What happens to the children when everything goes?"],
+                    ["care", "I've buried people this kind of thing hurt. Have you?"]],
+     "joined": "\"I'll talk to the deacons. Don't make me regret it.\""},
+    {"id": "vets", "who": "Sgt. Maria Ortiz (ret.)", "org": "VFW Post 1127", "place": "vfw", "side": "right",
+     "cares": ["safe", "fair", "free"], "cold": "care", "stance": {"forfeit": 1, "build": 1, "weed": 1},
+     "face": {"skin": "#e0ac69", "hair": "#3b2a1a", "style": "bun", "shirt": "#4b5320", "extra": "cap"},
+     "hello": "Sgt. Ortiz is running the Thursday raffle. \"You've got until the numbers are called. Go.\"",
+     "objections": [["community", "Some of you talk about this country like you hate it."],
+                    ["safe", "Who keeps order if you cut everything?"],
+                    ["free", "Easy to talk about freedom when somebody else paid for it."]],
+     "joined": "\"Post 1127 is in. We'll staff a table at the vote.\""},
+    {"id": "business", "who": "Hank Kowalski", "org": "Main Street Business Association", "place": "hardware", "side": "right",
+     "cares": ["money", "local", "free"], "cold": "care", "stance": {"forfeit": 0, "build": 1, "weed": 0},
+     "face": {"skin": "#f1c27d", "hair": "#8a8a8a", "style": "bald", "shirt": "#b22222", "extra": "glasses"},
+     "hello": "Hank is cutting a key and doesn't look up. \"Every 'reform' I've ever seen came with more paperwork. Convince me this one doesn't.\"",
+     "objections": [["money", "Who pays when this goes sideways? It's always the small shops."],
+                    ["local", "Outsiders keep telling this town what to do."],
+                    ["fair", "Rules protect the honest guys from the cheats."]],
+     "joined": "\"Main Street's with you. I'll put a sign in the window.\""},
+    {"id": "deputies", "who": "Deputy Cal Brennan", "org": "Porter County Deputies Association", "place": "sheriff", "side": "right",
+     "cares": ["safe", "money", "fair"], "cold": "free", "stance": {"forfeit": -2, "build": 0, "weed": -1},
+     "face": {"skin": "#ffdbac", "hair": "#a0522d", "style": "short", "shirt": "#2f4f7f", "extra": "badge"},
+     "hello": "Deputy Brennan leans on the counter with his arms crossed. \"I know who you are. Make it quick.\"",
+     "objections": [["money", "That money buys our vests and the K-9. You going to replace it?"],
+                    ["safe", "You'd tie our hands and let dealers keep the cash."],
+                    ["fair", "Nobody complains except the people we caught."]],
+     "joined": "\"Off the record, a lot of us hate that part of the job. The association won't fight you.\""},
+    {"id": "grange", "who": "June Halvorsen", "org": "Porter County Grange", "place": "grange", "side": "right",
+     "cares": ["local", "free", "family"], "cold": "fair", "stance": {"forfeit": 1, "build": 1, "weed": 1},
+     "face": {"skin": "#ffe0bd", "hair": "#f0e68c", "style": "long", "shirt": "#2e8b57", "extra": "hat"},
+     "hello": "June is fixing a gate hinge. \"Town people only come out here when they want signatures. Hand me that wrench.\"",
+     "objections": [["local", "Town folks write rules for land they've never worked."],
+                    ["family", "I need to know my grandkids can keep this farm."],
+                    ["free", "You say 'leave us alone' and then show up with a petition."]],
+     "joined": "\"The Grange will vote with you. Bring pie next time.\""},
+    {"id": "teachers", "who": "Marcus Bell", "org": "Porter Teachers Association", "place": "school", "side": "left",
+     "cares": ["family", "care", "safe"], "cold": "money", "stance": {"forfeit": 0, "build": 1, "weed": -1},
+     "face": {"skin": "#6b4226", "hair": "#111111", "style": "short", "shirt": "#1e6b8a", "extra": "glasses"},
+     "hello": "Marcus is grading papers in an empty classroom. \"Third-grade spelling tests. You've got until I finish this stack.\"",
+     "objections": [["community", "Your party wants to privatize my school."],
+                    ["family", "I see what happens to kids when the adults check out."],
+                    ["money", "Cutting budgets is the only idea you people have."]],
+     "joined": "\"The association will endorse. The members will want to see you at the next board meeting.\""},
+    {"id": "reentry", "who": "Terrell Hayes", "org": "Second Chance Coalition", "place": "reentry", "side": "left",
+     "cares": ["fair", "care", "family"], "cold": "safe", "stance": {"forfeit": 2, "build": 1, "weed": 2},
+     "face": {"skin": "#4a2c17", "hair": "#111111", "style": "fade", "shirt": "#d2691e", "extra": ""},
+     "hello": "Terrell is helping someone fill out a job application. \"Give me a minute. Then you can tell me where your party was the last ten years.\"",
+     "objections": [["community", "Your party wasn't around when we were fighting this."],
+                    ["fair", "Talk is cheap. Would you hire somebody with a record?"],
+                    ["care", "You care more about guns than about people in cages."]],
+     "joined": "\"We'll knock doors with you. Our people know every block in Ward 1.\""},
+]
+
+# Inside the party. They start with you. Unity is whether they stay.
+CAUCUS = [
+    {"id": "rex", "who": "Rex Calloway", "org": "The Purity Caucus",
+     "face": {"skin": "#ffdbac", "hair": "#4a3000", "style": "beard", "shirt": "#f5c400", "extra": ""},
+     "talk": ["\"Every deal you cut, I'm writing down. We didn't join this party to be Republicans with better weed.\"",
+              "\"Slogans work. Taxation IS theft. Say it louder.\"",
+              "\"If you compromise on this, what don't you compromise on?\""]},
+    {"id": "elinor", "who": "Elinor Tate", "org": "The Classical Liberal Caucus",
+     "face": {"skin": "#ffe0bd", "hair": "#c0c0c0", "style": "bun", "shirt": "#1f2a44", "extra": "glasses"},
+     "talk": ["\"Listen before you argue. People tell you what they care about if you let them.\"",
+              "\"Argue to what they value, not what you value. A good case in the wrong language is a bad case.\"",
+              "\"When they throw an objection, answer that worry. Don't change the subject to your favorite point.\""]},
+    {"id": "dev", "who": "Dev Ramirez", "org": "The Campaign Committee",
+     "face": {"skin": "#c68642", "hair": "#1a1a1a", "style": "short", "shirt": "#555555", "extra": "headset"},
+     "talk": ["\"Count votes, not likes. Five council members. You need three. Check the whip count at the County Building.\"",
+              "\"Each ward member listens to two groups. One ally and nobody fighting you gets their vote. A tie fails.\"",
+              "\"Councilmember Lin is the swing. Lin wants a coalition from both sides of the aisle, at least four groups, and a party that isn't at war with itself.\""]},
+]
+
+# Council: each ward member answers to two groups. Ally +1, neutral 0, opposed -1. One or more is a yes. A tie fails.
+COUNCIL = [
+    {"id": "alvarez", "who": "Rosa Alvarez", "ward": "Ward 1", "groups": ["tenants", "reentry"]},
+    {"id": "whitaker", "who": "Glen Whitaker", "ward": "Ward 2", "groups": ["church", "teachers"]},
+    {"id": "duvall", "who": "Tom Duvall", "ward": "Ward 3", "groups": ["business", "grange"]},
+    {"id": "brooks", "who": "Beth Brooks", "ward": "Ward 4", "groups": ["vets", "deputies"]},
+    {"id": "lin", "who": "Kevin Lin", "ward": "At-large", "groups": []},
+]
+LIN_RULE = {"allies": 4, "unity": 30}
+
+# The three measures. Arguments are the cards you can play. Deals change the measure for good:
+# each one moves some groups (negative = less doubt), costs party unity, and may cut how much liberty the measure keeps.
+CAMPAIGNS = [
+    {"id": "build", "name": "Let people build", "level": "Easier",
+     "pitch": "Make backyard cottages and tiny homes legal to build without a hearing.",
+     "args": [["family", 14, "Grandma could live in a cottage out back instead of a nursing home two hours away."],
+              ["money", 13, "A backyard cottage helps pay the mortgage, and the rent stays in this town."],
+              ["care", 13, "Teachers and nurses who work here can't afford to live here."],
+              ["local", 13, "It's your land. You shouldn't need a public hearing to build on it."],
+              ["fair", 11, "Rent is high because building is illegal, not because people are greedy."],
+              ["community", 11, "Kids who grew up here could afford to stay here."],
+              ["free", 11, "If it's safe to build, the answer should be yes."],
+              ["safe", 10, "Every cottage gets the same building inspection a house does."]],
+     "deals": [{"id": "owner", "text": "Owners must live on the lot", "say": "\"What if the owner has to live on the property? No out-of-town landlords.\"",
+                "move": {"church": -25, "business": -10, "grange": -10, "tenants": 15}, "unity": 10, "liberty": 10},
+               {"id": "size", "text": "Cap new cottages at 800 square feet", "say": "\"We could cap them at 800 square feet. Nobody's building a second mansion.\"",
+                "move": {"grange": -10, "church": -15}, "unity": 8, "liberty": 5},
+               {"id": "fast", "text": "Permits approved in 30 days, or they're automatic", "say": "\"And the county has 30 days to approve a permit, or it's approved automatically.\"",
+                "move": {"business": -25, "tenants": -15}, "unity": -5, "liberty": -5}]},
+    {"id": "forfeit", "name": "Stop policing for profit", "level": "Normal",
+     "pitch": "No more keeping people's cash and cars unless they're convicted of a crime.",
+     "args": [["fair", 14, "In this county you can lose your truck without ever being charged with a crime."],
+              ["free", 13, "Innocent until proven guilty should cover your property too."],
+              ["money", 13, "The sheriff keeps what he seizes. That's a budget nobody votes on."],
+              ["family", 13, "When they take a family's only car, the kids miss school and Mom misses work."],
+              ["safe", 11, "Deputies chasing cash aren't chasing burglars."],
+              ["local", 11, "Half the take goes through a federal program. This county should decide this."],
+              ["community", 11, "It's your neighbors losing their trucks, not cartels."],
+              ["care", 10, "Getting your own money back means hiring a lawyer most people can't afford."]],
+     "deals": [{"id": "convict", "text": "Keep forfeiture after a conviction for big trafficking cases", "say": "\"Convict a trafficker and the county keeps the money. We're only stopping it for people never convicted.\"",
+                "move": {"deputies": -40, "business": -10, "vets": -10}, "unity": 12, "liberty": 10},
+               {"id": "schools", "text": "Forfeited money goes to the school fund, not the sheriff", "say": "\"Whatever's forfeited goes to the schools, not the department that seized it.\"",
+                "move": {"teachers": -30, "church": -10, "deputies": 20}, "unity": -5, "liberty": 0},
+               {"id": "audit", "text": "A public report on every seizure, every year", "say": "\"Every seizure gets reported in public, once a year. Sunlight.\"",
+                "move": {"business": -15, "vets": -20, "deputies": -10}, "unity": 5, "liberty": 0}]},
+    {"id": "weed", "name": "Leave adults alone", "level": "Harder",
+     "pitch": "Stop arresting adults for small amounts of cannabis.",
+     "args": [["fair", 14, "Arrests land hardest on people who can't afford a lawyer."],
+              ["care", 13, "Veterans are using it instead of pills. Arresting them helps nobody."],
+              ["safe", 13, "Those deputy hours could go to break-ins and overdoses."],
+              ["free", 13, "What an adult puts in their own body is that adult's business."],
+              ["family", 11, "A possession record follows a kid into every job application."],
+              ["money", 11, "Every arrest costs deputy hours and court time this county pays for."],
+              ["local", 10, "This county can set its own enforcement priorities."],
+              ["community", 10, "Plenty of folks in this town already use it. Arresting neighbors divides us."]],
+     "deals": [{"id": "public", "text": "No use in public, same as an open container", "say": "\"Nobody's lighting up on Main Street. Same rule as an open beer.\"",
+                "move": {"church": -25, "teachers": -25, "business": -15}, "unity": 5, "liberty": 5},
+               {"id": "seal", "text": "Seal old possession records automatically", "say": "\"And everyone with an old possession record gets it sealed automatically.\"",
+                "move": {"reentry": -30, "tenants": -15, "deputies": 15}, "unity": -5, "liberty": -5},
+               {"id": "minors", "text": "Keep the penalty for selling to anyone under 21", "say": "\"Selling to kids stays a crime. Full stop.\"",
+                "move": {"teachers": -20, "church": -15, "vets": -10}, "unity": 10, "liberty": 5}]},
+]
+
+SLOGANS = ["Taxation is theft!", "Abolish the zoning board! Then abolish the state!", "Read Rothbard, then we'll talk."]
+
+# Between days. Each choice moves groups (negative = less doubt) and party unity.
+EVENTS = [
+    {"id": "meme", "title": "Rex posted a meme", "text": "Rex posted a meme calling Pastor Ruth a \"statist church lady.\" It has 400 shares and the pastor has seen it.",
+     "opts": [{"label": "Apologize to the pastor in public", "move": {"church": -10}, "unity": -8, "then": "Ruth appreciates it. Rex calls you a coward in the group chat."},
+              {"label": "Call Rex and ask him to take it down", "move": {"church": -3}, "unity": -2, "then": "He grumbles, deletes it, and posts a longer one about tone policing."},
+              {"label": "Defend his right to post it", "move": {"church": 20, "teachers": 5}, "unity": 6, "then": "Rex is thrilled. The pastor stops returning calls."}]},
+    {"id": "paper", "title": "The Porter Courier called", "text": "The local paper wants a quote about your measure for Sunday's edition.",
+     "opts": [{"label": "Lead with who it helps", "move": {"*": -5}, "unity": 0, "then": "The story runs with a photo of a grandmother. People notice."},
+              {"label": "Lead with the principle", "move": {"*": 5}, "unity": 6, "then": "\"Local man explains the non-aggression principle.\" Rex frames it."},
+              {"label": "No comment", "move": {}, "unity": 0, "then": "The story runs without you. The sheriff got the last word."}]},
+    {"id": "rally", "title": "Two invitations, one afternoon", "text": "Dana invited you to speak at the tenants' rally. Hank says if you show up at \"that socialist thing,\" he's out.",
+     "opts": [{"label": "Go to the rally", "move": {"tenants": -20, "business": 15}, "unity": 0, "then": "The crowd cheers. Hank sees the photos."},
+              {"label": "Send a written statement", "move": {"tenants": -8}, "unity": 0, "then": "Dana reads it out loud. It's fine. Nobody's mad."},
+              {"label": "Skip it", "move": {"tenants": 10}, "unity": 0, "then": "Dana notices."}]},
+    {"id": "logo", "title": "The flyers", "text": "Dev wants to drop the party logo from the campaign flyers. \"It scares people off before they read a word.\"",
+     "opts": [{"label": "Drop the logo", "move": {"*": -5}, "unity": -10, "then": "More people read the flyers. Rex calls it \"hiding who we are.\""},
+              {"label": "Keep it", "move": {}, "unity": 5, "then": "The flyers go out with the porcupine. Some go straight in the trash."}]},
+    {"id": "taillight", "title": "Pulled over", "text": "A deputy pulls you over for a broken taillight and recognizes you from the paper.",
+     "opts": [{"label": "Be friendly and take the warning", "move": {"deputies": -10}, "unity": 0, "then": "You talk about the K-9 for ten minutes. He seems like a decent guy."},
+              {"label": "Film it and post it", "move": {"deputies": 20, "vets": 5}, "unity": 6, "then": "It gets shared a lot. Nothing happened in it, which is somehow worse."},
+              {"label": "Just take the ticket", "move": {}, "unity": 0, "then": "$42. Fix the taillight."}]},
+    {"id": "typo", "title": "A mistake in your fact sheet", "text": "Elinor found an error in your fact sheet: you wrote \"thousands\" of cases when the real number is hundreds.",
+     "opts": [{"label": "Correct it in public", "move": {"*": -3}, "unity": 4, "then": "Nobody gets to call you a liar later. Elinor nods once."},
+              {"label": "Leave it, nobody will check", "move": {"deputies": 15, "business": 5}, "unity": -4, "then": "Deputy Brennan checked."}]},
+    {"id": "potluck", "title": "The Grange potluck", "text": "June invited you to the Grange potluck. \"Bring a dish.\"",
+     "opts": [{"label": "Bring a pie", "move": {"grange": -12}, "unity": 0, "then": "Gone in ten minutes. June asks for the recipe."},
+              {"label": "Bring pamphlets", "move": {"grange": 10}, "unity": 3, "then": "Someone uses one as a plate."}]},
+    {"id": "levy", "title": "The school levy question", "text": "Marcus asks, in front of other teachers, whether you'd ever support a school levy.",
+     "opts": [{"label": "Say you'd hear him out", "move": {"teachers": -5}, "unity": -3, "then": "Honest, and he can tell. He doesn't push."},
+              {"label": "Say yes to win the room", "move": {"teachers": -15}, "unity": -12, "then": "The teachers clap. Rex screenshots the video."},
+              {"label": "Say no, flatly", "move": {"teachers": 15}, "unity": 5, "then": "At least he knows where you stand."}]},
+]
+
+# A caucus meeting costs a day and settles one fight inside the party.
+MEETING = {"title": "Caucus meeting at Party HQ", "text": "Twelve people, one folding table, three agendas. Whose request do you take up?",
+           "opts": [{"label": "Rex: put \"end the drug war, all of it\" on every flyer", "move": {"*": 5}, "unity": 15, "then": "Rex finally smiles. Your flyers get harder to hand out."},
+                    {"label": "Elinor: publish your sources with every claim", "move": {"fair": -6}, "unity": 10, "then": "It takes all night. Anyone who checks finds you were right."},
+                    {"label": "Dev: hold a joint event with your allies", "move": {"ally": -8}, "unity": 6, "then": "Your allies meet each other. They like each other more than they like you, which is fine."}]}
+
+RANKS = [
+    {"id": "herder", "name": "Porcupine Herder", "when": "Passed, with both sides of the aisle and the party in one piece."},
+    {"id": "builder", "name": "Coalition Builder", "when": "Passed."},
+    {"id": "close", "name": "So close", "when": "Lost by one vote."},
+    {"id": "gadfly", "name": "Gadfly", "when": "Lost, but you kept the party together and made friends."},
+    {"id": "lone", "name": "Voice in the Wilderness", "when": "Lost."},
+]
+
+TOWN = ["TT..TTTT..TTTT..TTTT..TT",
+        ".HHHH.CCCC..GGG..VVVV..T",
+        ".HHHH.CCCC..GGG..VVVV...",
+        ".HHhH.CCcC..GgG..VVvV...",
+        "::::::::::::::::::::::::",
+        "========================",
+        "::::::::::::::::::::::::",
+        ".BbBB.SSsS..KKkKK.EEeE..",
+        ".BBBB.SSSS..KKKKK.EEEE..",
+        ".BBBB.SSSS..KKKKK.EEEE.T",
+        "T......................T",
+        ",,,,.FFfF...~~~..RRrR...",
+        ",,,,.FFFF..~~~~..RRRR.T.",
+        ",,,,.FFFF...~~...RRRR...",
+        "TTTT.....TT....TT....TTT"]
+
+PLACES = {
+    "H": {"id": "hq", "name": "Party HQ", "sign": "PARTY HQ", "wall": "#f5c400", "roof": "#1f2a44"},
+    "C": {"id": "coffee", "name": "Bean There coffee shop", "sign": "COFFEE", "wall": "#e8d5b5", "roof": "#7a3e9d"},
+    "G": {"id": "church", "name": "Grace Community Church", "sign": "CHURCH", "wall": "#f2f2f2", "roof": "#7a2e2e"},
+    "V": {"id": "vfw", "name": "VFW Post 1127", "sign": "VFW", "wall": "#c9c3a3", "roof": "#4b5320"},
+    "B": {"id": "hardware", "name": "Kowalski Hardware", "sign": "HARDWARE", "wall": "#d8b48a", "roof": "#b22222"},
+    "S": {"id": "sheriff", "name": "Sheriff's Office", "sign": "SHERIFF", "wall": "#c7cdd6", "roof": "#2f4f7f"},
+    "K": {"id": "county", "name": "County Building", "sign": "COUNTY", "wall": "#ece6d2", "roof": "#5a5a5a"},
+    "E": {"id": "school", "name": "Porter Elementary", "sign": "SCHOOL", "wall": "#d9806b", "roof": "#1e6b8a"},
+    "F": {"id": "grange", "name": "Grange Hall", "sign": "GRANGE", "wall": "#b5651d", "roof": "#2e8b57"},
+    "R": {"id": "reentry", "name": "Second Chance office", "sign": "2ND CHANCE", "wall": "#e6d3a3", "roof": "#d2691e"},
+}
+
+START = [11, 5]
+
+
+def check():
+    ids = {f["id"] for f in FACTIONS}
+    assert len(TOWN) == 15 and all(len(r) == 24 for r in TOWN), [len(r) for r in TOWN]
+    for k, p in PLACES.items():
+        assert sum(r.count(k.lower()) for r in TOWN) == 1, k
+    places = {p["id"] for p in PLACES.values()}
+    for f in FACTIONS:
+        assert f["place"] in places, f["id"]
+        assert all(c in LENSES for c in f["cares"]) and f["cold"] in LENSES and f["cold"] not in f["cares"]
+        assert all(o[0] in LENSES for o in f["objections"]) and set(f["stance"]) == {c["id"] for c in CAMPAIGNS}
+    for c in CAMPAIGNS:
+        assert {a[0] for a in c["args"]} == set(LENSES), c["id"]
+        for d in c["deals"]:
+            assert set(d["move"]) <= ids, d["id"]
+    for ev in EVENTS:
+        for o in ev["opts"]:
+            assert set(o["move"]) <= ids | {"*"}, ev["id"]
+    for m in COUNCIL:
+        assert set(m["groups"]) <= ids
+    for c in CLASSES.values():
+        assert all(l in LENSES for l in c["lenses"])
+
+
+check()
+
+
+def export():
+    return {"version": VERSION, "days": DAYS, "lenses": LENSES, "classes": CLASSES, "factions": FACTIONS, "caucus": CAUCUS,
+            "council": COUNCIL, "lin": LIN_RULE, "campaigns": CAMPAIGNS, "slogans": SLOGANS, "events": EVENTS,
+            "meeting": MEETING, "ranks": RANKS, "town": TOWN, "places": PLACES, "start": START}

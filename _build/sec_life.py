@@ -103,6 +103,7 @@ def result():
 <a class="card cardlink" href="../quiz.html">{ic("quiz")}<h3>Take the purity test</h3><p>What you say you believe, to put next to what you do.</p></a>
 <a class="card cardlink" href="../causes/index.html">{ic("torch")}<h3>Pick a cause</h3><p>Cannabis, sex work, bodily autonomy, licensing and more.</p></a>
 <a class="card cardlink" href="../organize/index.html">{ic("megaphone")}<h3>Organize</h3><p>Being a good neighbor, at the scale of a county.</p></a>
+<a class="card cardlink" href="../rpg/index.html">{ic("porcupine")}<h3>Play your character</h3><p>Herding Porcupines: take this character into a town that disagrees with you and build a coalition.</p></a>
 </div>
 <p class="row"><a class="btn ghost" href="index.html">Play again</a></p>
 </div>
