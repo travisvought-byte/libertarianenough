@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core
 from core import ROOT, SITE
 import quizdata
-import sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life
+import sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life, sec_convention
 import lifedata
 
 
@@ -59,7 +59,7 @@ def main():
     life = {"version": lifedata.VERSION, "chapters": lifedata.CHAPTERS, "scenes": lifedata.SCENES, "order": lifedata.ORDER,
             "classes": lifedata.CLASSES, "hows": lifedata.HOWS, "areas": lifedata.LAREAS}
     write("assets/life-data.js", "window.LIFE=" + json.dumps(life, ensure_ascii=False, separators=(",", ":")) + ";\n")
-    for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life):
+    for m in (sec_quiz, sec_learn, sec_plan, sec_causes, sec_org, sec_states, sec_misc, sec_help, sec_life, sec_convention):
         m.build()
     # 404 is served at any depth, so its links must be absolute.
     p = os.path.join(ROOT, "404.html")
