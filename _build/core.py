@@ -8,6 +8,12 @@ NAME = "Libertarian Enough"
 CHECKED = "November 26, 2026"
 REPO = "https://github.com/travisvought-byte/libertarianenough"
 CONTACT = "veteranhomeguardians@gmail.com"
+# Google AdSense publisher ID. ads.txt is written from it, and Google's ad code goes on every content page.
+ADSENSE = "ca-pub-9220804879239310"
+# Pages that never load ad code: the 404, the about/privacy page, and the results page (its address carries the quiz answers).
+NO_ADS = {"404.html", "about.html", "results.html"}
+# IndexNow key. build.py publishes it as <key>.txt at the site root; .github/workflows/indexnow.yml sends changed pages with it.
+INDEXNOW_KEY = "4a4ba9c20a8845af6ac3b35fa8b53183"
 
 
 def mailto(subject):
@@ -96,6 +102,20 @@ GC = ('<script>window.goatcounter={path:function(){return "/libertarianenough.or
       'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
       '<script data-goatcounter="https://vhg-guide.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>')
 
+ADS = (f'<meta name="google-adsense-account" content="{ADSENSE}">'
+       '<script>(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;</script>'
+       f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ADSENSE}" crossorigin="anonymous"></script>')
+
+
+def content_key(text):
+    """A fingerprint of what a page says: its title, description and main content, not the shared header, footer or scripts.
+    The sitemap's lastmod moves only when this changes."""
+    import hashlib
+    parts = [re.search(r"<title>(.*?)</title>", text, re.S), re.search(r'<meta name="description" content="([^"]*)"', text),
+             re.search(r"<main\b.*?</main>", text, re.S)]
+    return hashlib.sha256("\n".join(m.group(0) if m else "" for m in parts).encode("utf-8")).hexdigest()[:16]
+
+
 LOGO = ('<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="{P}assets/icons.svg#porcupine"/></svg>')
 
 
@@ -131,7 +151,7 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
 <link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="{NAME}"><meta property="og:title" content="{e(full_title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1f2a44">
 <link rel="icon" href="{P}favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{P}assets/site.css">{head_extra}{ld}{GC}
+<link rel="stylesheet" href="{P}assets/site.css">{head_extra}{ld}{"" if path in NO_ADS else ADS}{GC}
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="in"><a class="brand" href="{P}index.html">{LOGO}<span>{NAME}</span></a>
