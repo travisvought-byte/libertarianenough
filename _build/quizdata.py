@@ -215,3 +215,42 @@ REFS = [
     dict(n="Robin Hood", e=70, p=80, note="Robbed the tax collector. Gave it back to the people who paid."),
     dict(n="Sheriff of Nottingham", e=5, p=10, note="The tax collector."),
 ]
+
+# Display only: which area each statement belongs to, and whether agreeing means less state (+1) or more (-1).
+# Used for the "how you prioritize" section on the results page. Scoring, types and share links don't use it.
+AREAS = [
+    dict(id="money", name="Money, work and business", icon="dollar",
+         free="Let people earn, trade and build without asking permission. Cut the licenses, taxes, bailouts and rigged rules.",
+         state="Use the government to protect workers and the poor from a market that won't."),
+    dict(id="body", name="Your body and your choices", icon="heart",
+         free="Get the state out of adults' private choices: drugs, sex work, marriage, what you eat and the risks you take.",
+         state="Some private choices are risky enough that the law should step in."),
+    dict(id="justice", name="Police, courts and rights", icon="scales",
+         free="Rein in police power: warrants every time, free speech, the right to arms, and an end to the drug war.",
+         state="Police and regulators need room to keep people safe, even if it costs some freedom."),
+    dict(id="war", name="War, borders and the world", icon="globe",
+         free="Stop the wars and let peaceful people move here and work.",
+         state="A strong state should guard the borders and keep the big weapons to itself."),
+    dict(id="scope", name="How much state, period", icon="layers",
+         free="Shrink the state itself: fewer permission slips, fewer emergency powers, fewer monopolies, more local choice.",
+         state="Keep a capable state that builds the roads and steps in during emergencies."),
+]
+_AREA_OF = {
+    "lemonade": ("money", 1), "licensing": ("money", 1), "minwage": ("money", 1), "taxtheft": ("money", 1), "safetynet": ("money", -1),
+    "bailouts": ("money", 1), "tariffs": ("money", 1), "fed": ("money", 1), "cronies": ("money", 1),
+    "sexwork": ("body", 1), "abortion": ("body", 1), "drugs": ("body", 1), "marriage": ("body", 1), "seatbelts": ("body", 1), "rawmilk": ("body", 1),
+    "drugwar": ("justice", 1), "warrants": ("justice", 1), "gta": ("justice", -1), "guns": ("justice", 1), "speech": ("justice", 1),
+    "immigration": ("war", 1), "endwars": ("war", 1), "nukes": ("war", 1),
+    "license": ("scope", -1), "schools": ("scope", 1), "mandates": ("scope", 1), "roads": ("scope", 1), "ip": ("scope", 1),
+    "nogov": ("scope", 1), "secede": ("scope", 1),
+}
+# How you think change happens. +1 means agreeing points that way.
+METHODS = [
+    dict(id="ballot", name="Win elections", text="Run candidates, wear the suit, fix the potholes and win the seat.", q={"suit": 1, "vote": -1}),
+    dict(id="exit", name="Build around the state", text="Pay cash, trade off the books, build what people need and skip the ballot.", q={"counter": 1, "vote": 1}),
+    dict(id="loud", name="Get louder", text="Stop being polite. Push the movement harder and make the fight impossible to ignore.", q={"polite": 1}),
+    dict(id="law", name="Hold them to the law", text="Make the government follow the Constitution as written.", q={"constitution": 1}),
+]
+for _q in QUESTIONS:
+    if _q["id"] in _AREA_OF:
+        _q["area"], _q["lib"] = _AREA_OF[_q["id"]]

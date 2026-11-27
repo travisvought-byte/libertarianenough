@@ -178,38 +178,80 @@ def page(path, title, desc, h1, body, lead="", kicker="", crumbs=None, scripts=(
         PAGES.append(path)
 
 
-def px(v):
-    return 60 + v * 5
+# The Nolan chart, drawn as a diamond. Economic freedom (E) and personal freedom (P) run 0-100.
+# The cross: left to right is the left-right split (progressive to conservative), bottom to top is authority to liberty.
+CX, CY, S = 430, 296, 240
+W, H = 860, 600
 
 
-def py(v):
-    return 520 - v * 5
+def dx(E, P):
+    return round(CX + (E - P) / 100 * S, 1)
 
 
-def chart_svg(refs, title="The libertarian spectrum", desc_extra=""):
-    """Static chart of reference figures. Results page adds the reader's star with JavaScript."""
-    q = []
-    q.append('<rect x="310" y="20" width="250" height="250" fill="#fff7d1"/>')
-    q.append('<rect x="60" y="20" width="250" height="250" fill="#eef1f8"/>')
-    q.append('<rect x="310" y="270" width="250" height="250" fill="#f3eedc"/>')
-    q.append('<rect x="60" y="270" width="250" height="250" fill="#f6e8e8"/>')
-    q.append('<rect x="60" y="20" width="500" height="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>')
-    q.append('<path d="M310 20v500M60 270h500" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="6 5"/>')
-    for x, y, t in [(545, 40, "LIBERTARIAN"), (75, 40, "PROGRESSIVE"), (545, 508, "CONSERVATIVE"), (75, 508, "STATIST")]:
-        anchor = "end" if x > 300 else "start"
-        q.append(f'<text x="{x}" y="{y}" font-size="15" font-weight="800" fill="#1a1a1a" text-anchor="{anchor}" letter-spacing="1">{t}</text>')
-    q.append('<text x="310" y="552" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a">Economic freedom →</text>')
-    q.append('<text x="22" y="270" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a" transform="rotate(-90 22 270)">Personal freedom →</text>')
-    for v in (0, 50, 100):
-        q.append(f'<text x="{px(v)}" y="536" font-size="13" text-anchor="middle" fill="#333">{v}</text>')
-        q.append(f'<text x="52" y="{py(v)+4}" font-size="13" text-anchor="end" fill="#333">{v}</text>')
-    for i, r in enumerate(refs):
-        x, y = px(r["e"]), py(r["p"])
-        q.append(f'<circle cx="{x}" cy="{y}" r="10" fill="#1f2a44"/><text x="{x}" y="{y+4.5}" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">{i+1}</text>')
-    desc = ("A square chart. Left to right is economic freedom from 0 to 100. Bottom to top is personal freedom from 0 to 100. "
-            "Top right is libertarian, top left progressive, bottom right conservative, bottom left statist. "
-            "Numbered dots mark famous people and archetypes, listed in the table below." + desc_extra)
-    return (f'<svg viewBox="0 0 600 570" role="img" aria-labelledby="ct cd"><title id="ct">{e(title)}</title><desc id="cd">{e(desc)}</desc>'
+def dy(E, P):
+    return round(CY - (E + P - 100) / 100 * S, 1)
+
+
+def _pt(E, P):
+    return f"{dx(E, P)},{dy(E, P)}"
+
+
+def _poly(pts, fill, extra=""):
+    return f'<polygon points="{" ".join(_pt(a, b) for a, b in pts)}" fill="{fill}"{extra}/>'
+
+
+def halo(x, y, txt, size=14, weight=700, anchor="start", fill="#1a1a1a", extra=""):
+    """Text with a cream outline drawn as a separate copy, so labels stay readable over lines and fills."""
+    a = f'x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}"{extra}'
+    return (f'<text {a} fill="#fffdf5" stroke="#fffdf5" stroke-width="5" stroke-linejoin="round" aria-hidden="true">{txt}</text>'
+            f'<text {a} fill="{fill}">{txt}</text>')
+
+
+def chart_svg(refs, title="The libertarian spectrum", desc_extra="", names=False, pick=None, uid="c"):
+    """Nolan chart drawn as a diamond with a real cross through it. names=True writes names beside the dots (home page);
+    otherwise the dots are numbered and the table below names them. pick limits which refs show (indexes into refs)."""
+    q = [f'<rect x="0" y="0" width="{W}" height="{H}" fill="#fffdf5"/>']
+    # Four regions, split where E=50 and P=50, plus the centrist middle where both are within 10 of 50.
+    q.append(_poly([(50, 50), (100, 50), (100, 100), (50, 100)], "#fff1b8"))   # libertarian, top
+    q.append(_poly([(0, 50), (50, 50), (50, 100), (0, 100)], "#e3e8f4"))       # progressive, left
+    q.append(_poly([(50, 0), (100, 0), (100, 50), (50, 50)], "#efe6cc"))       # conservative, right
+    q.append(_poly([(0, 0), (50, 0), (50, 50), (0, 50)], "#f4dede"))           # statist, bottom
+    q.append(_poly([(40, 40), (60, 40), (60, 60), (40, 60)], "#ffffff", ' stroke="#1a1a1a" stroke-width="1.2"'))
+    q.append(_poly([(0, 0), (100, 0), (100, 100), (0, 100)], "none", ' stroke="#1a1a1a" stroke-width="2.5"'))
+    q.append(f'<path d="M{_pt(50, 0)}L{_pt(50, 100)}M{_pt(0, 50)}L{_pt(100, 50)}" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5 5" opacity=".55"/>')
+    # The cross: left-right across, authority-liberty up and down.
+    q.append(f'<defs><marker id="{uid}ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f2a44"/></marker></defs>')
+    q.append(f'<path d="M{CX - S + 6} {CY}H{CX + S - 6}M{CX} {CY + S - 6}V{CY - S + 6}" stroke="#1f2a44" stroke-width="2.5" marker-start="url(#{uid}ah)" marker-end="url(#{uid}ah)"/>')
+    q.append(halo(CX - 34, CY - 8, "CENTRIST", 13, 800, "end", "#333"))
+    # Region names sit outside each tip of the diamond, with the direction of the cross under them.
+    q.append(f'<text x="{CX}" y="22" font-size="20" font-weight="800" text-anchor="middle" fill="#1a1a1a" letter-spacing="1">LIBERTARIAN</text>'
+             f'<text x="{CX}" y="42" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2a44">↑ more liberty</text>')
+    q.append(f'<text x="{CX}" y="{CY + S + 28}" font-size="20" font-weight="800" text-anchor="middle" fill="#1a1a1a" letter-spacing="1">STATIST</text>'
+             f'<text x="{CX}" y="{CY + S + 48}" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2a44">↓ more authority</text>')
+    q.append(f'<text x="{CX - S - 12}" y="{CY - 6}" font-size="20" font-weight="800" text-anchor="end" fill="#1a1a1a" letter-spacing="1">PROGRESSIVE</text>'
+             f'<text x="{CX - S - 12}" y="{CY + 16}" font-size="15" font-weight="700" text-anchor="end" fill="#1f2a44">← left</text>')
+    q.append(f'<text x="{CX + S + 12}" y="{CY - 6}" font-size="20" font-weight="800" text-anchor="start" fill="#1a1a1a" letter-spacing="1">CONSERVATIVE</text>'
+             f'<text x="{CX + S + 12}" y="{CY + 16}" font-size="15" font-weight="700" text-anchor="start" fill="#1f2a44">right →</text>')
+    # Edge labels: the two freedoms the diamond is built from.
+    q.append(f'<text font-size="16" font-weight="700" fill="#333" text-anchor="middle" transform="translate({(dx(100, 0) + dx(0, 0)) / 2 + 20} {(dy(100, 0) + dy(0, 0)) / 2 + 20}) rotate(-45)">Economic freedom →</text>')
+    q.append(f'<text font-size="16" font-weight="700" fill="#333" text-anchor="middle" transform="translate({(dx(0, 100) + dx(0, 0)) / 2 - 20} {(dy(0, 100) + dy(0, 0)) / 2 + 20}) rotate(45)">← Personal freedom</text>')
+    idx = list(range(len(refs))) if pick is None else pick
+    for i in idx:
+        r = refs[i]
+        x, y = dx(r["e"], r["p"]), dy(r["e"], r["p"])
+        tip = f'<title>{e(r["n"])}: economic freedom {r["e"]}, personal freedom {r["p"]}</title>'
+        if names:
+            side = r.get("side") or ("end" if x > CX else "start")
+            q.append(f'<g>{tip}<circle cx="{x}" cy="{y}" r="8" fill="#1f2a44" stroke="#fffdf5" stroke-width="2"/>'
+                     + halo(x + (-13 if side == "end" else 13), y + 6, e(r["n"]), 17, 700, side) + '</g>')
+        else:
+            q.append(f'<g>{tip}<circle cx="{x}" cy="{y}" r="13" fill="#1f2a44" stroke="#fffdf5" stroke-width="2"/>'
+                     f'<text x="{x}" y="{y + 5}" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">{i + 1}</text></g>')
+    desc = ("A diamond-shaped Nolan chart with a cross through the middle. Left to right runs from progressive on the left to conservative on the right. "
+            "Bottom to top runs from authority, where the statists sit, to liberty, where the libertarians sit. "
+            "The lower-right edge measures economic freedom and the lower-left edge personal freedom. A small square in the middle is centrist. "
+            + ("Dots mark famous people and archetypes, named beside them." if names else "Numbered dots mark famous people and archetypes, listed in the table below.") + desc_extra)
+    return (f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="{uid}t {uid}d"><title id="{uid}t">{e(title)}</title><desc id="{uid}d">{e(desc)}</desc>'
             + "".join(q) + '</svg>')
 
 
