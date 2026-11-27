@@ -283,3 +283,7 @@ table caption{text-align:left;font-weight:700;padding:.3rem 0}
 .rpg-opt{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem .3rem;border-radius:8px;cursor:pointer}
 .rpg-opt:hover{background:#fff1b8}
 .rpg-opt input{margin-top:.35rem;width:20px;height:20px;flex:none}
+/* What a top purity score costs */
+.note.cost{display:flex;gap:.8rem;align-items:flex-start}
+.note.cost .ico{flex:0 0 auto;margin-top:.2rem}
+.note.cost p{margin:.3em 0}

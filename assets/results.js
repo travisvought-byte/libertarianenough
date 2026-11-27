@@ -80,6 +80,13 @@
   html+='<div class="meter" role="img" aria-label="Purity '+me.purity+' out of 100"><span style="width:'+me.purity+'%"></span></div>';
   html+='<p><b>'+esc(verdict(me.purity))+'</b></p>';
   if(me.type==='collectivist') html+='<p>We rounded it down to zero. You know why.</p>';
+  /* Top marks are fine. The note says what they cost. */
+  if(me.purity>=85&&me.type!=='collectivist'){
+    var Y=isMine?'You':'They', y2=isMine?'you':'they', yr=isMine?'your':'their', yrs=isMine?'yourself':'themselves';
+    html+='<div class="note cost"><svg class="ico" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false"><use href="assets/icons.svg#porcupine"/></svg><div>'+
+      '<p><b>Congratulations. '+Y+' may also have hamstrung '+yrs+' from working with anybody.</b> A measure needs three votes out of five, and none of the people casting them took this test.</p>'+
+      '<p>So, can '+y2+' be completely pure and still build a coalition? '+(isMine?'Find out in':'Make them prove it in')+' <a href="rpg/index.html">Herding Porcupines</a>, where '+yr+' result sets how far '+yr+' own party trusts '+(isMine?'you':'them')+' and nobody else in town cares.</p></div></div>';
+  }
   if(mine){
     var diff=me.purity-mine.purity;
     html+='<div class="note"><p><b>Compared with you:</b> ';
