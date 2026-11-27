@@ -109,10 +109,11 @@
   var hud=root.querySelector('#rpg-hud'), world=root.querySelector('#rpg-world'), panel=root.querySelector('#rpg-panel'),
       cv=root.querySelector('#rpg-map'), ctx=cv.getContext&&cv.getContext('2d'), liveEl=root.querySelector('#rpg-live');
   function live(t){liveEl.textContent=''; setTimeout(function(){liveEl.textContent=t;},30);}
-  function focusHead(){var h=panel.querySelector('h3'); if(h){h.setAttribute('tabindex','-1'); h.focus();}}
+  var booted=false;
+  function focusHead(){var h=panel.querySelector('h3'); if(h&&booted){h.setAttribute('tabindex','-1'); h.focus();}}
   function screen(html,mode){
     world.hidden=mode!=='world'; panel.hidden=mode==='world'; hud.hidden=!S||mode==='title'||mode==='make';
-    if(mode!=='world'){panel.innerHTML=html; focusHead();}
+    if(mode!=='world'){panel.innerHTML=html; focusHead(); booted=true;}
     if(!hud.hidden) drawHud();
     if(mode!=='world'&&root.getBoundingClientRect&&root.getBoundingClientRect().top<0&&root.scrollIntoView) root.scrollIntoView({block:'start'});
   }
